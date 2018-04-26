@@ -1,1 +1,9 @@
-vzxv
+SELECT COUNT(1) FROM [WDMR2G.WORLD]..[ABFADMIN].[HM_ACTUAL_V] ;
+
+ SELECT top 10 *   FROM [WDMR2G.WORLD]..[QIS_CONTROLLER].[VQIS_ET2];
+
+ Select * from Openquery([WDMR2G.WORLD],'select *  from dual')
+
+Select * from Openquery([WDMR2G.WORLD],'SELECT COUNT(1) FROM  ABFADMIN.HM_ACTUAL_V')
+Select * from Openquery([WDMR2G.WORLD],'SELECT  *  FROM  emtfadm.a')
+
