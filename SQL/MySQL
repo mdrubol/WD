@@ -1,0 +1,24 @@
+MySQLWorkBench
+
+ALTER TABLE testdb.tbltest
+add COLUMN BirthDate DATETIME; 
+
+select CAST(BirthDate AS Date) as BirthDate from testdb.tbltest
+
+insert into testdb.tbltest(Id,Name,Address,BirthDate) values(3,'3Name','3Address',now())
+
+select * from testdb.tbltest
+
+SELECT 'Total Count=',count(*) from testdb.tbltest
+INTO OUTFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\nazmul4.log';
+
+INTO OUTFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\nazmul4.csv'
+FIELDS TERMINATED BY '^' 
+LINES TERMINATED BY '=|\n';
+
+SELECT 'Id','Name','Address'
+ UNION ALL SELECT Id, Name,Address
+ FROM  testdb.tbltest
+INTO OUTFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\nazmulHeader.csv'
+FIELDS TERMINATED BY '^' 
+LINES TERMINATED BY '=|\n';
