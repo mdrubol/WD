@@ -1,0 +1,31 @@
+select * from openquery([WDMR2G.WORLD],'select repadmin.GetJson(''VQIS_ET2'',''QIS_CONTROLLER'')  from dual')
+
+
+select * from openquery([WDMR2G.WORLD],'
+select ''{"fields":['' ||
+(
+select stragg2(''{''
+       ||''"COLUMN_NAME":"''||column_name||''"''
+       ||'',"DATA_TYPE":"''||data_type||''"''
+       ||'',"MAX_LENGTH":''||data_length||''''
+       ||'',"PRECISION":''|| case when data_precision is not null then '''' || data_precision || '''' else ''null'' end||''''
+       ||'',"SCALE":''||case when data_scale is not null then '''' || data_scale  || '''' else ''null'' end||''''
+       ||'',"IS_NULLABLE":"''||NULLABLE||''"''
+       ||''}'' ) 
+from 
+(
+select
+    column_name,
+    data_type,
+    data_length, 
+    data_precision, 
+    data_scale, 
+    nullable   
+from all_tab_columns
+where table_name=''VQIS_ET2''
+and owner=''QIS_CONTROLLER''
+order by column_id
+)  
+)
+|| '']}'' from dual
+')
