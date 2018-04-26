@@ -1,0 +1,36 @@
+﻿<h1>Encrypt Connection String</h1>
+<div class="row">
+    <h3>In this screen we show how to encrypt connection string </h3>
+</div>
+<div class="row">
+    <div class="col-lg-6">
+        ServerName:&nbsp;
+        <input type="text" ng-model="serverName" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6">
+        Database:&nbsp;
+        <input type="text" ng-model="databaseName" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6">
+        UserID:&nbsp;
+        <input type="text" ng-model="userID" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-6">
+        Password:&nbsp;
+        <input type="password" ng-model="password" />
+    </div>
+</div>
+<div class="row">
+    <button ng-click="encrypt()" class="btn btn-primary">Encrypt</button>
+    &nbsp;
+</div>
+<div class="row">
+    {{status}}
+</div>
+

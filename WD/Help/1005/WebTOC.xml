@@ -1,0 +1,1022 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="929f431c-cb62-4743-96dd-d3cc4b114caa" Title="WD.DataAccess.Abstract Namespace" Url="html/N-WD.DataAccess.Abstract.htm">
+    <HelpTOCNode Id="27d06a09-4578-44cb-8ba3-5b18bdc55fac" Title="ICommands Class" Url="html/T-WD.DataAccess.Abstract.ICommands.htm">
+      <HelpTOCNode Title="ICommands Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.ICommands.htm" />
+      <HelpTOCNode Id="f8e1d9be-a76d-460a-aadf-a4cc1dad923d" Title="ICommands Constructor " Url="html/Overload-WD.DataAccess.Abstract.ICommands.-ctor.htm">
+        <HelpTOCNode Title="ICommands Constructor " Url="html/M-WD.DataAccess.Abstract.ICommands.-ctor.htm" />
+        <HelpTOCNode Title="ICommands Constructor (Int32)" Url="html/M-WD.DataAccess.Abstract.ICommands.-ctor_1.htm" />
+        <HelpTOCNode Title="ICommands Constructor (Int32, String)" Url="html/M-WD.DataAccess.Abstract.ICommands.-ctor_2.htm" />
+        <HelpTOCNode Title="ICommands Constructor (Connect)" Url="html/M-WD.DataAccess.Abstract.ICommands.-ctor_3.htm" />
+        <HelpTOCNode Title="ICommands Constructor (Connect, List(WDDBConfig), List(WDDBConfig))" Url="html/M-WD.DataAccess.Abstract.ICommands.-ctor_4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7bb7ddb6-354b-4c13-b82c-2a97225c22f3" Title="ICommands Methods" Url="html/Methods.T-WD.DataAccess.Abstract.ICommands.htm">
+        <HelpTOCNode Title="CloseConnection Method " Url="html/M-WD.DataAccess.Abstract.ICommands.CloseConnection.htm" />
+        <HelpTOCNode Title="CreateAdapter Method " Url="html/M-WD.DataAccess.Abstract.ICommands.CreateAdapter.htm" />
+        <HelpTOCNode Id="28d43a78-700d-4f8d-ae37-49f4be4d0f50" Title="CreateConnection Method " Url="html/Overload-WD.DataAccess.Abstract.ICommands.CreateConnection.htm">
+          <HelpTOCNode Title="CreateConnection Method " Url="html/M-WD.DataAccess.Abstract.ICommands.CreateConnection.htm" />
+          <HelpTOCNode Title="CreateConnection Method (String)" Url="html/M-WD.DataAccess.Abstract.ICommands.CreateConnection_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="79e2513c-efd7-4e2d-b176-a3237e38a44e" Title="CreateOpenConnection Method " Url="html/Overload-WD.DataAccess.Abstract.ICommands.CreateOpenConnection.htm">
+          <HelpTOCNode Title="CreateOpenConnection Method " Url="html/M-WD.DataAccess.Abstract.ICommands.CreateOpenConnection.htm" />
+          <HelpTOCNode Title="CreateOpenConnection Method (IDbConnection)" Url="html/M-WD.DataAccess.Abstract.ICommands.CreateOpenConnection_1.htm" />
+          <HelpTOCNode Title="CreateOpenConnection Method (String)" Url="html/M-WD.DataAccess.Abstract.ICommands.CreateOpenConnection_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Dispose Method " Url="html/M-WD.DataAccess.Abstract.ICommands.Dispose.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="12d51845-b4b3-4e58-b318-b7f37ca0ca00" Title="ICommands Properties" Url="html/Properties.T-WD.DataAccess.Abstract.ICommands.htm">
+        <HelpTOCNode Title="Connection Property " Url="html/P-WD.DataAccess.Abstract.ICommands.Connection.htm" />
+        <HelpTOCNode Title="DBProvider Property " Url="html/P-WD.DataAccess.Abstract.ICommands.DBProvider.htm" />
+        <HelpTOCNode Title="IsDispose Property " Url="html/P-WD.DataAccess.Abstract.ICommands.IsDispose.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c8c0e82e-f4da-4feb-9ddb-2098148af7fa" Title="IDatabase Class" Url="html/T-WD.DataAccess.Abstract.IDatabase.htm">
+      <HelpTOCNode Title="IDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IDatabase.htm" />
+      <HelpTOCNode Title="IDatabase Constructor " Url="html/M-WD.DataAccess.Abstract.IDatabase.-ctor.htm" />
+      <HelpTOCNode Id="e46bf7a7-7c27-4d61-8ec8-c99185bc04a9" Title="IDatabase Methods" Url="html/Methods.T-WD.DataAccess.Abstract.IDatabase.htm">
+        <HelpTOCNode Id="6270bb83-7d55-463f-a838-5c0e0b349cc8" Title="BeginTransaction Method " Url="html/Overload-WD.DataAccess.Abstract.IDatabase.BeginTransaction.htm">
+          <HelpTOCNode Title="BeginTransaction Method " Url="html/M-WD.DataAccess.Abstract.IDatabase.BeginTransaction.htm" />
+          <HelpTOCNode Title="BeginTransaction Method (IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IDatabase.BeginTransaction_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CloseConnection Method " Url="html/M-WD.DataAccess.Abstract.IDatabase.CloseConnection.htm" />
+        <HelpTOCNode Title="CommitTransaction Method " Url="html/M-WD.DataAccess.Abstract.IDatabase.CommitTransaction.htm" />
+        <HelpTOCNode Id="9caddd3b-9928-46d0-9516-9d1ed39d36e0" Title="CreateCommand Method " Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateCommand.htm">
+          <HelpTOCNode Title="CreateCommand Method " Url="html/M-WD.DataAccess.Abstract.IDatabase.CreateCommand.htm" />
+          <HelpTOCNode Title="CreateCommand Method (String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IDatabase.CreateCommand_1.htm" />
+          <HelpTOCNode Title="CreateCommand Method (String, CommandType, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IDatabase.CreateCommand_2.htm" />
+          <HelpTOCNode Title="CreateCommand Method (String, CommandType, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IDatabase.CreateCommand_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="453f46bb-4c0c-40fd-a880-ff77efdc9bf5" Title="CreateConnection Method " Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateConnection.htm">
+          <HelpTOCNode Title="CreateConnection Method " Url="html/M-WD.DataAccess.Abstract.IDatabase.CreateConnection.htm" />
+          <HelpTOCNode Title="CreateConnection Method (String)" Url="html/M-WD.DataAccess.Abstract.IDatabase.CreateConnection_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2315bb9d-37e8-44c9-9bd3-c2e08ba87d90" Title="CreateOpenConnection Method " Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateOpenConnection.htm">
+          <HelpTOCNode Title="CreateOpenConnection Method " Url="html/M-WD.DataAccess.Abstract.IDatabase.CreateOpenConnection.htm" />
+          <HelpTOCNode Title="CreateOpenConnection Method (IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IDatabase.CreateOpenConnection_1.htm" />
+          <HelpTOCNode Title="CreateOpenConnection Method (String)" Url="html/M-WD.DataAccess.Abstract.IDatabase.CreateOpenConnection_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="aca302cb-d414-4505-82c7-9268781efa44" Title="CreateParameter Method " Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateParameter.htm">
+          <HelpTOCNode Title="CreateParameter Method (String, Object)" Url="html/M-WD.DataAccess.Abstract.IDatabase.CreateParameter.htm" />
+          <HelpTOCNode Title="CreateParameter Method " Url="html/M-WD.DataAccess.Abstract.IDatabase.CreateParameter_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="DisposeCommand Method " Url="html/M-WD.DataAccess.Abstract.IDatabase.DisposeCommand.htm" />
+        <HelpTOCNode Title="DisposeTransaction Method " Url="html/M-WD.DataAccess.Abstract.IDatabase.DisposeTransaction.htm" />
+        <HelpTOCNode Id="381a18e5-b7c9-49f6-bacd-eeac938882b6" Title="GetParameterValue Method " Url="html/Overload-WD.DataAccess.Abstract.IDatabase.GetParameterValue.htm">
+          <HelpTOCNode Title="GetParameterValue Method (String, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IDatabase.GetParameterValue.htm" />
+          <HelpTOCNode Title="GetParameterValue Method (Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IDatabase.GetParameterValue_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RollbackTransaction Method " Url="html/M-WD.DataAccess.Abstract.IDatabase.RollbackTransaction.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c51f4505-724d-41dd-98ae-540180c078c7" Title="IDatabase Properties" Url="html/Properties.T-WD.DataAccess.Abstract.IDatabase.htm">
+        <HelpTOCNode Title="Connection Property " Url="html/P-WD.DataAccess.Abstract.IDatabase.Connection.htm" />
+        <HelpTOCNode Title="DBProvider Property " Url="html/P-WD.DataAccess.Abstract.IDatabase.DBProvider.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b1ed8c71-ee9e-4e9c-8182-2c8ed0d514fa" Title="IExecuteDataReader Class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataReader.htm">
+      <HelpTOCNode Title="IExecuteDataReader Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataReader.htm" />
+      <HelpTOCNode Title="IExecuteDataReader Constructor " Url="html/M-WD.DataAccess.Abstract.IExecuteDataReader.-ctor.htm" />
+      <HelpTOCNode Id="3ffd8391-3e98-49e7-9127-40c8ea5a2a78" Title="IExecuteDataReader Methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteDataReader.htm">
+        <HelpTOCNode Id="53a627c0-e766-4087-94cc-eea4c7ee3bd3" Title="ExecuteDataReader Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteDataReader.ExecuteDataReader.htm">
+          <HelpTOCNode Title="ExecuteDataReader Method (String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataReader.ExecuteDataReader.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (String, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataReader.ExecuteDataReader_1.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (String, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataReader.ExecuteDataReader_2.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataReader.ExecuteDataReader_3.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (String, CommandType, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataReader.ExecuteDataReader_4.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (String, CommandType, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataReader.ExecuteDataReader_5.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="IExecuteDataReader Properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteDataReader.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="960b761f-bc1b-4097-bbaa-9dc3345b87e5" Title="IExecuteDataSet Class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataSet.htm">
+      <HelpTOCNode Title="IExecuteDataSet Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataSet.htm" />
+      <HelpTOCNode Title="IExecuteDataSet Constructor " Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.-ctor.htm" />
+      <HelpTOCNode Id="4a414328-fa0f-4c19-95f5-c525c316329c" Title="IExecuteDataSet Methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteDataSet.htm">
+        <HelpTOCNode Id="e4c33c4a-d154-4aaa-bb2a-193c217ab2c4" Title="ExecuteDataSet Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet.htm">
+          <HelpTOCNode Title="ExecuteDataSet Method (String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (String, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet_1.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (String, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet_2.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet_3.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (String, CommandType, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet_4.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (String, CommandType, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet_5.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (SqlStatement[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet_6.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (SqlStatement[], IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet_7.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (SqlStatement[], IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet_8.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="IExecuteDataSet Properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteDataSet.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fe72bcf1-1c25-4efc-9544-5fec1d879d4c" Title="IExecuteDataTable Class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataTable.htm">
+      <HelpTOCNode Title="IExecuteDataTable Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataTable.htm" />
+      <HelpTOCNode Title="IExecuteDataTable Constructor " Url="html/M-WD.DataAccess.Abstract.IExecuteDataTable.-ctor.htm" />
+      <HelpTOCNode Id="e875e991-6242-4480-8e20-1453cf649b16" Title="IExecuteDataTable Methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteDataTable.htm">
+        <HelpTOCNode Id="f726188e-8365-4151-b3e1-91ed73444c2b" Title="ExecuteDataTable Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteDataTable.ExecuteDataTable.htm">
+          <HelpTOCNode Title="ExecuteDataTable Method (String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataTable.ExecuteDataTable.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (String, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataTable.ExecuteDataTable_1.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (String, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataTable.ExecuteDataTable_2.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataTable.ExecuteDataTable_3.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (String, CommandType, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataTable.ExecuteDataTable_4.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (String, CommandType, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteDataTable.ExecuteDataTable_5.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="IExecuteDataTable Properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteDataTable.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9f14e154-297d-465b-954a-8c67e1b535f2" Title="IExecuteEntity Class" Url="html/T-WD.DataAccess.Abstract.IExecuteEntity.htm">
+      <HelpTOCNode Title="IExecuteEntity Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteEntity.htm" />
+      <HelpTOCNode Title="IExecuteEntity Constructor " Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.-ctor.htm" />
+      <HelpTOCNode Id="64a707e6-9b62-4244-9f97-53efcbc53ed8" Title="IExecuteEntity Methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteEntity.htm">
+        <HelpTOCNode Id="3c48f410-bebc-4dc6-96f9-b3ae1d722d62" Title="Delete Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.Delete-.htm">
+          <HelpTOCNode Title="Delete(T) Method (Object)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Delete--1.htm" />
+          <HelpTOCNode Title="Delete(T) Method (T)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Delete--1_1.htm" />
+          <HelpTOCNode Title="Delete(T) Method (T, IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Delete--1_2.htm" />
+          <HelpTOCNode Title="Delete(T) Method (T, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Delete--1_3.htm" />
+          <HelpTOCNode Title="Delete(T) Method (Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Delete--1_4.htm" />
+          <HelpTOCNode Title="Delete(T) Method (Expression(Func(T, Boolean)), IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Delete--1_5.htm" />
+          <HelpTOCNode Title="Delete(T) Method (Expression(Func(T, Boolean)), IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Delete--1_6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="154c6c38-731e-4517-919b-402edf4d7625" Title="GetEntity Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.GetEntity-.htm">
+          <HelpTOCNode Title="GetEntity(T) Method (Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetEntity--1.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (Expression(Func(T, Boolean)), IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetEntity--1_1.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (Expression(Func(T, Boolean)), IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetEntity--1_2.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetEntity--1_3.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (String, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetEntity--1_4.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (String, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetEntity--1_5.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetEntity--1_6.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (String, CommandType, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetEntity--1_7.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (String, CommandType, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetEntity--1_8.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2e847797-28d3-4e40-aaa4-469815d6bece" Title="GetList Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.GetList-.htm">
+          <HelpTOCNode Title="GetList(T) Method " Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1.htm" />
+          <HelpTOCNode Title="GetList(T) Method (IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_1.htm" />
+          <HelpTOCNode Title="GetList(T) Method (IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_2.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_3.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Expression(Func(T, Boolean)), IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_4.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Expression(Func(T, Boolean)), IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_5.htm" />
+          <HelpTOCNode Title="GetList(T) Method (SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_6.htm" />
+          <HelpTOCNode Title="GetList(T) Method (IDbConnection, SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_7.htm" />
+          <HelpTOCNode Title="GetList(T) Method (IDbTransaction, SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_8.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Expression(Func(T, Boolean)), SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_9.htm" />
+          <HelpTOCNode Title="GetList(T) Method (IDbConnection, Expression(Func(T, Boolean)), SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_10.htm" />
+          <HelpTOCNode Title="GetList(T) Method (IDbTransaction, Expression(Func(T, Boolean)), SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_11.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_12.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_13.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32, Expression(Func(T, Boolean)), SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_14.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32, SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_15.htm" />
+          <HelpTOCNode Title="GetList(T) Method (String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_16.htm" />
+          <HelpTOCNode Title="GetList(T) Method (String, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_17.htm" />
+          <HelpTOCNode Title="GetList(T) Method (String, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_18.htm" />
+          <HelpTOCNode Title="GetList(T) Method (String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_19.htm" />
+          <HelpTOCNode Title="GetList(T) Method (String, CommandType, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_20.htm" />
+          <HelpTOCNode Title="GetList(T) Method (String, CommandType, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_21.htm" />
+          <HelpTOCNode Title="GetList(T) Method (String, CommandType, IDbConnection, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_22.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="48983305-22ab-4e1a-a072-4dce1d56465f" Title="Insert Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.Insert-.htm">
+          <HelpTOCNode Title="Insert(T) Method (T)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Insert--1.htm" />
+          <HelpTOCNode Title="Insert(T) Method (T, IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Insert--1_1.htm" />
+          <HelpTOCNode Title="Insert(T) Method (T, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Insert--1_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6b9366b0-039c-4e02-9fc2-d03247063ff2" Title="Update Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.Update-.htm">
+          <HelpTOCNode Title="Update(T) Method (T, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Update--1.htm" />
+          <HelpTOCNode Title="Update(T) Method (T, Expression(Func(T, Boolean)), IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Update--1_1.htm" />
+          <HelpTOCNode Title="Update(T) Method (T, Expression(Func(T, Boolean)), IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Update--1_2.htm" />
+          <HelpTOCNode Title="Update(T) Method (String, String, String, T)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Update--1_3.htm" />
+          <HelpTOCNode Title="Update(T) Method (T)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Update--1_4.htm" />
+          <HelpTOCNode Title="Update(T) Method (T, IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Update--1_5.htm" />
+          <HelpTOCNode Title="Update(T) Method (T, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.Update--1_6.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="IExecuteEntity Properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteEntity.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ac9fb1c0-2b6e-463e-9a5a-2b71bc1f46d1" Title="IExecuteNonQuery Class" Url="html/T-WD.DataAccess.Abstract.IExecuteNonQuery.htm">
+      <HelpTOCNode Title="IExecuteNonQuery Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteNonQuery.htm" />
+      <HelpTOCNode Title="IExecuteNonQuery Constructor " Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.-ctor.htm" />
+      <HelpTOCNode Id="601a0676-dc56-40f2-9988-178e076eb5c2" Title="IExecuteNonQuery Methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteNonQuery.htm">
+        <HelpTOCNode Id="683c1295-dc3f-47f4-8a4e-2af89296a0ab" Title="BulkDelete Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.BulkDelete.htm">
+          <HelpTOCNode Title="BulkDelete Method (DataTable, String, Int32, Int32, IDictionary(String, String))" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.BulkDelete.htm" />
+          <HelpTOCNode Title="BulkDelete Method (DataTable, String, Int32, Int32, IDictionary(String, String), IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.BulkDelete_1.htm" />
+          <HelpTOCNode Title="BulkDelete Method (DataTable, String, Int32, Int32, IDictionary(String, String), IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.BulkDelete_2.htm" />
+          <HelpTOCNode Title="BulkDelete Method (DataTable, String, Int32, Int32, IDictionary(String, String), IDbConnection, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.BulkDelete_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d7758138-96e8-4394-8bc4-a1c1408c2029" Title="BulkInsert Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.BulkInsert.htm">
+          <HelpTOCNode Title="BulkInsert Method (DataTable, String, Int32, Int32, IDictionary(String, String))" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.BulkInsert.htm" />
+          <HelpTOCNode Title="BulkInsert Method (DataTable, String, Int32, Int32, IDictionary(String, String), IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.BulkInsert_1.htm" />
+          <HelpTOCNode Title="BulkInsert Method (DataTable, String, Int32, Int32, IDictionary(String, String), IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.BulkInsert_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="038d988d-aba1-4892-83e3-8ba9f2b422f9" Title="BulkUpdate Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.BulkUpdate.htm">
+          <HelpTOCNode Title="BulkUpdate Method (DataTable, String, Int32, Int32, IDictionary(String, String), IDictionary(String, String))" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.BulkUpdate.htm" />
+          <HelpTOCNode Title="BulkUpdate Method (DataTable, String, Int32, Int32, IDictionary(String, String), IDictionary(String, String), IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.BulkUpdate_1.htm" />
+          <HelpTOCNode Title="BulkUpdate Method (DataTable, String, Int32, Int32, IDictionary(String, String), IDictionary(String, String), IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.BulkUpdate_2.htm" />
+          <HelpTOCNode Title="BulkUpdate Method (DataTable, String, Int32, Int32, IDictionary(String, String), IDictionary(String, String), IDbConnection, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.BulkUpdate_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="14d8b52c-f3e9-4a67-b227-0d62c8364673" Title="ExecuteNonQuery Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery.htm">
+          <HelpTOCNode Title="ExecuteNonQuery Method (String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (String, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery_1.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (String, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery_2.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery_3.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (String, CommandType, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery_4.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (String, CommandType, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery_5.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (String, CommandType, IDbConnection, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery_6.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (SqlStatement[])" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery_7.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (SqlStatement[], IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery_8.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (SqlStatement[], IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery_9.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (SqlStatement[], IDbConnection, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery_10.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="IExecuteNonQuery Properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteNonQuery.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="db5f8212-330a-47bc-a95a-d49ca4872df8" Title="IExecuteRecordSet Class" Url="html/T-WD.DataAccess.Abstract.IExecuteRecordSet.htm">
+      <HelpTOCNode Title="IExecuteRecordSet Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteRecordSet.htm" />
+      <HelpTOCNode Title="IExecuteRecordSet Constructor " Url="html/M-WD.DataAccess.Abstract.IExecuteRecordSet.-ctor.htm" />
+      <HelpTOCNode Id="7514dafb-81f9-43e9-86ee-e695625042b9" Title="IExecuteRecordSet Methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteRecordSet.htm">
+        <HelpTOCNode Id="796dcc12-237f-4011-9aaf-4e2c1cdd460f" Title="ExecuteRecordSet Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteRecordSet.ExecuteRecordSet.htm">
+          <HelpTOCNode Title="ExecuteRecordSet Method (String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteRecordSet.ExecuteRecordSet.htm" />
+          <HelpTOCNode Title="ExecuteRecordSet Method (String, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteRecordSet.ExecuteRecordSet_1.htm" />
+          <HelpTOCNode Title="ExecuteRecordSet Method (String, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteRecordSet.ExecuteRecordSet_2.htm" />
+          <HelpTOCNode Title="ExecuteRecordSet Method (String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteRecordSet.ExecuteRecordSet_3.htm" />
+          <HelpTOCNode Title="ExecuteRecordSet Method (String, CommandType, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteRecordSet.ExecuteRecordSet_4.htm" />
+          <HelpTOCNode Title="ExecuteRecordSet Method (String, CommandType, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteRecordSet.ExecuteRecordSet_5.htm" />
+          <HelpTOCNode Title="ExecuteRecordSet Method (String, CommandType, IDbConnection, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteRecordSet.ExecuteRecordSet_6.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="IExecuteRecordSet Properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteRecordSet.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5b5fae75-78ad-40a2-8461-a8e254fa53c8" Title="IExecuteScalar Class" Url="html/T-WD.DataAccess.Abstract.IExecuteScalar.htm">
+      <HelpTOCNode Title="IExecuteScalar Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteScalar.htm" />
+      <HelpTOCNode Title="IExecuteScalar Constructor " Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.-ctor.htm" />
+      <HelpTOCNode Id="81feca8e-31dc-4b9d-b57d-5c62d3a07a90" Title="IExecuteScalar Methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteScalar.htm">
+        <HelpTOCNode Id="3981343b-574e-4f69-b69e-79574fc9f77b" Title="ExecuteScalar Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar.htm">
+          <HelpTOCNode Title="ExecuteScalar Method (String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (String, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar_1.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (String, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar_2.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar_3.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (String, CommandType, IDbConnection, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar_4.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (String, CommandType, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar_5.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (String, CommandType, IDbConnection, IDbTransaction, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar_6.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (SqlStatement[])" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar_7.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (SqlStatement[], IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar_8.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (SqlStatement[], IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar_9.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="IExecuteScalar Properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteScalar.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bf6d25dc-56c7-4cb4-9693-3e0c0b12ec05" Title="IMTech Class" Url="html/T-WD.DataAccess.Abstract.IMTech.htm">
+      <HelpTOCNode Title="IMTech Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IMTech.htm" />
+      <HelpTOCNode Title="IMTech Constructor " Url="html/M-WD.DataAccess.Abstract.IMTech.-ctor.htm" />
+      <HelpTOCNode Id="cc228480-14dc-45d3-94f1-e254ca899546" Title="IMTech Methods" Url="html/Methods.T-WD.DataAccess.Abstract.IMTech.htm">
+        <HelpTOCNode Id="9c128b79-93a5-4989-9252-a239e1b09027" Title="BulkDelete Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.BulkDelete.htm">
+          <HelpTOCNode Title="BulkDelete Method (Int32, Int32, DataTable, String, Int32, Int32, IDictionary(String, String))" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkDelete.htm" />
+          <HelpTOCNode Title="BulkDelete Method (Int32, DataTable, String, Int32, Int32, IDictionary(String, String))" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkDelete_1.htm" />
+          <HelpTOCNode Title="BulkDelete Method (Int32, Int32, DataTable, String, Int32, Int32, IDictionary(String, String), Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkDelete_2.htm" />
+          <HelpTOCNode Title="BulkDelete Method (Int32, DataTable, String, Int32, Int32, IDictionary(String, String), Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkDelete_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b147f2ca-e189-40bb-ad51-7c1cdc5e942f" Title="BulkInsert Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.BulkInsert.htm">
+          <HelpTOCNode Title="BulkInsert Method (Int32, Int32, DataTable, String, Int32, Int32, IDictionary(String, String))" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkInsert.htm" />
+          <HelpTOCNode Title="BulkInsert Method (Int32, DataTable, String, Int32, Int32, IDictionary(String, String))" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkInsert_1.htm" />
+          <HelpTOCNode Title="BulkInsert Method (Int32, Int32, DataTable, String, Int32, Int32, IDictionary(String, String), Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkInsert_2.htm" />
+          <HelpTOCNode Title="BulkInsert Method (Int32, DataTable, String, Int32, Int32, IDictionary(String, String), Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkInsert_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f2d3e4e1-c3b7-4f1b-8bdd-547e07502dea" Title="BulkUpdate Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.BulkUpdate.htm">
+          <HelpTOCNode Title="BulkUpdate Method (Int32, Int32, DataTable, String, Int32, Int32, IDictionary(String, String), IDictionary(String, String))" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkUpdate.htm" />
+          <HelpTOCNode Title="BulkUpdate Method (Int32, DataTable, String, Int32, Int32, IDictionary(String, String), IDictionary(String, String))" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkUpdate_1.htm" />
+          <HelpTOCNode Title="BulkUpdate Method (Int32, Int32, DataTable, String, Int32, Int32, IDictionary(String, String), IDictionary(String, String), Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkUpdate_2.htm" />
+          <HelpTOCNode Title="BulkUpdate Method (Int32, DataTable, String, Int32, Int32, IDictionary(String, String), IDictionary(String, String), Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.BulkUpdate_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f5e309bf-06f8-4f3f-90d8-d5119ff5440b" Title="CreateConnection Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.CreateConnection.htm">
+          <HelpTOCNode Title="CreateConnection Method (Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.CreateConnection.htm" />
+          <HelpTOCNode Title="CreateConnection Method (Int32, Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.CreateConnection_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="863e4167-919f-4b04-8189-f17be4ceea02" Title="CreateOpenConnection Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.CreateOpenConnection.htm">
+          <HelpTOCNode Title="CreateOpenConnection Method (Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.CreateOpenConnection.htm" />
+          <HelpTOCNode Title="CreateOpenConnection Method (Int32, Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.CreateOpenConnection_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="860712eb-2c95-44d5-a3a7-0648524dd3e7" Title="Delete Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.Delete-.htm">
+          <HelpTOCNode Title="Delete(T) Method (Int32, T)" Url="html/M-WD.DataAccess.Abstract.IMTech.Delete--1.htm" />
+          <HelpTOCNode Title="Delete(T) Method (Int32, Int32, T)" Url="html/M-WD.DataAccess.Abstract.IMTech.Delete--1_1.htm" />
+          <HelpTOCNode Title="Delete(T) Method (Int32, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IMTech.Delete--1_2.htm" />
+          <HelpTOCNode Title="Delete(T) Method (Int32, Int32, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IMTech.Delete--1_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ea37c83c-4675-4682-a0e7-5f688fb646d6" Title="ExecuteDataReader Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteDataReader.htm">
+          <HelpTOCNode Title="ExecuteDataReader Method (Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataReader.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (Int32, Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataReader_1.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataReader_2.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (Int32, Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataReader_3.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataReader_4.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (Int32, Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataReader_5.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (IDbCommand, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataReader_6.htm" />
+          <HelpTOCNode Title="ExecuteDataReader Method (IDbCommand, IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataReader_7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a739d725-67cd-40a9-84bf-7cecc9fcbd16" Title="ExecuteDataSet Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteDataSet.htm">
+          <HelpTOCNode Title="ExecuteDataSet Method (Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataSet.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (Int32, Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataSet_1.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataSet_2.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (Int32, Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataSet_3.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataSet_4.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (Int32, Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataSet_5.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (IDbCommand, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataSet_6.htm" />
+          <HelpTOCNode Title="ExecuteDataSet Method (IDbCommand, IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataSet_7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="47626c85-e9ac-4e85-8a6a-100e0c833fe6" Title="ExecuteDataTable Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteDataTable.htm">
+          <HelpTOCNode Title="ExecuteDataTable Method (Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataTable.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (Int32, Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataTable_1.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataTable_2.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (Int32, Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataTable_3.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataTable_4.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (Int32, Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataTable_5.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (IDbCommand, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataTable_6.htm" />
+          <HelpTOCNode Title="ExecuteDataTable Method (IDbCommand, IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteDataTable_7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9cdd2ddb-6fd7-46a7-ac39-de0a1b93a2cf" Title="ExecuteNonQuery Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery.htm">
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, String)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_1.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, Int32, String)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_2.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_3.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, String, CommandType)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_4.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_5.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, Int32, String, CommandType)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_6.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_7.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, String, DBParameter[], Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_8.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, Int32, String, DBParameter[], Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_9.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, Int32, String, CommandType, DBParameter[], Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_10.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, String, CommandType, DBParameter[], Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_11.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, String, Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_12.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, Int32, String, Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_13.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, Int32, String, CommandType, Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_14.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, String, CommandType, Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_15.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_16.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (Int32, Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_17.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (IDbCommand, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_18.htm" />
+          <HelpTOCNode Title="ExecuteNonQuery Method (IDbCommand, IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery_19.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ba4765de-791f-4bc4-9b75-2078735f1074" Title="ExecuteRecordSet Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteRecordSet.htm">
+          <HelpTOCNode Title="ExecuteRecordSet Method (Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteRecordSet.htm" />
+          <HelpTOCNode Title="ExecuteRecordSet Method (Int32, Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteRecordSet_1.htm" />
+          <HelpTOCNode Title="ExecuteRecordSet Method (Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteRecordSet_2.htm" />
+          <HelpTOCNode Title="ExecuteRecordSet Method (Int32, Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteRecordSet_3.htm" />
+          <HelpTOCNode Title="ExecuteRecordSet Method (Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteRecordSet_4.htm" />
+          <HelpTOCNode Title="ExecuteRecordSet Method (Int32, Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteRecordSet_5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="071d76b4-97a8-4cca-be47-70545483e25d" Title="ExecuteScalar Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteScalar.htm">
+          <HelpTOCNode Title="ExecuteScalar Method (Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteScalar.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (Int32, Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteScalar_1.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteScalar_2.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (Int32, Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteScalar_3.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteScalar_4.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (Int32, Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteScalar_5.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (IDbCommand, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteScalar_6.htm" />
+          <HelpTOCNode Title="ExecuteScalar Method (IDbCommand, IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IMTech.ExecuteScalar_7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="169ca0dc-1d2a-4257-80bb-1adb430723e0" Title="GetEntity Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.GetEntity-.htm">
+          <HelpTOCNode Title="GetEntity(T) Method (Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetEntity--1.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (Int32, Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetEntity--1_1.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetEntity--1_2.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (Int32, Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetEntity--1_3.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (Int32, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IMTech.GetEntity--1_4.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (Int32, Int32, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IMTech.GetEntity--1_5.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.GetEntity--1_6.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (Int32, Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.GetEntity--1_7.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (IDbCommand, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IMTech.GetEntity--1_8.htm" />
+          <HelpTOCNode Title="GetEntity(T) Method (IDbCommand, IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IMTech.GetEntity--1_9.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="20cd0904-a331-4f73-bfad-520e143ac65b" Title="GetList Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.GetList-.htm">
+          <HelpTOCNode Title="GetList(T) Method (Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, String, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_1.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_2.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, String, CommandType, DBParameter[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_3.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_4.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_5.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_6.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_7.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Expression(Func(T, Boolean)), SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_8.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Expression(Func(T, Boolean)), SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_9.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32, Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_10.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32, Int32, Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_11.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32, Int32, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_12.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32, Int32, Int32, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_13.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32, Int32, Expression(Func(T, Boolean)), SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_14.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32, Int32, Int32, Expression(Func(T, Boolean)), SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_15.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32, Int32, SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_16.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, Int32, Int32, Int32, SortOption, Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_17.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_18.htm" />
+          <HelpTOCNode Title="GetList(T) Method (Int32, Int32, IDbCommand)" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_19.htm" />
+          <HelpTOCNode Title="GetList(T) Method (IDbCommand, IDbTransaction)" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_20.htm" />
+          <HelpTOCNode Title="GetList(T) Method (IDbCommand, IDbConnection)" Url="html/M-WD.DataAccess.Abstract.IMTech.GetList--1_21.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7ff310f5-a995-4a91-bc6b-e74012dee14b" Title="Insert Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.Insert-.htm">
+          <HelpTOCNode Title="Insert(T) Method (Int32, T)" Url="html/M-WD.DataAccess.Abstract.IMTech.Insert--1.htm" />
+          <HelpTOCNode Title="Insert(T) Method (Int32, Int32, T)" Url="html/M-WD.DataAccess.Abstract.IMTech.Insert--1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d222c5f4-856a-4823-8cb2-1a516a7abc7d" Title="Update Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.Update-.htm">
+          <HelpTOCNode Title="Update(T) Method (Int32, T)" Url="html/M-WD.DataAccess.Abstract.IMTech.Update--1.htm" />
+          <HelpTOCNode Title="Update(T) Method (Int32, T, Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.Update--1_1.htm" />
+          <HelpTOCNode Title="Update(T) Method (Int32, Int32, T)" Url="html/M-WD.DataAccess.Abstract.IMTech.Update--1_2.htm" />
+          <HelpTOCNode Title="Update(T) Method (Int32, Int32, T, Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.Update--1_3.htm" />
+          <HelpTOCNode Title="Update(T) Method (Int32, T, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IMTech.Update--1_4.htm" />
+          <HelpTOCNode Title="Update(T) Method (Int32, T, Expression(Func(T, Boolean)), Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.Update--1_5.htm" />
+          <HelpTOCNode Title="Update(T) Method (Int32, Int32, T, Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.Abstract.IMTech.Update--1_6.htm" />
+          <HelpTOCNode Title="Update(T) Method (Int32, Int32, T, Expression(Func(T, Boolean)), Int32)" Url="html/M-WD.DataAccess.Abstract.IMTech.Update--1_7.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="IMTech Properties" Url="html/Properties.T-WD.DataAccess.Abstract.IMTech.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="2d4b60f5-a0eb-4a25-928b-01530417b076" Title="WD.DataAccess.Attributes Namespace" Url="html/N-WD.DataAccess.Attributes.htm">
+    <HelpTOCNode Id="160ea1e8-5a8f-4add-b121-f485c870bbd8" Title="CustomAttribute Class" Url="html/T-WD.DataAccess.Attributes.CustomAttribute.htm">
+      <HelpTOCNode Title="CustomAttribute Members" Url="html/AllMembers.T-WD.DataAccess.Attributes.CustomAttribute.htm" />
+      <HelpTOCNode Title="CustomAttribute Constructor " Url="html/M-WD.DataAccess.Attributes.CustomAttribute.-ctor.htm" />
+      <HelpTOCNode Title="CustomAttribute Methods" Url="html/Methods.T-WD.DataAccess.Attributes.CustomAttribute.htm" />
+      <HelpTOCNode Id="b65d67da-79c2-4a59-a9ad-b3e44eda51a7" Title="CustomAttribute Properties" Url="html/Properties.T-WD.DataAccess.Attributes.CustomAttribute.htm">
+        <HelpTOCNode Title="DataType Property " Url="html/P-WD.DataAccess.Attributes.CustomAttribute.DataType.htm" />
+        <HelpTOCNode Title="IsPrimary Property " Url="html/P-WD.DataAccess.Attributes.CustomAttribute.IsPrimary.htm" />
+        <HelpTOCNode Title="IsReadOnly Property " Url="html/P-WD.DataAccess.Attributes.CustomAttribute.IsReadOnly.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-WD.DataAccess.Attributes.CustomAttribute.Name.htm" />
+        <HelpTOCNode Title="NotMapped Property " Url="html/P-WD.DataAccess.Attributes.CustomAttribute.NotMapped.htm" />
+        <HelpTOCNode Title="Order Property " Url="html/P-WD.DataAccess.Attributes.CustomAttribute.Order.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/P-WD.DataAccess.Attributes.CustomAttribute.Size.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="7a2ec45d-5d2b-4507-8e63-46e4cbe65f66" Title="WD.DataAccess.Concrete Namespace" Url="html/N-WD.DataAccess.Concrete.htm">
+    <HelpTOCNode Id="cb1c0615-46ba-4992-9e24-b66c957d91b6" Title="Db2Database Class" Url="html/T-WD.DataAccess.Concrete.Db2Database.htm">
+      <HelpTOCNode Title="Db2Database Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.Db2Database.htm" />
+      <HelpTOCNode Id="a808b5e6-b5ac-47f8-a43c-7ec1efe6b9a7" Title="Db2Database Constructor " Url="html/Overload-WD.DataAccess.Concrete.Db2Database.-ctor.htm">
+        <HelpTOCNode Title="Db2Database Constructor (Int32)" Url="html/M-WD.DataAccess.Concrete.Db2Database.-ctor.htm" />
+        <HelpTOCNode Title="Db2Database Constructor (String, Int32)" Url="html/M-WD.DataAccess.Concrete.Db2Database.-ctor_1.htm" />
+        <HelpTOCNode Title="Db2Database Constructor (Connect)" Url="html/M-WD.DataAccess.Concrete.Db2Database.-ctor_2.htm" />
+        <HelpTOCNode Title="Db2Database Constructor (Connect, List(WDDBConfig), List(WDDBConfig))" Url="html/M-WD.DataAccess.Concrete.Db2Database.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Db2Database Methods" Url="html/Methods.T-WD.DataAccess.Concrete.Db2Database.htm" />
+      <HelpTOCNode Title="Db2Database Properties" Url="html/Properties.T-WD.DataAccess.Concrete.Db2Database.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dabe2e31-1937-4951-be50-3f267f47f744" Title="MySqlDatabase Class" Url="html/T-WD.DataAccess.Concrete.MySqlDatabase.htm">
+      <HelpTOCNode Title="MySqlDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.MySqlDatabase.htm" />
+      <HelpTOCNode Id="06696b0a-1810-4502-8566-0f6b8fe7cf75" Title="MySqlDatabase Constructor " Url="html/Overload-WD.DataAccess.Concrete.MySqlDatabase.-ctor.htm">
+        <HelpTOCNode Title="MySqlDatabase Constructor (Int32)" Url="html/M-WD.DataAccess.Concrete.MySqlDatabase.-ctor.htm" />
+        <HelpTOCNode Title="MySqlDatabase Constructor (String, Int32)" Url="html/M-WD.DataAccess.Concrete.MySqlDatabase.-ctor_1.htm" />
+        <HelpTOCNode Title="MySqlDatabase Constructor (Connect)" Url="html/M-WD.DataAccess.Concrete.MySqlDatabase.-ctor_2.htm" />
+        <HelpTOCNode Title="MySqlDatabase Constructor (Connect, List(WDDBConfig), List(WDDBConfig))" Url="html/M-WD.DataAccess.Concrete.MySqlDatabase.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MySqlDatabase Methods" Url="html/Methods.T-WD.DataAccess.Concrete.MySqlDatabase.htm" />
+      <HelpTOCNode Title="MySqlDatabase Properties" Url="html/Properties.T-WD.DataAccess.Concrete.MySqlDatabase.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="60d043c5-6818-4464-869f-599c93b07178" Title="OracleDatabase Class" Url="html/T-WD.DataAccess.Concrete.OracleDatabase.htm">
+      <HelpTOCNode Title="OracleDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.OracleDatabase.htm" />
+      <HelpTOCNode Id="416f96ee-7889-426f-844f-5085c47ae4e9" Title="OracleDatabase Constructor " Url="html/Overload-WD.DataAccess.Concrete.OracleDatabase.-ctor.htm">
+        <HelpTOCNode Title="OracleDatabase Constructor (Int32)" Url="html/M-WD.DataAccess.Concrete.OracleDatabase.-ctor.htm" />
+        <HelpTOCNode Title="OracleDatabase Constructor (String, Int32)" Url="html/M-WD.DataAccess.Concrete.OracleDatabase.-ctor_1.htm" />
+        <HelpTOCNode Title="OracleDatabase Constructor (Connect)" Url="html/M-WD.DataAccess.Concrete.OracleDatabase.-ctor_2.htm" />
+        <HelpTOCNode Title="OracleDatabase Constructor (Connect, List(WDDBConfig), List(WDDBConfig))" Url="html/M-WD.DataAccess.Concrete.OracleDatabase.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0532dd27-b9f0-497f-8ecb-e50032398292" Title="OracleDatabase Methods" Url="html/Methods.T-WD.DataAccess.Concrete.OracleDatabase.htm">
+        <HelpTOCNode Id="d594a717-a5ed-4360-b260-89abced6ce80" Title="BulkDelete Method " Url="html/Overload-WD.DataAccess.Concrete.OracleDatabase.BulkDelete.htm">
+          <HelpTOCNode Title="BulkDelete Method " Url="html/M-WD.DataAccess.Concrete.OracleDatabase.BulkDelete.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="712c37eb-c084-44d2-b934-36c6a3122706" Title="BulkUpdate Method " Url="html/Overload-WD.DataAccess.Concrete.OracleDatabase.BulkUpdate.htm">
+          <HelpTOCNode Title="BulkUpdate Method " Url="html/M-WD.DataAccess.Concrete.OracleDatabase.BulkUpdate.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="OracleDatabase Properties" Url="html/Properties.T-WD.DataAccess.Concrete.OracleDatabase.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="56717cd7-0147-4f66-a37d-889a49f62dbc" Title="PostgreSQLDatabase Class" Url="html/T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm">
+      <HelpTOCNode Title="PostgreSQLDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm" />
+      <HelpTOCNode Id="46b83714-b9b4-4373-9d46-c66b89ee192e" Title="PostgreSQLDatabase Constructor " Url="html/Overload-WD.DataAccess.Concrete.PostgreSQLDatabase.-ctor.htm">
+        <HelpTOCNode Title="PostgreSQLDatabase Constructor (Int32)" Url="html/M-WD.DataAccess.Concrete.PostgreSQLDatabase.-ctor.htm" />
+        <HelpTOCNode Title="PostgreSQLDatabase Constructor (String, Int32)" Url="html/M-WD.DataAccess.Concrete.PostgreSQLDatabase.-ctor_1.htm" />
+        <HelpTOCNode Title="PostgreSQLDatabase Constructor (Connect)" Url="html/M-WD.DataAccess.Concrete.PostgreSQLDatabase.-ctor_2.htm" />
+        <HelpTOCNode Title="PostgreSQLDatabase Constructor (Connect, List(WDDBConfig), List(WDDBConfig))" Url="html/M-WD.DataAccess.Concrete.PostgreSQLDatabase.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PostgreSQLDatabase Methods" Url="html/Methods.T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm" />
+      <HelpTOCNode Title="PostgreSQLDatabase Properties" Url="html/Properties.T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="372ca9e2-8482-4dcd-97a3-0402b7ae1f0c" Title="SqlDatabase Class" Url="html/T-WD.DataAccess.Concrete.SqlDatabase.htm">
+      <HelpTOCNode Title="SqlDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.SqlDatabase.htm" />
+      <HelpTOCNode Id="721cb998-f6be-4c8a-9e2d-6e1567f0c94f" Title="SqlDatabase Constructor " Url="html/Overload-WD.DataAccess.Concrete.SqlDatabase.-ctor.htm">
+        <HelpTOCNode Title="SqlDatabase Constructor (Int32)" Url="html/M-WD.DataAccess.Concrete.SqlDatabase.-ctor.htm" />
+        <HelpTOCNode Title="SqlDatabase Constructor (String, Int32)" Url="html/M-WD.DataAccess.Concrete.SqlDatabase.-ctor_1.htm" />
+        <HelpTOCNode Title="SqlDatabase Constructor (Connect)" Url="html/M-WD.DataAccess.Concrete.SqlDatabase.-ctor_2.htm" />
+        <HelpTOCNode Title="SqlDatabase Constructor (Connect, List(WDDBConfig), List(WDDBConfig))" Url="html/M-WD.DataAccess.Concrete.SqlDatabase.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SqlDatabase Methods" Url="html/Methods.T-WD.DataAccess.Concrete.SqlDatabase.htm" />
+      <HelpTOCNode Title="SqlDatabase Properties" Url="html/Properties.T-WD.DataAccess.Concrete.SqlDatabase.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="572ede6d-d150-4288-a101-5032af114017" Title="TeraDatabase Class" Url="html/T-WD.DataAccess.Concrete.TeraDatabase.htm">
+      <HelpTOCNode Title="TeraDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.TeraDatabase.htm" />
+      <HelpTOCNode Id="616275c2-218d-490b-a66d-34c2c84cceaa" Title="TeraDatabase Constructor " Url="html/Overload-WD.DataAccess.Concrete.TeraDatabase.-ctor.htm">
+        <HelpTOCNode Title="TeraDatabase Constructor (Int32)" Url="html/M-WD.DataAccess.Concrete.TeraDatabase.-ctor.htm" />
+        <HelpTOCNode Title="TeraDatabase Constructor (String, Int32)" Url="html/M-WD.DataAccess.Concrete.TeraDatabase.-ctor_1.htm" />
+        <HelpTOCNode Title="TeraDatabase Constructor (Connect)" Url="html/M-WD.DataAccess.Concrete.TeraDatabase.-ctor_2.htm" />
+        <HelpTOCNode Title="TeraDatabase Constructor (Connect, List(WDDBConfig), List(WDDBConfig))" Url="html/M-WD.DataAccess.Concrete.TeraDatabase.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TeraDatabase Methods" Url="html/Methods.T-WD.DataAccess.Concrete.TeraDatabase.htm" />
+      <HelpTOCNode Title="TeraDatabase Properties" Url="html/Properties.T-WD.DataAccess.Concrete.TeraDatabase.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="3faaafd8-8d73-4193-9f8e-6d9a3a7b8143" Title="WD.DataAccess.Configurations Namespace" Url="html/N-WD.DataAccess.Configurations.htm">
+    <HelpTOCNode Id="49ba6192-2878-4f98-b1e5-3bf793ce1a97" Title="AppConfiguration Class" Url="html/T-WD.DataAccess.Configurations.AppConfiguration.htm">
+      <HelpTOCNode Title="AppConfiguration Members" Url="html/AllMembers.T-WD.DataAccess.Configurations.AppConfiguration.htm" />
+      <HelpTOCNode Id="f685200c-cf0e-4369-84eb-ad6c19f256c4" Title="AppConfiguration Methods" Url="html/Methods.T-WD.DataAccess.Configurations.AppConfiguration.htm">
+        <HelpTOCNode Title="CreateConnection Method (Int32)" Url="html/M-WD.DataAccess.Configurations.AppConfiguration.CreateConnection.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="47401dc2-d9c6-4ed4-9d4d-f82cbbf5dc27" Title="WD.DataAccess.Context Namespace" Url="html/N-WD.DataAccess.Context.htm">
+    <HelpTOCNode Id="68f0d726-01b9-4ba8-98be-a5d63db83ca3" Title="DbContext Class" Url="html/T-WD.DataAccess.Context.DbContext.htm">
+      <HelpTOCNode Title="DbContext Members" Url="html/AllMembers.T-WD.DataAccess.Context.DbContext.htm" />
+      <HelpTOCNode Id="8409b00d-fd90-4787-9fa0-ac3795a25794" Title="DbContext Constructor " Url="html/Overload-WD.DataAccess.Context.DbContext.-ctor.htm">
+        <HelpTOCNode Title="DbContext Constructor " Url="html/M-WD.DataAccess.Context.DbContext.-ctor.htm" />
+        <HelpTOCNode Title="DbContext Constructor (String)" Url="html/M-WD.DataAccess.Context.DbContext.-ctor_1.htm" />
+        <HelpTOCNode Title="DbContext Constructor (Int32)" Url="html/M-WD.DataAccess.Context.DbContext.-ctor_2.htm" />
+        <HelpTOCNode Title="DbContext Constructor (Int32, String)" Url="html/M-WD.DataAccess.Context.DbContext.-ctor_3.htm" />
+        <HelpTOCNode Title="DbContext Constructor (Connect)" Url="html/M-WD.DataAccess.Context.DbContext.-ctor_4.htm" />
+        <HelpTOCNode Title="DbContext Constructor (Boolean)" Url="html/M-WD.DataAccess.Context.DbContext.-ctor_5.htm" />
+        <HelpTOCNode Title="DbContext Constructor (String, Int32)" Url="html/M-WD.DataAccess.Context.DbContext.-ctor_6.htm" />
+        <HelpTOCNode Title="DbContext Constructor (String, Int32, Boolean)" Url="html/M-WD.DataAccess.Context.DbContext.-ctor_7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8ce1394f-4aec-4ee8-a240-262208361334" Title="DbContext Methods" Url="html/Methods.T-WD.DataAccess.Context.DbContext.htm">
+        <HelpTOCNode Title="Constructor Method " Url="html/M-WD.DataAccess.Context.DbContext.Constructor.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/M-WD.DataAccess.Context.DbContext.Dispose.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="399e4d4a-8d5a-48da-8ed7-4ad3b7baf648" Title="DbContext Properties" Url="html/Properties.T-WD.DataAccess.Context.DbContext.htm">
+        <HelpTOCNode Title="ICommands Property " Url="html/P-WD.DataAccess.Context.DbContext.ICommands.htm" />
+        <HelpTOCNode Title="ImportDrive Property " Url="html/P-WD.DataAccess.Context.DbContext.ImportDrive.htm" />
+        <HelpTOCNode Title="InventoryFlag Property " Url="html/P-WD.DataAccess.Context.DbContext.InventoryFlag.htm" />
+        <HelpTOCNode Title="ReportingDbName Property " Url="html/P-WD.DataAccess.Context.DbContext.ReportingDbName.htm" />
+        <HelpTOCNode Title="SiteLocation Property " Url="html/P-WD.DataAccess.Context.DbContext.SiteLocation.htm" />
+        <HelpTOCNode Title="SiteName Property " Url="html/P-WD.DataAccess.Context.DbContext.SiteName.htm" />
+        <HelpTOCNode Title="TesterIdCheck Property " Url="html/P-WD.DataAccess.Context.DbContext.TesterIdCheck.htm" />
+        <HelpTOCNode Title="TimeLog Property " Url="html/P-WD.DataAccess.Context.DbContext.TimeLog.htm" />
+        <HelpTOCNode Title="UserServerConnectionType Property " Url="html/P-WD.DataAccess.Context.DbContext.UserServerConnectionType.htm" />
+        <HelpTOCNode Title="UserServerTxConfig Property " Url="html/P-WD.DataAccess.Context.DbContext.UserServerTxConfig.htm" />
+        <HelpTOCNode Title="xmlInstance Property " Url="html/P-WD.DataAccess.Context.DbContext.xmlInstance.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5673fe75-4ba9-4225-8c43-49f60ecf5d77" Title="WD.DataAccess.Enums Namespace" Url="html/N-WD.DataAccess.Enums.htm">
+    <HelpTOCNode Id="8057d459-2e01-4676-bab5-88fa379c2f1a" Title="Databases Class" Url="html/T-WD.DataAccess.Enums.Databases.htm">
+      <HelpTOCNode Title="Databases Members" Url="html/AllMembers.T-WD.DataAccess.Enums.Databases.htm" />
+      <HelpTOCNode Title="Databases Constructor " Url="html/M-WD.DataAccess.Enums.Databases.-ctor.htm" />
+      <HelpTOCNode Id="fc18b649-aee1-4174-a1a1-e2451078c974" Title="Databases Fields" Url="html/Fields.T-WD.DataAccess.Enums.Databases.htm">
+        <HelpTOCNode Title="BR Field" Url="html/F-WD.DataAccess.Enums.Databases.BR.htm" />
+        <HelpTOCNode Title="TX Field" Url="html/F-WD.DataAccess.Enums.Databases.TX.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Databases Methods" Url="html/Methods.T-WD.DataAccess.Enums.Databases.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="11634ccd-e12c-4b1a-96b3-bf3b29ba33aa" Title="DBProvider Class" Url="html/T-WD.DataAccess.Enums.DBProvider.htm">
+      <HelpTOCNode Title="DBProvider Members" Url="html/AllMembers.T-WD.DataAccess.Enums.DBProvider.htm" />
+      <HelpTOCNode Title="DBProvider Constructor " Url="html/M-WD.DataAccess.Enums.DBProvider.-ctor.htm" />
+      <HelpTOCNode Id="43d106fe-a37f-4f4a-b77c-c58545fbf98b" Title="DBProvider Fields" Url="html/Fields.T-WD.DataAccess.Enums.DBProvider.htm">
+        <HelpTOCNode Title="Access Field" Url="html/F-WD.DataAccess.Enums.DBProvider.Access.htm" />
+        <HelpTOCNode Title="Db2 Field" Url="html/F-WD.DataAccess.Enums.DBProvider.Db2.htm" />
+        <HelpTOCNode Title="MySql Field" Url="html/F-WD.DataAccess.Enums.DBProvider.MySql.htm" />
+        <HelpTOCNode Title="Oracle Field" Url="html/F-WD.DataAccess.Enums.DBProvider.Oracle.htm" />
+        <HelpTOCNode Title="Oracle2 Field" Url="html/F-WD.DataAccess.Enums.DBProvider.Oracle2.htm" />
+        <HelpTOCNode Title="PostgreSQL Field" Url="html/F-WD.DataAccess.Enums.DBProvider.PostgreSQL.htm" />
+        <HelpTOCNode Title="Sql Field" Url="html/F-WD.DataAccess.Enums.DBProvider.Sql.htm" />
+        <HelpTOCNode Title="TeraData Field" Url="html/F-WD.DataAccess.Enums.DBProvider.TeraData.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DBProvider Methods" Url="html/Methods.T-WD.DataAccess.Enums.DBProvider.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="SortOption Enumeration" Url="html/T-WD.DataAccess.Enums.SortOption.htm" />
+    <HelpTOCNode Id="c73d02a5-1bcc-4d27-82b2-892a653ebc39" Title="Transaction Class" Url="html/T-WD.DataAccess.Enums.Transaction.htm">
+      <HelpTOCNode Title="Transaction Members" Url="html/AllMembers.T-WD.DataAccess.Enums.Transaction.htm" />
+      <HelpTOCNode Title="Transaction Constructor " Url="html/M-WD.DataAccess.Enums.Transaction.-ctor.htm" />
+      <HelpTOCNode Id="57c79a7d-9460-4fcb-a9a1-b0b25b74db91" Title="Transaction Fields" Url="html/Fields.T-WD.DataAccess.Enums.Transaction.htm">
+        <HelpTOCNode Title="None Field" Url="html/F-WD.DataAccess.Enums.Transaction.None.htm" />
+        <HelpTOCNode Title="TS Field" Url="html/F-WD.DataAccess.Enums.Transaction.TS.htm" />
+        <HelpTOCNode Title="TSNT Field" Url="html/F-WD.DataAccess.Enums.Transaction.TSNT.htm" />
+        <HelpTOCNode Title="Yes Field" Url="html/F-WD.DataAccess.Enums.Transaction.Yes.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Transaction Methods" Url="html/Methods.T-WD.DataAccess.Enums.Transaction.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="d97618f6-7a1c-425d-aee4-c4605a702b22" Title="WD.DataAccess.Helpers Namespace" Url="html/N-WD.DataAccess.Helpers.htm">
+    <HelpTOCNode Id="54ac9642-c9ef-4dbf-97cd-d9efc3b795a9" Title="Connect Class" Url="html/T-WD.DataAccess.Helpers.Connect.htm">
+      <HelpTOCNode Title="Connect Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.Connect.htm" />
+      <HelpTOCNode Title="Connect Methods" Url="html/Methods.T-WD.DataAccess.Helpers.Connect.htm" />
+      <HelpTOCNode Id="9935f116-425e-421b-a19b-8a1887b339be" Title="Connect Properties" Url="html/Properties.T-WD.DataAccess.Helpers.Connect.htm">
+        <HelpTOCNode Title="ConnectionName Property " Url="html/P-WD.DataAccess.Helpers.Connect.ConnectionName.htm" />
+        <HelpTOCNode Title="ConnectionString Property " Url="html/P-WD.DataAccess.Helpers.Connect.ConnectionString.htm" />
+        <HelpTOCNode Title="DbProvider Property " Url="html/P-WD.DataAccess.Helpers.Connect.DbProvider.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="853d9444-9def-45f7-975b-35fa7ccc2b3e" Title="CSVReader Class" Url="html/T-WD.DataAccess.Helpers.CSVReader.htm">
+      <HelpTOCNode Title="CSVReader Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.CSVReader.htm" />
+      <HelpTOCNode Id="61ea0f6e-cb5b-4b21-aa0e-363f610e07bf" Title="CSVReader Constructor " Url="html/Overload-WD.DataAccess.Helpers.CSVReader.-ctor.htm">
+        <HelpTOCNode Title="CSVReader Constructor (FileInfo)" Url="html/M-WD.DataAccess.Helpers.CSVReader.-ctor.htm" />
+        <HelpTOCNode Title="CSVReader Constructor (String)" Url="html/M-WD.DataAccess.Helpers.CSVReader.-ctor_1.htm" />
+        <HelpTOCNode Title="CSVReader Constructor (TextReader)" Url="html/M-WD.DataAccess.Helpers.CSVReader.-ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4037aa93-fcb9-4b36-9333-d934f0ff170e" Title="CSVReader Fields" Url="html/Fields.T-WD.DataAccess.Helpers.CSVReader.htm">
+        <HelpTOCNode Title="NEWLINE Field" Url="html/F-WD.DataAccess.Helpers.CSVReader.NEWLINE.htm" />
+        <HelpTOCNode Title="ScanRows Field" Url="html/F-WD.DataAccess.Helpers.CSVReader.ScanRows.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="461ed913-c282-40c8-aea6-5b63aa687f0c" Title="CSVReader Methods" Url="html/Methods.T-WD.DataAccess.Helpers.CSVReader.htm">
+        <HelpTOCNode Title="CreateDataTable Method " Url="html/M-WD.DataAccess.Helpers.CSVReader.CreateDataTable.htm" />
+        <HelpTOCNode Title="Dispose Method " Url="html/M-WD.DataAccess.Helpers.CSVReader.Dispose.htm" />
+        <HelpTOCNode Id="9beb6039-f17c-45e0-b04d-9c340ddb73cd" Title="ReadCSVFile Method " Url="html/Overload-WD.DataAccess.Helpers.CSVReader.ReadCSVFile.htm">
+          <HelpTOCNode Title="ReadCSVFile Method (String, Boolean, Int32)" Url="html/M-WD.DataAccess.Helpers.CSVReader.ReadCSVFile.htm" />
+          <HelpTOCNode Title="ReadCSVFile Method (String, Boolean)" Url="html/M-WD.DataAccess.Helpers.CSVReader.ReadCSVFile_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ReadRow Method " Url="html/M-WD.DataAccess.Helpers.CSVReader.ReadRow.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b7d04c4d-5d75-437e-b14a-23a10167f8c1" Title="DataReaderMapper(T) Class" Url="html/T-WD.DataAccess.Helpers.DataReaderMapper-1.htm">
+      <HelpTOCNode Title="DataReaderMapper(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+      <HelpTOCNode Title="DataReaderMapper(T) Constructor " Url="html/M-WD.DataAccess.Helpers.DataReaderMapper-1.-ctor.htm" />
+      <HelpTOCNode Id="47fb03d1-3e35-43ba-ba8a-381137f0b18d" Title="DataReaderMapper(T) Methods" Url="html/Methods.T-WD.DataAccess.Helpers.DataReaderMapper-1.htm">
+        <HelpTOCNode Title="Dispose Method " Url="html/M-WD.DataAccess.Helpers.DataReaderMapper-1.Dispose.htm" />
+        <HelpTOCNode Title="MapFrom Method " Url="html/M-WD.DataAccess.Helpers.DataReaderMapper-1.MapFrom.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bb14ac2e-4347-49cd-a0ec-1c20b5124da7" Title="DataRowMapper Class" Url="html/T-WD.DataAccess.Helpers.DataRowMapper.htm">
+      <HelpTOCNode Title="DataRowMapper Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataRowMapper.htm" />
+      <HelpTOCNode Title="DataRowMapper Constructor " Url="html/M-WD.DataAccess.Helpers.DataRowMapper.-ctor.htm" />
+      <HelpTOCNode Id="81336232-32db-4d05-a51e-381eb04a01ad" Title="DataRowMapper Methods" Url="html/Methods.T-WD.DataAccess.Helpers.DataRowMapper.htm">
+        <HelpTOCNode Title="Dispose Method " Url="html/M-WD.DataAccess.Helpers.DataRowMapper.Dispose.htm" />
+        <HelpTOCNode Title="MapFrom Method " Url="html/M-WD.DataAccess.Helpers.DataRowMapper.MapFrom.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="09fcd705-b705-4244-98fa-45b83bbc5971" Title="DataTableExtension Class" Url="html/T-WD.DataAccess.Helpers.DataTableExtension.htm">
+      <HelpTOCNode Title="DataTableExtension Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataTableExtension.htm" />
+      <HelpTOCNode Id="5d59d36b-b20c-421a-89f5-9b6d907f8c38" Title="DataTableExtension Methods" Url="html/Methods.T-WD.DataAccess.Helpers.DataTableExtension.htm">
+        <HelpTOCNode Title="WriteToCsvFile Method " Url="html/M-WD.DataAccess.Helpers.DataTableExtension.WriteToCsvFile.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e896efff-0ca7-4308-aa03-b0b78bd229b2" Title="HelperUtility Class" Url="html/T-WD.DataAccess.Helpers.HelperUtility.htm">
+      <HelpTOCNode Title="HelperUtility Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.HelperUtility.htm" />
+      <HelpTOCNode Id="568da931-c411-4b65-84a4-5f1e3cfb452f" Title="HelperUtility Methods" Url="html/Methods.T-WD.DataAccess.Helpers.HelperUtility.htm">
+        <HelpTOCNode Title="ConvertTo(T) Method (Object, T)" Url="html/M-WD.DataAccess.Helpers.HelperUtility.ConvertTo--1.htm" />
+        <HelpTOCNode Title="CopyToTemporaryDirectory Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.CopyToTemporaryDirectory.htm" />
+        <HelpTOCNode Title="CreateSchemaIni Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.CreateSchemaIni.htm" />
+        <HelpTOCNode Title="DbDateTime Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.DbDateTime.htm" />
+        <HelpTOCNode Title="DistinctBy(TSource, TKey) Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.DistinctBy--2.htm" />
+        <HelpTOCNode Title="GetColumns(T) Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetColumns--1.htm" />
+        <HelpTOCNode Title="GetDate Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDate.htm" />
+        <HelpTOCNode Title="GetDateFormatted Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDateFormatted.htm" />
+        <HelpTOCNode Title="GetDbProvider Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDbProvider.htm" />
+        <HelpTOCNode Title="GetDbProviderName Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDbProviderName.htm" />
+        <HelpTOCNode Title="GetPrimaryColumn(T) Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetPrimaryColumn--1.htm" />
+        <HelpTOCNode Title="GetPropertyAttributeValue(T, TOut, TAttribute, TValue) Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetPropertyAttributeValue--4.htm" />
+        <HelpTOCNode Id="23faa343-14b7-47eb-8c49-169f66ed993f" Title="Overload:WD.DataAccess.Helpers.HelperUtility.GetTableName">
+          <HelpTOCNode Title="GetTableName(T) Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetTableName--1.htm" />
+          <HelpTOCNode Title="GetTableName Method (Type)" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetTableName.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetVersion Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetVersion.htm" />
+        <HelpTOCNode Title="MoveToDirectory Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.MoveToDirectory.htm" />
+        <HelpTOCNode Title="MoveToTemporaryDirectory Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.MoveToTemporaryDirectory.htm" />
+        <HelpTOCNode Title="Prefix Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.Prefix.htm" />
+        <HelpTOCNode Title="Truncate Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.Truncate.htm" />
+        <HelpTOCNode Title="Validate Method " Url="html/M-WD.DataAccess.Helpers.HelperUtility.Validate.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="af365258-b007-41c8-a48d-decae1d14ed6" Title="ItemSpecification Class" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.htm">
+      <HelpTOCNode Title="ItemSpecification Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.ItemSpecification.htm" />
+      <HelpTOCNode Title="ItemSpecification Methods" Url="html/Methods.T-WD.DataAccess.Helpers.ItemSpecification.htm" />
+      <HelpTOCNode Id="4a86b8ce-b2c1-4ce5-a6c1-05f07fb413df" Title="ItemSpecification Properties" Url="html/Properties.T-WD.DataAccess.Helpers.ItemSpecification.htm">
+        <HelpTOCNode Title="ColumnNumber Property " Url="html/P-WD.DataAccess.Helpers.ItemSpecification.ColumnNumber.htm" />
+        <HelpTOCNode Title="ColumnWidth Property " Url="html/P-WD.DataAccess.Helpers.ItemSpecification.ColumnWidth.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-WD.DataAccess.Helpers.ItemSpecification.Name.htm" />
+        <HelpTOCNode Title="TypeData Property " Url="html/P-WD.DataAccess.Helpers.ItemSpecification.TypeData.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ItemSpecification.JetDataType Enumeration" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+    <HelpTOCNode Id="df2e6175-714a-49e9-b90f-2c59a4f2c7b1" Title="LogString Class" Url="html/T-WD.DataAccess.Helpers.LogString.htm">
+      <HelpTOCNode Title="LogString Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.LogString.htm" />
+      <HelpTOCNode Title="LogString Constructor " Url="html/M-WD.DataAccess.Helpers.LogString.-ctor.htm" />
+      <HelpTOCNode Id="9ce7a018-572e-4973-a6c2-5d7fc6609565" Title="LogString Methods" Url="html/Methods.T-WD.DataAccess.Helpers.LogString.htm">
+        <HelpTOCNode Title="Add Method " Url="html/M-WD.DataAccess.Helpers.LogString.Add.htm" />
+        <HelpTOCNode Title="Clear Method " Url="html/M-WD.DataAccess.Helpers.LogString.Clear.htm" />
+        <HelpTOCNode Title="ClearAll Method " Url="html/M-WD.DataAccess.Helpers.LogString.ClearAll.htm" />
+        <HelpTOCNode Title="GetLogString Method " Url="html/M-WD.DataAccess.Helpers.LogString.GetLogString.htm" />
+        <HelpTOCNode Title="Persist Method " Url="html/M-WD.DataAccess.Helpers.LogString.Persist.htm" />
+        <HelpTOCNode Title="PersistAll Method " Url="html/M-WD.DataAccess.Helpers.LogString.PersistAll.htm" />
+        <HelpTOCNode Title="RemoveLogString Method " Url="html/M-WD.DataAccess.Helpers.LogString.RemoveLogString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="86dc1e2a-168d-4147-ae58-3805768dfa7a" Title="LogString Properties" Url="html/Properties.T-WD.DataAccess.Helpers.LogString.htm">
+        <HelpTOCNode Title="LineTerminate Property " Url="html/P-WD.DataAccess.Helpers.LogString.LineTerminate.htm" />
+        <HelpTOCNode Title="Log Property " Url="html/P-WD.DataAccess.Helpers.LogString.Log.htm" />
+        <HelpTOCNode Title="MaxChars Property " Url="html/P-WD.DataAccess.Helpers.LogString.MaxChars.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-WD.DataAccess.Helpers.LogString.Name.htm" />
+        <HelpTOCNode Title="ReverseOrder Property " Url="html/P-WD.DataAccess.Helpers.LogString.ReverseOrder.htm" />
+        <HelpTOCNode Title="Timestamp Property " Url="html/P-WD.DataAccess.Helpers.LogString.Timestamp.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="34309dda-381e-47d6-802d-a34e4037f02e" Title="LogString Events" Url="html/Events.T-WD.DataAccess.Helpers.LogString.htm">
+        <HelpTOCNode Title="OnLogUpdate Event" Url="html/E-WD.DataAccess.Helpers.LogString.OnLogUpdate.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="LogString.LogUpdateDelegate Delegate" Url="html/T-WD.DataAccess.Helpers.LogString.LogUpdateDelegate.htm" />
+    <HelpTOCNode Title="ObjectXMLSerializer Enumeration" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer.htm" />
+    <HelpTOCNode Id="1acb36c9-80cc-4f57-a85a-aa6fce05f286" Title="ObjectXMLSerializer(T) Class" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm">
+      <HelpTOCNode Title="ObjectXMLSerializer(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+      <HelpTOCNode Id="bd23fab9-bc62-45d6-b79e-27dd0cf605c6" Title="ObjectXMLSerializer(T) Methods" Url="html/Methods.T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm">
+        <HelpTOCNode Id="054df82a-c66a-4711-bc82-8c50697c2a30" Title="Load Method " Url="html/Overload-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Load.htm">
+          <HelpTOCNode Title="Load Method (String)" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Load.htm" />
+          <HelpTOCNode Title="Load Method (String, ObjectXMLSerializer)" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Load_1.htm" />
+          <HelpTOCNode Title="Load Method (String, Type[])" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Load_2.htm" />
+          <HelpTOCNode Title="Load Method (String, IsolatedStorageFile)" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Load_3.htm" />
+          <HelpTOCNode Title="Load Method (String, IsolatedStorageFile, ObjectXMLSerializer)" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Load_4.htm" />
+          <HelpTOCNode Title="Load Method (String, IsolatedStorageFile, Type[])" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Load_5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="83bfe779-df27-41fb-bb93-649051a8fdc2" Title="Save Method " Url="html/Overload-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Save.htm">
+          <HelpTOCNode Title="Save Method (T, String)" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Save.htm" />
+          <HelpTOCNode Title="Save Method (T, String, ObjectXMLSerializer)" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Save_1.htm" />
+          <HelpTOCNode Title="Save Method (T, String, Type[])" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Save_2.htm" />
+          <HelpTOCNode Title="Save Method (T, String, IsolatedStorageFile)" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Save_3.htm" />
+          <HelpTOCNode Title="Save Method (T, String, IsolatedStorageFile, ObjectXMLSerializer)" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Save_4.htm" />
+          <HelpTOCNode Title="Save Method (T, String, IsolatedStorageFile, Type[])" Url="html/M-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Save_5.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0655f6ff-735c-4a9b-8e8f-f0a3026b35e8" Title="PeriodicTaskFactory Class" Url="html/T-WD.DataAccess.Helpers.PeriodicTaskFactory.htm">
+      <HelpTOCNode Title="PeriodicTaskFactory Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.PeriodicTaskFactory.htm" />
+      <HelpTOCNode Id="acf3c9aa-27bb-446b-b9d3-1198a07b527d" Title="PeriodicTaskFactory Methods" Url="html/Methods.T-WD.DataAccess.Helpers.PeriodicTaskFactory.htm">
+        <HelpTOCNode Title="Start Method " Url="html/M-WD.DataAccess.Helpers.PeriodicTaskFactory.Start.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3e9843e4-0e5d-4719-b4cd-e6deb8b0af93" Title="PropertyComparer(T) Class" Url="html/T-WD.DataAccess.Helpers.PropertyComparer-1.htm">
+      <HelpTOCNode Title="PropertyComparer(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+      <HelpTOCNode Title="PropertyComparer(T) Constructor " Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.-ctor.htm" />
+      <HelpTOCNode Id="9cc849bb-8628-4ea9-bf27-db72f4877223" Title="PropertyComparer(T) Methods" Url="html/Methods.T-WD.DataAccess.Helpers.PropertyComparer-1.htm">
+        <HelpTOCNode Title="Compare Method " Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.Compare.htm" />
+        <HelpTOCNode Title="SetPropertyAndDirection Method " Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.SetPropertyAndDirection.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7aef9318-b464-4aad-9016-fd458687a9d9" Title="SchemeDef Class" Url="html/T-WD.DataAccess.Helpers.SchemeDef.htm">
+      <HelpTOCNode Title="SchemeDef Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SchemeDef.htm" />
+      <HelpTOCNode Title="SchemeDef Constructor " Url="html/M-WD.DataAccess.Helpers.SchemeDef.-ctor.htm" />
+      <HelpTOCNode Title="SchemeDef Methods" Url="html/Methods.T-WD.DataAccess.Helpers.SchemeDef.htm" />
+      <HelpTOCNode Id="78b95806-8f09-4218-b9d6-506d1cd3e5a1" Title="SchemeDef Properties" Url="html/Properties.T-WD.DataAccess.Helpers.SchemeDef.htm">
+        <HelpTOCNode Title="ColumnDefinition Property " Url="html/P-WD.DataAccess.Helpers.SchemeDef.ColumnDefinition.htm" />
+        <HelpTOCNode Title="CustomDelimiter Property " Url="html/P-WD.DataAccess.Helpers.SchemeDef.CustomDelimiter.htm" />
+        <HelpTOCNode Title="DelimiterType Property " Url="html/P-WD.DataAccess.Helpers.SchemeDef.DelimiterType.htm" />
+        <HelpTOCNode Title="UsesHeader Property " Url="html/P-WD.DataAccess.Helpers.SchemeDef.UsesHeader.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="SchemeDef.DelimType Enumeration" Url="html/T-WD.DataAccess.Helpers.SchemeDef.DelimType.htm" />
+    <HelpTOCNode Title="SchemeDef.FirstRowHeader Enumeration" Url="html/T-WD.DataAccess.Helpers.SchemeDef.FirstRowHeader.htm" />
+    <HelpTOCNode Id="cc3a7035-3cfc-4eff-bdac-aead318903d1" Title="SortableBindingList(T) Class" Url="html/T-WD.DataAccess.Helpers.SortableBindingList-1.htm">
+      <HelpTOCNode Title="SortableBindingList(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+      <HelpTOCNode Id="7ef571dd-27de-44ff-9e4c-1f0ca97cd653" Title="SortableBindingList(T) Constructor " Url="html/Overload-WD.DataAccess.Helpers.SortableBindingList-1.-ctor.htm">
+        <HelpTOCNode Title="SortableBindingList(T) Constructor " Url="html/M-WD.DataAccess.Helpers.SortableBindingList-1.-ctor.htm" />
+        <HelpTOCNode Title="SortableBindingList(T) Constructor (IEnumerable(T))" Url="html/M-WD.DataAccess.Helpers.SortableBindingList-1.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SortableBindingList(T) Methods" Url="html/Methods.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+      <HelpTOCNode Title="SortableBindingList(T) Properties" Url="html/Properties.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+      <HelpTOCNode Title="SortableBindingList(T) Events" Url="html/Events.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="edccf2ba-2bdf-4eef-8f24-a52f7085513e" Title="SqlStatement Class" Url="html/T-WD.DataAccess.Helpers.SqlStatement.htm">
+      <HelpTOCNode Title="SqlStatement Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SqlStatement.htm" />
+      <HelpTOCNode Title="SqlStatement Methods" Url="html/Methods.T-WD.DataAccess.Helpers.SqlStatement.htm" />
+      <HelpTOCNode Id="81fe8197-c34a-4800-aab3-37131b84c30b" Title="SqlStatement Properties" Url="html/Properties.T-WD.DataAccess.Helpers.SqlStatement.htm">
+        <HelpTOCNode Title="CommandText Property " Url="html/P-WD.DataAccess.Helpers.SqlStatement.CommandText.htm" />
+        <HelpTOCNode Title="CommandType Property " Url="html/P-WD.DataAccess.Helpers.SqlStatement.CommandType.htm" />
+        <HelpTOCNode Title="Params Property " Url="html/P-WD.DataAccess.Helpers.SqlStatement.Params.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ac153082-b921-4fd8-91d4-a8d81fca81f1" Title="StringConverter Class" Url="html/T-WD.DataAccess.Helpers.StringConverter.htm">
+      <HelpTOCNode Title="StringConverter Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.StringConverter.htm" />
+      <HelpTOCNode Id="4cbb5674-7d42-4f3b-926a-bc23faadc91b" Title="StringConverter Methods" Url="html/Methods.T-WD.DataAccess.Helpers.StringConverter.htm">
+        <HelpTOCNode Title="ConvertString Method " Url="html/M-WD.DataAccess.Helpers.StringConverter.ConvertString.htm" />
+        <HelpTOCNode Title="FindCommonType Method " Url="html/M-WD.DataAccess.Helpers.StringConverter.FindCommonType.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="80615b3b-2170-4113-9873-11e795f56316" Title="WebSecurityUtility Class" Url="html/T-WD.DataAccess.Helpers.WebSecurityUtility.htm">
+      <HelpTOCNode Title="WebSecurityUtility Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.WebSecurityUtility.htm" />
+      <HelpTOCNode Id="26be9236-ca1d-4f9a-b2ab-c796a90f3a5d" Title="WebSecurityUtility Methods" Url="html/Methods.T-WD.DataAccess.Helpers.WebSecurityUtility.htm">
+        <HelpTOCNode Title="Decrypt Method " Url="html/M-WD.DataAccess.Helpers.WebSecurityUtility.Decrypt.htm" />
+        <HelpTOCNode Title="Encrypt Method " Url="html/M-WD.DataAccess.Helpers.WebSecurityUtility.Encrypt.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3cd1de02-52de-46c3-8a32-7b33da17f761" Title="Wrapper Class" Url="html/T-WD.DataAccess.Helpers.Wrapper.htm">
+      <HelpTOCNode Title="Wrapper Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.Wrapper.htm" />
+      <HelpTOCNode Title="Wrapper Methods" Url="html/Methods.T-WD.DataAccess.Helpers.Wrapper.htm" />
+      <HelpTOCNode Id="fc420796-aa15-4c8d-befc-b99d1acc7c02" Title="Wrapper Properties" Url="html/Properties.T-WD.DataAccess.Helpers.Wrapper.htm">
+        <HelpTOCNode Title="AuthenticationToken Property " Url="html/P-WD.DataAccess.Helpers.Wrapper.AuthenticationToken.htm" />
+        <HelpTOCNode Title="Connect Property " Url="html/P-WD.DataAccess.Helpers.Wrapper.Connect.htm" />
+        <HelpTOCNode Title="TheSql Property " Url="html/P-WD.DataAccess.Helpers.Wrapper.TheSql.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="262febb0-e037-488b-a79b-b3526f12d4fc" Title="WD.DataAccess.Logger Namespace" Url="html/N-WD.DataAccess.Logger.htm">
+    <HelpTOCNode Id="da25916d-9fdf-4c19-9ceb-e1007155f3d4" Title="Appender Class" Url="html/T-WD.DataAccess.Logger.Appender.htm">
+      <HelpTOCNode Title="Appender Members" Url="html/AllMembers.T-WD.DataAccess.Logger.Appender.htm" />
+      <HelpTOCNode Title="Appender Methods" Url="html/Methods.T-WD.DataAccess.Logger.Appender.htm" />
+      <HelpTOCNode Id="cc6d8120-550c-4cbb-be0d-eaf5a43f3e9f" Title="Appender Properties" Url="html/Properties.T-WD.DataAccess.Logger.Appender.htm">
+        <HelpTOCNode Title="File Property " Url="html/P-WD.DataAccess.Logger.Appender.File.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-WD.DataAccess.Logger.Appender.Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f2a6f5dd-ff49-4f4b-be25-275804d84a13" Title="FilePath Class" Url="html/T-WD.DataAccess.Logger.FilePath.htm">
+      <HelpTOCNode Title="FilePath Members" Url="html/AllMembers.T-WD.DataAccess.Logger.FilePath.htm" />
+      <HelpTOCNode Title="FilePath Methods" Url="html/Methods.T-WD.DataAccess.Logger.FilePath.htm" />
+      <HelpTOCNode Id="8c81316c-9d72-412d-a6f4-dc3d7833e536" Title="FilePath Properties" Url="html/Properties.T-WD.DataAccess.Logger.FilePath.htm">
+        <HelpTOCNode Title="FullPath Property " Url="html/P-WD.DataAccess.Logger.FilePath.FullPath.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c2e0a8c1-9349-4400-975c-dd67a2fec486" Title="ILogger Class" Url="html/T-WD.DataAccess.Logger.ILogger.htm">
+      <HelpTOCNode Title="ILogger Members" Url="html/AllMembers.T-WD.DataAccess.Logger.ILogger.htm" />
+      <HelpTOCNode Title="ILogger Constructor " Url="html/M-WD.DataAccess.Logger.ILogger.-ctor.htm" />
+      <HelpTOCNode Id="3eb9e16d-fc8c-4faf-8aad-af96294d3e95" Title="ILogger Methods" Url="html/Methods.T-WD.DataAccess.Logger.ILogger.htm">
+        <HelpTOCNode Id="f4bd35e7-e2a3-4fb1-b77c-caddafbb5a32" Title="Debug Method " Url="html/Overload-WD.DataAccess.Logger.ILogger.Debug.htm">
+          <HelpTOCNode Title="Debug Method (Exception)" Url="html/M-WD.DataAccess.Logger.ILogger.Debug.htm" />
+          <HelpTOCNode Title="Debug Method (Object)" Url="html/M-WD.DataAccess.Logger.ILogger.Debug_1.htm" />
+          <HelpTOCNode Title="Debug Method (Object, Exception)" Url="html/M-WD.DataAccess.Logger.ILogger.Debug_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6bb9c616-070a-4735-8cab-b0669beaa77e" Title="Error Method " Url="html/Overload-WD.DataAccess.Logger.ILogger.Error.htm">
+          <HelpTOCNode Title="Error Method (Exception)" Url="html/M-WD.DataAccess.Logger.ILogger.Error.htm" />
+          <HelpTOCNode Title="Error Method (Object)" Url="html/M-WD.DataAccess.Logger.ILogger.Error_1.htm" />
+          <HelpTOCNode Title="Error Method (Object, Exception)" Url="html/M-WD.DataAccess.Logger.ILogger.Error_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d6af6faf-b990-4cb9-b8fd-c50f33959b86" Title="Fatal Method " Url="html/Overload-WD.DataAccess.Logger.ILogger.Fatal.htm">
+          <HelpTOCNode Title="Fatal Method (Exception)" Url="html/M-WD.DataAccess.Logger.ILogger.Fatal.htm" />
+          <HelpTOCNode Title="Fatal Method (Object)" Url="html/M-WD.DataAccess.Logger.ILogger.Fatal_1.htm" />
+          <HelpTOCNode Title="Fatal Method (Object, Exception)" Url="html/M-WD.DataAccess.Logger.ILogger.Fatal_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f2a4fe59-6970-4178-aa15-bc42e25bc9db" Title="Info Method " Url="html/Overload-WD.DataAccess.Logger.ILogger.Info.htm">
+          <HelpTOCNode Title="Info Method (Exception)" Url="html/M-WD.DataAccess.Logger.ILogger.Info.htm" />
+          <HelpTOCNode Title="Info Method (Object)" Url="html/M-WD.DataAccess.Logger.ILogger.Info_1.htm" />
+          <HelpTOCNode Title="Info Method (Object, Exception)" Url="html/M-WD.DataAccess.Logger.ILogger.Info_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ea0a615e-48d2-41c2-bb74-c1c89bd5fd35" Title="Warn Method " Url="html/Overload-WD.DataAccess.Logger.ILogger.Warn.htm">
+          <HelpTOCNode Title="Warn Method (Exception)" Url="html/M-WD.DataAccess.Logger.ILogger.Warn.htm" />
+          <HelpTOCNode Title="Warn Method (Object)" Url="html/M-WD.DataAccess.Logger.ILogger.Warn_1.htm" />
+          <HelpTOCNode Title="Warn Method (Object, Exception)" Url="html/M-WD.DataAccess.Logger.ILogger.Warn_2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="05f693d2-569d-45fd-9fbd-8d13f203e3bb" Title="Log4net Class" Url="html/T-WD.DataAccess.Logger.Log4net.htm">
+      <HelpTOCNode Title="Log4net Members" Url="html/AllMembers.T-WD.DataAccess.Logger.Log4net.htm" />
+      <HelpTOCNode Title="Log4net Methods" Url="html/Methods.T-WD.DataAccess.Logger.Log4net.htm" />
+      <HelpTOCNode Id="68f33656-7621-4030-8df8-aaafc6c182a6" Title="Log4net Properties" Url="html/Properties.T-WD.DataAccess.Logger.Log4net.htm">
+        <HelpTOCNode Title="Appenders Property " Url="html/P-WD.DataAccess.Logger.Log4net.Appenders.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d0d83ef4-1f96-45f1-82c2-8cfb444cdd12" Title="Log4netConfiguration Class" Url="html/T-WD.DataAccess.Logger.Log4netConfiguration.htm">
+      <HelpTOCNode Title="Log4netConfiguration Members" Url="html/AllMembers.T-WD.DataAccess.Logger.Log4netConfiguration.htm" />
+      <HelpTOCNode Title="Log4netConfiguration Methods" Url="html/Methods.T-WD.DataAccess.Logger.Log4netConfiguration.htm" />
+      <HelpTOCNode Id="6a781997-d3fd-47f8-aa41-9d6d919771b4" Title="Log4netConfiguration Properties" Url="html/Properties.T-WD.DataAccess.Logger.Log4netConfiguration.htm">
+        <HelpTOCNode Title="Log4net Property " Url="html/P-WD.DataAccess.Logger.Log4netConfiguration.Log4net.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="017bfb4d-da00-4b69-b209-2bb7121c9d0d" Title="LogAppender Class" Url="html/T-WD.DataAccess.Logger.LogAppender.htm">
+      <HelpTOCNode Title="LogAppender Members" Url="html/AllMembers.T-WD.DataAccess.Logger.LogAppender.htm" />
+      <HelpTOCNode Id="c063b609-736f-4d21-879b-f93049d1eddb" Title="LogAppender Methods" Url="html/Methods.T-WD.DataAccess.Logger.LogAppender.htm">
+        <HelpTOCNode Title="ActivateOptions Method " Url="html/M-WD.DataAccess.Logger.LogAppender.ActivateOptions.htm" />
+        <HelpTOCNode Title="Close Method " Url="html/M-WD.DataAccess.Logger.LogAppender.Close.htm" />
+        <HelpTOCNode Id="581a8e30-f878-4849-956a-69801994032e" Title="DoAppend Method " Url="html/Overload-WD.DataAccess.Logger.LogAppender.DoAppend.htm">
+          <HelpTOCNode Title="DoAppend Method (LoggingEvent)" Url="html/M-WD.DataAccess.Logger.LogAppender.DoAppend.htm" />
+          <HelpTOCNode Title="DoAppend Method (LoggingEvent[])" Url="html/M-WD.DataAccess.Logger.LogAppender.DoAppend_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6253d21c-82f4-4e5e-9252-4cd56e6b374d" Title="LogAppender Properties" Url="html/Properties.T-WD.DataAccess.Logger.LogAppender.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P-WD.DataAccess.Logger.LogAppender.Name.htm" />
+        <HelpTOCNode Title="RegexDeleteStatement Property " Url="html/P-WD.DataAccess.Logger.LogAppender.RegexDeleteStatement.htm" />
+        <HelpTOCNode Title="RegexInsertStatement Property " Url="html/P-WD.DataAccess.Logger.LogAppender.RegexInsertStatement.htm" />
+        <HelpTOCNode Title="RegexSelectStatement Property " Url="html/P-WD.DataAccess.Logger.LogAppender.RegexSelectStatement.htm" />
+        <HelpTOCNode Title="RegexStatement Property " Url="html/P-WD.DataAccess.Logger.LogAppender.RegexStatement.htm" />
+        <HelpTOCNode Title="RegexUpdateStatement Property " Url="html/P-WD.DataAccess.Logger.LogAppender.RegexUpdateStatement.htm" />
+        <HelpTOCNode Title="RegexWhereClause Property " Url="html/P-WD.DataAccess.Logger.LogAppender.RegexWhereClause.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="58afe9aa-8dd7-42d0-8870-678fb8e05458" Title="LogAppender Events" Url="html/Events.T-WD.DataAccess.Logger.LogAppender.htm">
+        <HelpTOCNode Title="DoActiveOptions Event" Url="html/E-WD.DataAccess.Logger.LogAppender.DoActiveOptions.htm" />
+        <HelpTOCNode Title="DoLogging Event" Url="html/E-WD.DataAccess.Logger.LogAppender.DoLogging.htm" />
+        <HelpTOCNode Title="DoLoggings Event" Url="html/E-WD.DataAccess.Logger.LogAppender.DoLoggings.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="LogAppender.ActiveOptions Delegate" Url="html/T-WD.DataAccess.Logger.LogAppender.ActiveOptions.htm" />
+    <HelpTOCNode Title="LogAppender.Logging Delegate" Url="html/T-WD.DataAccess.Logger.LogAppender.Logging.htm" />
+    <HelpTOCNode Title="LogAppender.Loggings Delegate" Url="html/T-WD.DataAccess.Logger.LogAppender.Loggings.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="867bfe43-745b-43fa-9a49-215793272767" Title="WD.DataAccess.Mitecs Namespace" Url="html/N-WD.DataAccess.Mitecs.htm">
+    <HelpTOCNode Id="30cb64ca-0292-46cc-b045-6f9efdec7cc4" Title="Connections Class" Url="html/T-WD.DataAccess.Mitecs.Connections.htm">
+      <HelpTOCNode Title="Connections Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.Connections.htm" />
+      <HelpTOCNode Id="7d389709-edf4-47be-a31e-ad833e18948a" Title="Connections Constructor " Url="html/Overload-WD.DataAccess.Mitecs.Connections.-ctor.htm">
+        <HelpTOCNode Title="Connections Constructor (String, String)" Url="html/M-WD.DataAccess.Mitecs.Connections.-ctor.htm" />
+        <HelpTOCNode Title="Connections Constructor (String, String, String, String)" Url="html/M-WD.DataAccess.Mitecs.Connections.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3c53bbc5-e69c-4bd6-afa2-696ec6345486" Title="Connections Methods" Url="html/Methods.T-WD.DataAccess.Mitecs.Connections.htm">
+        <HelpTOCNode Title="ConnectionString Method " Url="html/M-WD.DataAccess.Mitecs.Connections.ConnectionString.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="90b218ce-1d7e-42e9-802e-839cc3e47875" Title="DB Class" Url="html/T-WD.DataAccess.Mitecs.DB.htm">
+      <HelpTOCNode Title="DB Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.DB.htm" />
+      <HelpTOCNode Title="DB Methods" Url="html/Methods.T-WD.DataAccess.Mitecs.DB.htm" />
+      <HelpTOCNode Id="bf79c5bd-58d5-4b51-85c3-3368a7ca06a6" Title="DB Properties" Url="html/Properties.T-WD.DataAccess.Mitecs.DB.htm">
+        <HelpTOCNode Title="ConnectType Property " Url="html/P-WD.DataAccess.Mitecs.DB.ConnectType.htm" />
+        <HelpTOCNode Title="DBName Property " Url="html/P-WD.DataAccess.Mitecs.DB.DBName.htm" />
+        <HelpTOCNode Title="DBType Property " Url="html/P-WD.DataAccess.Mitecs.DB.DBType.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/P-WD.DataAccess.Mitecs.DB.ID.htm" />
+        <HelpTOCNode Title="Server Property " Url="html/P-WD.DataAccess.Mitecs.DB.Server.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="287efc57-6dea-4d0f-9b1b-94e8fb4e4cc4" Title="Instance Class" Url="html/T-WD.DataAccess.Mitecs.Instance.htm">
+      <HelpTOCNode Title="Instance Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.Instance.htm" />
+      <HelpTOCNode Title="Instance Methods" Url="html/Methods.T-WD.DataAccess.Mitecs.Instance.htm" />
+      <HelpTOCNode Id="08e32f1f-94c7-46b0-8f62-ab5f5d0d839f" Title="Instance Properties" Url="html/Properties.T-WD.DataAccess.Mitecs.Instance.htm">
+        <HelpTOCNode Title="Dbs Property " Url="html/P-WD.DataAccess.Mitecs.Instance.Dbs.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-WD.DataAccess.Mitecs.Instance.Name.htm" />
+        <HelpTOCNode Title="ReportingDbName Property " Url="html/P-WD.DataAccess.Mitecs.Instance.ReportingDbName.htm" />
+        <HelpTOCNode Title="SiteLocation Property " Url="html/P-WD.DataAccess.Mitecs.Instance.SiteLocation.htm" />
+        <HelpTOCNode Title="TimeLog Property " Url="html/P-WD.DataAccess.Mitecs.Instance.TimeLog.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f081a109-6c6c-4e2f-a096-b10b155ee8d0" Title="WDConfig Class" Url="html/T-WD.DataAccess.Mitecs.WDConfig.htm">
+      <HelpTOCNode Title="WDConfig Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.WDConfig.htm" />
+      <HelpTOCNode Title="WDConfig Methods" Url="html/Methods.T-WD.DataAccess.Mitecs.WDConfig.htm" />
+      <HelpTOCNode Id="768a5c20-f5b7-47e8-afc7-9feeffa7a658" Title="WDConfig Properties" Url="html/Properties.T-WD.DataAccess.Mitecs.WDConfig.htm">
+        <HelpTOCNode Title="DefaultSite Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.DefaultSite.htm" />
+        <HelpTOCNode Title="ImportDrive Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.ImportDrive.htm" />
+        <HelpTOCNode Title="INSTANCES Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.INSTANCES.htm" />
+        <HelpTOCNode Title="InventoryFlag Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.InventoryFlag.htm" />
+        <HelpTOCNode Title="SqlThrowErrorList Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.SqlThrowErrorList.htm" />
+        <HelpTOCNode Title="TesterdIdCheck Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.TesterdIdCheck.htm" />
+        <HelpTOCNode Title="UserServerConnectionType Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.UserServerConnectionType.htm" />
+        <HelpTOCNode Title="UserServerTxConfig Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.UserServerTxConfig.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="17a56769-043a-4614-9539-66de7dcae953" Title="WDDBConfig Class" Url="html/T-WD.DataAccess.Mitecs.WDDBConfig.htm">
+      <HelpTOCNode Title="WDDBConfig Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.WDDBConfig.htm" />
+      <HelpTOCNode Title="WDDBConfig Constructor " Url="html/M-WD.DataAccess.Mitecs.WDDBConfig.-ctor.htm" />
+      <HelpTOCNode Title="WDDBConfig Methods" Url="html/Methods.T-WD.DataAccess.Mitecs.WDDBConfig.htm" />
+      <HelpTOCNode Id="de290501-4c5c-40f5-ba1c-21772f194553" Title="WDDBConfig Properties" Url="html/Properties.T-WD.DataAccess.Mitecs.WDDBConfig.htm">
+        <HelpTOCNode Title="ActiveFlag Property " Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.ActiveFlag.htm" />
+        <HelpTOCNode Title="DatabaseName Property " Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.DatabaseName.htm" />
+        <HelpTOCNode Title="DatabaseTransaction Property " Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.DatabaseTransaction.htm" />
+        <HelpTOCNode Title="dbProvider Property " Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.dbProvider.htm" />
+        <HelpTOCNode Title="ErrorMessages Property " Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.ErrorMessages.htm" />
+        <HelpTOCNode Title="Index Property " Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.Index.htm" />
+        <HelpTOCNode Title="Password Property " Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.Password.htm" />
+        <HelpTOCNode Title="RecoveryFlag Property " Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.RecoveryFlag.htm" />
+        <HelpTOCNode Title="ServerName Property " Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.ServerName.htm" />
+        <HelpTOCNode Title="Userid Property " Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.Userid.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a2fe2d81-e79e-43aa-9346-55b14b4188da" Title="WD.DataAccess.Parameters Namespace" Url="html/N-WD.DataAccess.Parameters.htm">
+    <HelpTOCNode Id="fa2766da-5766-436e-90a4-676669471d15" Title="DBParameter Class" Url="html/T-WD.DataAccess.Parameters.DBParameter.htm">
+      <HelpTOCNode Title="DBParameter Members" Url="html/AllMembers.T-WD.DataAccess.Parameters.DBParameter.htm" />
+      <HelpTOCNode Id="dd553c0f-dbe6-451b-b1d2-449a84bdde66" Title="DBParameter Constructor " Url="html/Overload-WD.DataAccess.Parameters.DBParameter.-ctor.htm">
+        <HelpTOCNode Title="DBParameter Constructor " Url="html/M-WD.DataAccess.Parameters.DBParameter.-ctor.htm" />
+        <HelpTOCNode Title="DBParameter Constructor (String, Object)" Url="html/M-WD.DataAccess.Parameters.DBParameter.-ctor_1.htm" />
+        <HelpTOCNode Title="DBParameter Constructor (String, Object, ParameterDirection)" Url="html/M-WD.DataAccess.Parameters.DBParameter.-ctor_2.htm" />
+        <HelpTOCNode Title="DBParameter Constructor (String, Object, DbType)" Url="html/M-WD.DataAccess.Parameters.DBParameter.-ctor_3.htm" />
+        <HelpTOCNode Title="DBParameter Constructor (String, Object, DbType, ParameterDirection)" Url="html/M-WD.DataAccess.Parameters.DBParameter.-ctor_4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DBParameter Methods" Url="html/Methods.T-WD.DataAccess.Parameters.DBParameter.htm" />
+      <HelpTOCNode Id="d2f17c28-6fd7-465d-a4e7-7d786e839f8b" Title="DBParameter Properties" Url="html/Properties.T-WD.DataAccess.Parameters.DBParameter.htm">
+        <HelpTOCNode Title="ParamDirection Property " Url="html/P-WD.DataAccess.Parameters.DBParameter.ParamDirection.htm" />
+        <HelpTOCNode Title="ParameterName Property " Url="html/P-WD.DataAccess.Parameters.DBParameter.ParameterName.htm" />
+        <HelpTOCNode Title="ParameterValue Property " Url="html/P-WD.DataAccess.Parameters.DBParameter.ParameterValue.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/P-WD.DataAccess.Parameters.DBParameter.Type.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a20bc626-749a-47b6-880a-a6bdaa006a05" Title="WD.DataAccess.QueryProviders Namespace" Url="html/N-WD.DataAccess.QueryProviders.htm">
+    <HelpTOCNode Id="f0993cbe-61f3-4f0d-a932-cd293c0cb393" Title="QueryBuilder(T) Class" Url="html/T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm">
+      <HelpTOCNode Title="QueryBuilder(T) Members" Url="html/AllMembers.T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+      <HelpTOCNode Id="d6544478-ac50-4578-ab16-ccc7b8c28726" Title="QueryBuilder(T) Constructor " Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.-ctor.htm">
+        <HelpTOCNode Title="QueryBuilder(T) Constructor " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.-ctor.htm" />
+        <HelpTOCNode Title="QueryBuilder(T) Constructor (T)" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dcd771db-8852-4c86-a841-a33add8ccb05" Title="QueryBuilder(T) Methods" Url="html/Methods.T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm">
+        <HelpTOCNode Id="f9044285-552d-47ce-9763-d8e662f25963" Title="Count Method " Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Count.htm">
+          <HelpTOCNode Title="Count Method (Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Count.htm" />
+          <HelpTOCNode Title="Count Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Count_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Delete Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Delete.htm" />
+        <HelpTOCNode Id="6eb5a4bc-f2e7-4f38-8fcd-4cdc88163550" Title="GroupBy Method " Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.GroupBy.htm">
+          <HelpTOCNode Title="GroupBy Method (Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.GroupBy.htm" />
+          <HelpTOCNode Title="GroupBy Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.GroupBy_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Insert Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Insert.htm" />
+        <HelpTOCNode Id="a8460f84-bce6-441f-a051-688021ad2b2d" Title="Overload:WD.DataAccess.QueryProviders.QueryBuilder`1.Join">
+          <HelpTOCNode Title="Join(J) Method (Expression(Func(T, Object)), Expression(Func(J, Object)))" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Join--1.htm" />
+          <HelpTOCNode Title="Join Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Join.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="cfa2288a-4385-406b-8c3c-4be55c685296" Title="Limit Method " Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Limit.htm">
+          <HelpTOCNode Title="Limit Method (Int32)" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Limit.htm" />
+          <HelpTOCNode Title="Limit Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Limit_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f8674672-5cf7-41a0-9e99-3a0ef43a16a4" Title="Offset Method " Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Offset.htm">
+          <HelpTOCNode Title="Offset Method (Int32)" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Offset.htm" />
+          <HelpTOCNode Title="Offset Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Offset_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="34f27fe5-5064-4ea4-ba02-ea49b374dd67" Title="OrderBy Method " Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.OrderBy.htm">
+          <HelpTOCNode Title="OrderBy Method (Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.OrderBy.htm" />
+          <HelpTOCNode Title="OrderBy Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.OrderBy_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Projection Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Projection.htm" />
+        <HelpTOCNode Title="Projections Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Projections.htm" />
+        <HelpTOCNode Title="Select Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Select.htm" />
+        <HelpTOCNode Id="60be13b2-a12a-4452-a21a-cbe32a60a1c1" Title="Sum Method " Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Sum.htm">
+          <HelpTOCNode Title="Sum Method (Expression(Func(T, Object))[])" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Sum.htm" />
+          <HelpTOCNode Title="Sum Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Sum_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Update Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Update.htm" />
+        <HelpTOCNode Id="71da0cff-11f7-488f-9051-a7a7254e8707" Title="Where Method " Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Where.htm">
+          <HelpTOCNode Title="Where Method (Expression(Func(T, Boolean)))" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Where.htm" />
+          <HelpTOCNode Title="Where Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Where_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

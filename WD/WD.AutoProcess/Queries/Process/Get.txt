@@ -1,0 +1,24 @@
+﻿select process_code,sql_text,MAX(delay_previous) as delay
+from
+(
+select b.*, LEAD(delay, 1, 0) OVER (ORDER BY create_date desc) AS delay_previous
+,case when delay-LEAD(delay, 1, 0) OVER (ORDER BY create_date desc)>0 then 'Y' else 'N' end AS incremental_boolean
+from (
+select a.Process_Code,a.sql_text,a.create_date,a.DELAY,a.allow_auto
+,row_number() over (order by create_date desc) as rowno
+from v_session_log a
+where create_date > sysdate - .1
+and delay > threshold
+and allow_auto='Y'
+and Process_Code=:PCode
+and Sid=:Sid
+and Dependency=:Dependency
+order by create_date desc
+) b
+where rowno <=3
+)
+where incremental_boolean='Y'
+and allow_auto='Y'
+and to_char(Create_date,'MM/dd/yyyy HH24:mi') >= :CreateDate
+group by process_code,sql_text
+having count(*)=3

@@ -1,0 +1,33 @@
+﻿<div class="panel panel-default" ng-repeat="x in faq | filter : {parentId: ''}">
+    <!-- Default panel contents -->
+    <div class="panel-heading" >
+        {{x.comment}}
+    </div>
+    <div class="panel-body">
+        <ul class="list-group" ng-repeat="c in getChild(x.commentId)">
+            <li class="list-group-item">{{c.comment}}</li>
+        </ul>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading">Any questions</div>
+    <div class="panel-body">
+        <form id="myform"  class="form-horizontal" ng-submit="submit()">
+            <div class="alert {{alert}}" role="alert">{{status}}</div>
+            <div class="input-group">
+                <input type="email" class="form-control" placeholder="email" aria-describedby="sizing-addon1" required="required" name="email" ng-model="email" />
+                <span class="input-group-addon" id="sizing-addon1">@</span>
+                <span ng-show="myform.email.$error.email">Not a valid e-mail address</span>
+            </div>
+            <br />
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="question" aria-describedby="sizing-addon1" required="required" name="question" ng-model="question" />
+                <span class="input-group-addon" id="Span1">?</span>
+            </div>
+            <br />
+            <input type="submit" class="btn btn-primary" value="Submit" />
+        </form>
+
+    </div>
+
+</div>

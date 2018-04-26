@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WD.Settings.MCES" GeneratedClassName="DataAccess">
+  <Profiles />
+  <Settings>
+    <Setting Name="br_dev" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">YjmsIRINvQ2hHuc1RQVOTDUY63fPkYpYa35q08is1IDPhyh2zPid8kc6MfpZG4XT+pfqhkCe/UnZ19WADIDE/yaLiVMkK12qjYSeQ2KTnaBCkYMxm8LDrdL0jdB4BnCJ</Value>
+    </Setting>
+    <Setting Name="tx_dev" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">YjmsIRINvQ2Gz05oTXKxDjUY63fPkYpYa35q08is1ICV7X5UszSZN0c6MfpZG4XT+pfqhkCe/UnZ19WADIDE/yaLiVMkK12qjYSeQ2KTnaBCkYMxm8LDrdL0jdB4BnCJ</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,82 @@
+﻿@using WD.DataAccess.Enums;
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>WD DataAccess</h1>
+                <h2>We'll demonstrate the power of DataAccess Layer</h2>
+            </hgroup>
+            <p>
+                DataAccess Layer allows you to perform all CRUD operations on different databases directly or over HTTP.
+            </p>
+            <p>
+                To learn more about WD DataAccess visit the
+                <a href="http://go.microsoft.com/fwlink/?LinkID=238195" title="WD DataAccess Website">WD DataAccess Help Library</a>.
+                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from WD DataAccess.
+                If you have any questions about WD DataAccess, visit
+                <a href="http://go.microsoft.com/fwlink/?LinkID=238196" title="WD DataAccess Forum">our forums</a>.
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix" >
+        <h3>We suggest the following steps:</h3>
+        <ol class="round">
+            <li class="one">
+                <h5>Check the Insert command  for SQL Database Started</h5>
+               Using WD DataAccess Developers will be able to connect SQL database and do all operations related to SQL database.
+                @Html.ActionLink("learn more", "Connect", new { area = "", controller = "Home", dbType = DBProvider.Sql }, null)
+            </li>
+
+            <li class="two">
+               <h5>Check the Insert command  for IBM Db2 Database Started</h5>
+               Using WD DataAccess Developers will be able to connect IBM Db2 database and do all operations related to IBM Db2 database.
+               @Html.ActionLink("learn more","Connect",new {area="", controller="Home", dbType=DBProvider.Db2}, null)
+
+            </li>
+            <li class="three">
+               <h5>Check the Insert command  for Oracle Database Started</h5>
+               Using WD DataAccess Developers will be able to connect Oracle database and do all operations related to Oracle database.
+               @Html.ActionLink("learn more","Connect",new {area="", controller="Home", dbType=DBProvider.Oracle2}, null)
+
+            </li>
+        </ol>
+    </section>
+</div>
+@*@section scripts{
+<script type="text/javascript">
+
+    $(function () {
+        var input = {
+            "AuthenticationToken": "abcd123456",
+            "TheSql": [{
+                "CommandText": "SELECT * FROM TempEmployee",
+                "CommandType": 1,
+            }, {
+                "CommandText": "SELECT * FROM TempEmployee",
+                "CommandType": 1,
+            }, {
+                "CommandText": "SELECT * FROM TempEmployee",
+                "CommandType": 1,
+            }],
+            "Connect": {
+                "DbType": 1
+            }
+        };
+        $.ajax({
+            contentType: "application/x-www-form-urlencoded",
+            data: input,
+          //  processData: true,
+           // xhrFields: { username: "abcd", password: "abcd", withCredentials: true },
+            url: "api/DataSet/",
+            type: "POST",
+            cache: false,
+            success: function (response) { alert(JSON.stringify(response)); },
+            error: function (response) { alert(JSON.stringify(response)); },
+        });
+    });
+    function OnSuccess(response) { alert(response); }
+    function OnComplete(response) { alert(response); }
+    function OnError(response) { alert(response); }
+</script>
+}*@

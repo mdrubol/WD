@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WD.DataAccess.Properties" GeneratedClassName="DataAccess">
+  <Profiles />
+  <Settings>
+    <Setting Name="sql" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">b4qiff9yzqP7yC4+/FhC3KBDqXIPoKRtZJRRRGcGBoYSGvDyS5jDj+RK28n7C6tPbL9Koi2Wfjs/thzRBETnbGNg8Sx6XguS</Value>
+    </Setting>
+    <Setting Name="db2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DLPsoPzwA0vyzEk7DZhQc2gpYnAF2AGks7q0Jig0bwXQUaR04bycZ0xjprGlRkdvUz7PPXnvuZywAhI/t+ZvNMy19ZGnNjb4kyQflEMpc0cgt5PFFmlGnD7z3I3hPB3LVjpXdeFVtBSFXK4ozHU2NIWtx+7kfALiz8/2WCEClO59Tav6kB11vg==</Value>
+    </Setting>
+    <Setting Name="oracle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DiLpNYhsJW9O9uKQaD8AwaPcApchhzGYvacSzKIEVQYXXnO5zlBwq5mat20JTqXxDziLqirJf78AlHmzK/nbUC5Y34GijXLBSOCUoVd5Td5iofmFwolgufDNt42EA2BvZZIWon9yYWTxgXGNv0XU+CI9ib/ExwOzB7PSca3By+HZaG62t39LTaIZznJldINW7wyKcBXfXEPkrJync6WP+l1QzkDpFZXOiLmY1GVKIXZFC2pjwX4dYEUJQvyDq+5htpa2V06l76s=</Value>
+    </Setting>
+    <Setting Name="oracle2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DiLpNYhsJW9O9uKQaD8AwaPcApchhzGYvacSzKIEVQYXXnO5zlBwq5mat20JTqXxDziLqirJf78AlHmzK/nbUC5Y34GijXLBSOCUoVd5Td5iofmFwolgufDNt42EA2BvZZIWon9yYWTxgXGNv0XU+CI9ib/ExwOzB7PSca3By+HZaG62t39LTaIZznJldINW7wyKcBXfXEPkrJync6WP+l1QzkDpFZXOiLmY1GVKIXZFC2pjwX4dYEUJQvyDq+5htpa2V06l76s=</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

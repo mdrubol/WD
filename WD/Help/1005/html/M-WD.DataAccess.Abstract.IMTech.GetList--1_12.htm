@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="save" content="history" />
+    <title>GetList(T) Method (Int32, Int32, Int32, Int32, Expression(Func(T, Boolean)))</title>
+    <link rel="stylesheet" type="text/css" href="../styles/lightweight.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <link rel="stylesheet" type="text/css" href="../styles/lw-code.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <script type="text/javascript" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" src="../scripts/languageSelector.js"> </script>
+    <meta name="container" content="WD.DataAccess.Abstract" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="file" content="M-WD.DataAccess.Abstract.IMTech.GetList--1_12" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="guid" content="M-WD.DataAccess.Abstract.IMTech.GetList--1_12" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <xml xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <MSHelp:Attr Name="AssetID" Value="M:WD.DataAccess.Abstract.IMTech.GetList``1(System.Int32,System.Int32,System.Int32,System.Int32@,Expression{Func{``0, System.Boolean}})" />
+      <MSHelp:TOCTitle Title="GetList(T) Method (Int32, Int32, Int32, Int32, Expression(Func(T, Boolean)))" />
+      <MSHelp:RLTitle Title="IMTech.GetList(T) Method (Int32, Int32, Int32, Int32, Expression(Func(T, Boolean))) (WD.DataAccess.Abstract)" />
+      <MSHelp:Keyword Index="A" Term="M:WD.DataAccess.Abstract.IMTech.GetList``1(System.Int32,System.Int32,System.Int32,System.Int32@,Expression{Func{``0, System.Boolean}})" />
+      <MSHelp:Attr Name="APIType" Value="Managed" />
+      <MSHelp:Attr Name="APILocation" Value="WD.DataAccess.dll" />
+      <MSHelp:Attr Name="APIName" Value="WD.DataAccess.Abstract.IMTech.GetList" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="DevLang" Value="VB" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="TopicType" Value="apiref" />
+      <MSHelp:Attr Name="Abstract" Value="Gets a list." />
+      <MSHelp:Attr Name="AssemblyVersion" Value="" />
+    </xml>
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+  </head>
+  <body>
+    <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="content">
+        <div class="topicContainer">
+          <div class="topic">
+            <p class="majorTitle" />
+            <h1 class="title">IMTech<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>GetList<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><span class="typeparameter">T</span><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span> Method (Int32, Int32, Int32, Int32<span class="cpp">%</span>, Expression<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span>Func<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><span class="typeparameter">T</span>, Boolean<span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span>)</h1>
+            <div id="mainSection">
+              <div id="mainBody">
+                <div class="summary">   Gets a list. </div>
+                <p />
+    <b>Namespace:</b> 
+   <a href="N-WD.DataAccess.Abstract.htm">WD.DataAccess.Abstract</a><br />
+    <b>Assembly:</b>
+   <span sdata="assembly">WD.DataAccess</span> (in WD.DataAccess.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTab VisualBasicTab" id="VisualBasicTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','VisualBasicCode','VisualBasicTabId');" title="Visual Basic">VB</a></div><div class="CodeSnippetContainerTab ManagedCPlusPlusTab" id="ManagedCPlusPlusTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','ManagedCPlusPlusCode','ManagedCPlusPlusTabId');" title="Visual C++">C++</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span> <span class="keyword">virtual</span> <a href="http://msdn.microsoft.com/en-us/library/6sh2ey19.aspx" target="_blank">List</a>&lt;T&gt; <span class="identifier">GetList</span>&lt;T&gt;(
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a> <span class="parameter">database</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a> <span class="parameter">pageNumber</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a> <span class="parameter">pageSize</span>,
+	<span class="keyword">out</span> <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a> <span class="parameter">totalCount</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/bb335710.aspx" target="_blank">Expression</a>&lt;<a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a>&lt;T, <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a>&gt;&gt; <span class="parameter">predicate</span>
+)
+</pre></div><div class="CodeSnippetContainerCode VisualBasicCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">Public</span> <span class="keyword">Overridable</span> <span class="keyword">Function</span> <span class="identifier">GetList</span>(<span class="keyword">Of</span> T) ( _
+	<span class="parameter">database</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Integer</a>, _
+	<span class="parameter">pageNumber</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Integer</a>, _
+	<span class="parameter">pageSize</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Integer</a>, _
+	&lt;<a href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.outattribute.aspx" target="_blank">OutAttribute</a>&gt; <span class="keyword">ByRef</span> <span class="parameter">totalCount</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Integer</a>, _
+	<span class="parameter">predicate</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/bb335710.aspx" target="_blank">Expression</a>(<span class="keyword">Of</span> <a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a>(<span class="keyword">Of</span> T, <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a>)) _
+) <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/6sh2ey19.aspx" target="_blank">List</a>(<span class="keyword">Of</span> T)</pre></div><div class="CodeSnippetContainerCode ManagedCPlusPlusCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span>:
+<span class="keyword">generic</span>&lt;<span class="keyword">typename</span> T&gt;
+<span class="keyword">virtual</span> <a href="http://msdn.microsoft.com/en-us/library/6sh2ey19.aspx" target="_blank">List</a>&lt;T&gt;^ <span class="identifier">GetList</span>(
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a>^ <span class="parameter">database</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a>^ <span class="parameter">pageNumber</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a>^ <span class="parameter">pageSize</span>, 
+	[<a href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.outattribute.aspx" target="_blank">OutAttribute</a>] <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a>^% <span class="parameter">totalCount</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/bb335710.aspx" target="_blank">Expression</a>&lt;<a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a>&lt;T, <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a>^&gt;^&gt;^ <span class="parameter">predicate</span>
+)</pre></div></div></div><h4 class="subHeading">Type Parameters</h4><dl><dt><span class="parameterItalic">T</span></dt><dd /></dl><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="database"><dt><span class="parameterItalic">database</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Int32</a><br /></dd></dl><dl paramName="pageNumber"><dt><span class="parameterItalic">pageNumber</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Int32</a><br />Number of page which needs to be shown</dd></dl><dl paramName="pageSize"><dt><span class="parameterItalic">pageSize</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Int32</a><br /> Indicates Number of rows per page </dd></dl><dl paramName="totalCount"><dt><span class="parameterItalic">totalCount</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Int32</a><span class="cpp">%</span><br />Total Number of records</dd></dl><dl paramName="predicate"><dt><span class="parameterItalic">predicate</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/bb335710.aspx" target="_blank">Expression</a><span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a><span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><span class="selflink"><span class="typeparam">T</span></span>, <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span><br />Filter expression</dd></dl></div><h4 class="subHeading">Return Value</h4></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>
+   We should have config.xml and its path defined in App settings before DbContext initialization.
+   <span id="cbc_2" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve">&lt;appSettings&gt;<span class="highlight-comment">// </span>
+    &lt;add key=<span class="highlight-literal">"ConnectionsFile"</span> <span class="highlight-keyword">value</span>=<span class="highlight-literal">"E:\XX\XXX.xml"</span> /&gt; <span class="highlight-comment">// </span>
+   &lt;/appSettings&gt;<span class="highlight-comment">// </span>
+   &lt;xml&gt;<span class="highlight-comment">// </span>
+   &lt;DBCONFIG DEFAULT_DB_SITE=<span class="highlight-literal">"SITP"</span> INVENTORY_FLAG=<span class="highlight-literal">"OFF"</span> TESTERID_CHECK=<span class="highlight-literal">"OFF"</span> IMPORT_DRIVE=<span class="highlight-literal">"OFF"</span> USE_SERVER_TXCONFIG=<span class="highlight-literal">"FALSE"</span> USE_SERVER_CONNECTION_TYPE=<span class="highlight-literal">"FALSE"</span>&gt;<span class="highlight-comment">// </span>
+      &lt;INSTANCES NAME=<span class="highlight-literal">"SITP"</span>&gt;<span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"TX1"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"TX2"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"BR1"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMBR1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"BR2"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;/INSTANCES&gt;<span class="highlight-comment">// </span>
+    &lt;INSTANCES NAME=<span class="highlight-literal">"SITE1"</span>&gt;<span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"TX1"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"TX2"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"BR1"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMBR1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"BR2"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;/INSTANCES&gt;<span class="highlight-comment">// </span>
+   &lt;/DBCONFIG&gt;<span class="highlight-comment">// </span>
+   &lt;/xml&gt;</pre></div></span></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Examples</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exampleSection"><!----></a><span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve">      [CustomAttribute(Name=<span class="highlight-literal">"EMPLOYEE"</span>)]
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Employee
+       {
+
+           [CustomAttribute(IsPrimary = <span class="highlight-keyword">true</span>)]
+           [Display(Name = <span class="highlight-literal">"Id"</span>)]
+            [Required]
+            <span class="highlight-keyword">public</span> <span class="highlight-keyword">int</span>? ID { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+            [Display(Name = <span class="highlight-literal">"Name"</span>)]
+            [Required]
+            [CustomAttribute(Name = <span class="highlight-literal">"NAME"</span>)]
+            <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> Name { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+            [Display(Name = <span class="highlight-literal">"Country"</span>)]
+            [Required]
+            [CustomAttribute(Name = <span class="highlight-literal">"COUNTRY"</span>)]
+            <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> Country { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+            [Display(Name = <span class="highlight-literal">"Location"</span>)]
+            [Required]
+            [CustomAttribute(Name = <span class="highlight-literal">"LOCATION"</span>)]
+            <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> Location { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+            [Display(Name = <span class="highlight-literal">"Address"</span>)]
+            [Required]
+            [CustomAttribute(Name = <span class="highlight-literal">"Address"</span>)]
+            <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> Address { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+
+       }
+<span class="highlight-keyword">class</span> TestClass{
+<span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> Main()
+{
+    <span class="highlight-keyword">int</span> totalCount = <span class="highlight-number">0</span>;
+    ICommands com = <span class="highlight-keyword">new</span> DbContext(<span class="highlight-keyword">true</span>).ICommands;
+    List&lt;Employee&gt; empLst = com.GetList&lt;Employee&gt;(WD.DataAccess.Enums.Databases.BR, <span class="highlight-number">1</span>, <span class="highlight-number">10</span>, <span class="highlight-keyword">out</span> totalCount, X =&gt; X.Address == <span class="highlight-literal">"KL"</span>);
+}
+}</pre></div></span></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-WD.DataAccess.Abstract.IMTech.htm">IMTech Class</a></div><div class="seeAlsoStyle"><a href="Overload-WD.DataAccess.Abstract.IMTech.GetList-.htm">GetList Overload</a></div><div class="seeAlsoStyle"><a href="N-WD.DataAccess.Abstract.htm">WD.DataAccess.Abstract Namespace</a></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="footer" class="footerContainer">
+          <div class="footerLogoContainer">
+            <div style="margin-top:5px">
+              <span class="customCopyrightFooter" />
+            </div>
+            <div style="margin-top:5px" class="copyrightFooter">
+              <a href="http://submain.com/fwlink/gd-help/generated/">Created with evaluation copy of GhostDoc Enterprise. Click here to purchase and remove this link.</a>
+            </div>
+            <div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

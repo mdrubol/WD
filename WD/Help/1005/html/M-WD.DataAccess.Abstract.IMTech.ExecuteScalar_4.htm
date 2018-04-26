@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="save" content="history" />
+    <title>ExecuteScalar Method (Int32, IDbCommand)</title>
+    <link rel="stylesheet" type="text/css" href="../styles/lightweight.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <link rel="stylesheet" type="text/css" href="../styles/lw-code.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <script type="text/javascript" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" src="../scripts/languageSelector.js"> </script>
+    <meta name="container" content="WD.DataAccess.Abstract" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="file" content="M-WD.DataAccess.Abstract.IMTech.ExecuteScalar_4" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="guid" content="M-WD.DataAccess.Abstract.IMTech.ExecuteScalar_4" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <xml xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <MSHelp:Attr Name="AssetID" Value="M:WD.DataAccess.Abstract.IMTech.ExecuteScalar(System.Int32,IDbCommand)" />
+      <MSHelp:TOCTitle Title="ExecuteScalar Method (Int32, IDbCommand)" />
+      <MSHelp:RLTitle Title="IMTech.ExecuteScalar Method (Int32, IDbCommand) (WD.DataAccess.Abstract)" />
+      <MSHelp:Keyword Index="A" Term="M:WD.DataAccess.Abstract.IMTech.ExecuteScalar(System.Int32,IDbCommand)" />
+      <MSHelp:Attr Name="APIType" Value="Managed" />
+      <MSHelp:Attr Name="APILocation" Value="WD.DataAccess.dll" />
+      <MSHelp:Attr Name="APIName" Value="WD.DataAccess.Abstract.IMTech.ExecuteScalar" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="DevLang" Value="VB" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="TopicType" Value="apiref" />
+      <MSHelp:Attr Name="Abstract" Value="Executes the Scalar operation." />
+      <MSHelp:Attr Name="AssemblyVersion" Value="" />
+    </xml>
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+  </head>
+  <body>
+    <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="content">
+        <div class="topicContainer">
+          <div class="topic">
+            <p class="majorTitle" />
+            <h1 class="title">IMTech<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>ExecuteScalar Method (Int32, IDbCommand)</h1>
+            <div id="mainSection">
+              <div id="mainBody">
+                <div class="summary">   Executes the Scalar operation. </div>
+                <p />
+    <b>Namespace:</b> 
+   <a href="N-WD.DataAccess.Abstract.htm">WD.DataAccess.Abstract</a><br />
+    <b>Assembly:</b>
+   <span sdata="assembly">WD.DataAccess</span> (in WD.DataAccess.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTab VisualBasicTab" id="VisualBasicTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','VisualBasicCode','VisualBasicTabId');" title="Visual Basic">VB</a></div><div class="CodeSnippetContainerTab ManagedCPlusPlusTab" id="ManagedCPlusPlusTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','ManagedCPlusPlusCode','ManagedCPlusPlusTabId');" title="Visual C++">C++</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span> <span class="keyword">virtual</span> <a href="http://msdn.microsoft.com/en-us/library/system.object.aspx" target="_blank">Object</a> <span class="identifier">ExecuteScalar</span>(
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a> <span class="parameter">database</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/system.data.idbcommand.aspx" target="_blank">IDbCommand</a> <span class="parameter">command</span>
+)</pre></div><div class="CodeSnippetContainerCode VisualBasicCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">Public</span> <span class="keyword">Overridable</span> <span class="keyword">Function</span> <span class="identifier">ExecuteScalar</span> ( _
+	<span class="parameter">database</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Integer</a>, _
+	<span class="parameter">command</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.data.idbcommand.aspx" target="_blank">IDbCommand</a> _
+) <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.object.aspx" target="_blank">Object</a></pre></div><div class="CodeSnippetContainerCode ManagedCPlusPlusCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span>:
+<span class="keyword">virtual</span> <a href="http://msdn.microsoft.com/en-us/library/system.object.aspx" target="_blank">Object</a>^ <span class="identifier">ExecuteScalar</span>(
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a>^ <span class="parameter">database</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/system.data.idbcommand.aspx" target="_blank">IDbCommand</a>^ <span class="parameter">command</span>
+)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="database"><dt><span class="parameterItalic">database</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Int32</a><br />The database.</dd></dl><dl paramName="command"><dt><span class="parameterItalic">command</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.data.idbcommand.aspx" target="_blank">IDbCommand</a><br />The command.</dd></dl></div><h4 class="subHeading">Return Value</h4>Object</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Exceptions</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exceptionsSection"><!----></a><div class="tableSection"><table width="100%" cellspacing="0" cellpadding="5" frame="lhs"><tr><th class="exceptionNameColumn">Exception</th><th class="exceptionConditionColumn">Condition</th></tr><tr><td><a href="http://msdn.microsoft.com/en-us/library/system.exception.aspx" target="_blank">Exception</a></td><td>    Thrown when an exception error condition occurs. </td></tr></table></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>   Asim Naeem, 7/28/2017. </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>
+   We should have config.xml and its path defined in App settings before DbContext initialization.
+   <span id="cbc_2" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve">&lt;appSettings&gt;<span class="highlight-comment">// </span>
+    &lt;add key=<span class="highlight-literal">"ConnectionsFile"</span> <span class="highlight-keyword">value</span>=<span class="highlight-literal">"E:\XX\XXX.xml"</span> /&gt; <span class="highlight-comment">// </span>
+   &lt;/appSettings&gt;<span class="highlight-comment">// </span>
+   &lt;xml&gt;<span class="highlight-comment">// </span>
+   &lt;DBCONFIG DEFAULT_DB_SITE=<span class="highlight-literal">"SITP"</span> INVENTORY_FLAG=<span class="highlight-literal">"OFF"</span> TESTERID_CHECK=<span class="highlight-literal">"OFF"</span> IMPORT_DRIVE=<span class="highlight-literal">"OFF"</span> USE_SERVER_TXCONFIG=<span class="highlight-literal">"FALSE"</span> USE_SERVER_CONNECTION_TYPE=<span class="highlight-literal">"FALSE"</span>&gt;<span class="highlight-comment">// </span>
+      &lt;INSTANCES NAME=<span class="highlight-literal">"SITP"</span>&gt;<span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"TX1"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"TX2"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"BR1"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMBR1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"BR2"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;/INSTANCES&gt;<span class="highlight-comment">// </span>
+    &lt;INSTANCES NAME=<span class="highlight-literal">"SITE1"</span>&gt;<span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"TX1"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"TX2"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"BR1"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMBR1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;DB ID=<span class="highlight-literal">"BR2"</span> DBType=<span class="highlight-literal">"SQL"</span> DBName=<span class="highlight-literal">"WDMTX1"</span> Server=<span class="highlight-literal">"XXX-XX-XXXXX"</span> CONNECTTYPE=<span class="highlight-literal">"ONLINE"</span> /&gt; <span class="highlight-comment">// </span>
+      &lt;/INSTANCES&gt;<span class="highlight-comment">// </span>
+   &lt;/DBCONFIG&gt;<span class="highlight-comment">// </span>
+   &lt;/xml&gt;</pre></div></span></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Examples</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exampleSection"><!----></a><span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve"> <span class="highlight-keyword">class</span> Program
+{
+  <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> Main()
+  {
+     WD.DataAccess.Context.DbContext dbContext = <span class="highlight-keyword">new</span> WD.DataAccess.Context.DbContext(<span class="highlight-keyword">false</span>);
+     <span class="highlight-comment">//OPEN QUERY</span>
+     <span class="highlight-keyword">string</span> theSql = <span class="highlight-literal">"Select FirstName from employee where EmployeeId=1"</span>;
+
+    IDbCommand dbCommand = dbContext.ICommands.CreateCommand(theSql, CommandType.Text);
+
+    <span class="highlight-comment">// database and command object</span>
+    <span class="highlight-keyword">string</span> firstName = (<span class="highlight-keyword">string</span>)dbContext.ICommands.ExecuteScalar(WD.DataAccess.Enums.Databases.BR,dbCommand);
+    <span class="highlight-comment">//or</span>
+    <span class="highlight-comment">// databse (BR/TX), Databse instance(1=BR1/TX1 or 2=BR2/TX2) and command object</span>
+    firstName = (<span class="highlight-keyword">string</span>)dbContext.ICommands.ExecuteScalar(WD.DataAccess.Enums.Databases.BR, <span class="highlight-number">1</span>,dbCommand);
+
+
+    <span class="highlight-comment">//QUERY WITH PARAMETER</span>
+    theSql = <span class="highlight-literal">"Select FirstName from employee where EmployeeId=@EmployeeId"</span>;
+    WD.DataAccess.Parameters.DBParameter[] aParams = <span class="highlight-keyword">new</span> WD.DataAccess.Parameters.DBParameter[<span class="highlight-number">1</span>];
+    aParams[<span class="highlight-number">0</span>] = <span class="highlight-keyword">new</span> WD.DataAccess.Parameters.DBParameter();
+    aParams[<span class="highlight-number">0</span>].ParameterName = <span class="highlight-literal">"EmployeeId"</span>;
+    aParams[<span class="highlight-number">0</span>].ParameterValue = <span class="highlight-literal">"1"</span>;
+
+    dbCommand = dbContext.ICommands.CreateCommand(theSql, CommandType.Text, aParams);
+    <span class="highlight-comment">// databaseand command object</span>
+    firstName = (<span class="highlight-keyword">string</span>)dbContext.ICommands.ExecuteScalar(WD.DataAccess.Enums.Databases.BR, dbCommand);
+    <span class="highlight-comment">//or</span>
+    <span class="highlight-comment">// databse (BR/TX), Databse instance(1=BR1/TX1 or 2=BR2/TX2) and command object</span>
+    firstName = (<span class="highlight-keyword">string</span>)dbContext.ICommands.ExecuteScalar(WD.DataAccess.Enums.Databases.BR, <span class="highlight-number">1</span>,dbCommand);
+
+  }
+
+}</pre></div></span></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-WD.DataAccess.Abstract.IMTech.htm">IMTech Class</a></div><div class="seeAlsoStyle"><a href="Overload-WD.DataAccess.Abstract.IMTech.ExecuteScalar.htm">ExecuteScalar Overload</a></div><div class="seeAlsoStyle"><a href="N-WD.DataAccess.Abstract.htm">WD.DataAccess.Abstract Namespace</a></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="footer" class="footerContainer">
+          <div class="footerLogoContainer">
+            <div style="margin-top:5px">
+              <span class="customCopyrightFooter" />
+            </div>
+            <div style="margin-top:5px" class="copyrightFooter">
+              <a href="http://submain.com/fwlink/gd-help/generated/">Created with evaluation copy of GhostDoc Enterprise. Click here to purchase and remove this link.</a>
+            </div>
+            <div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

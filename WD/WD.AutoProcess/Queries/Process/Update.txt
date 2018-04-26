@@ -1,0 +1,1 @@
+﻿Update lu_process_control set process_term_ind=:CODE where process_Code IN (:PCODE)

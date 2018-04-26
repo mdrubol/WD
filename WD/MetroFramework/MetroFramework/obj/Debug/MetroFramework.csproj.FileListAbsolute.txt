@@ -1,0 +1,10 @@
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework\bin\Debug\MetroFramework.dll
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework\bin\Debug\MetroFramework.pdb
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework\obj\Debug\MetroFramework.csprojResolveAssemblyReference.cache
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework\obj\Debug\MetroFramework.Controls.MetroGrid.resources
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework\obj\Debug\MetroFramework.Controls.MetroTextBox.resources
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework\obj\Debug\MetroFramework.MetroMessageBoxControl.resources
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework\obj\Debug\MetroFramework.Properties.Resources.resources
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework\obj\Debug\MetroFramework.csproj.GenerateResource.Cache
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework\obj\Debug\MetroFramework.dll
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework\obj\Debug\MetroFramework.pdb

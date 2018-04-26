@@ -1,0 +1,159 @@
+﻿<h1>DataSet</h1>
+<div class="row">
+    <h3>In this screen we show how to consume dataset </h3>
+</div>
+<div class="clearfix"></div>
+<div class="row">
+    <div class="col-lg-2">
+        Authentication Key:
+    </div>
+    <div class="col-lg-3">
+        <input type="text" ng-model="authenticationKey" />
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="row">
+    <div class="col-lg-2">
+        DbProvider1:
+    </div>
+    <div class="col-lg-2">
+        <select ng-model="dbProvider" ng-options="x.text for x  in dbProviders track by x.value" ng-change="getProvider()"></select>
+    </div>
+    <div class="col-lg-2" ng-hide="hider">ConnectionString</div>
+    <div class="col-lg-2" ng-hide="hider">
+        <select ng-model="conString" ng-options="x.ConnectionName for x  in conStrings  track by x.ConnectionName"></select>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="row">
+    <div class="col-lg-2">
+        DbProvider2:
+    </div>
+    <div class="col-lg-2">
+        <select ng-model="dbProvider2" ng-options="x.text for x  in dbProviders2 track by x.value" ng-change="getProvider2()"></select>
+    </div>
+    <div class="col-lg-2" ng-hide="hider">ConnectionString</div>
+    <div class="col-lg-2" ng-hide="hider">
+        <select ng-model="conString2" ng-options="x.ConnectionName for x  in conStrings  track by x.ConnectionName"></select>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="row  pull-right">
+    <div class="col-lg-12">
+        <input type="button" ng-click="addSql()" value="(+) SQL" class="btn btn-success" />
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="row">
+    <div class="col-lg-12">
+        <table class="table table-stripped">
+            <tbody>
+                <tr ng-repeat="x in theSqls">
+                    <td style="width: 30% !important">
+                        <textarea ng-model="x.commandText" cols="50" rows="10"></textarea>
+                    </td>
+                    <td style="width: 25% !important">
+                        <select ng-model="x.commandType" ng-options="x.text for x  in commandTypes track by x.text"></select>
+                    </td>
+                    <td style="width: 35% !important">
+                        <input type="button" ng-click="addParam(x)" class="btn btn-success" value="(+)Param" />
+                        <table class="table table-stripped">
+                            <tbody>
+                                <tr ng-repeat="p in x.Params">
+                                    <td>
+                                        <input type="text" ng-model="p.ParameterName" />
+
+                                    </td>
+                                    <td>
+                                        <input type="text" ng-model="p.ParameterValue" />
+
+                                    </td>
+                                    <td>
+                                        <input type="button" ng-click="deleteParam(x,p)" value="(-)Param" class="btn btn-danger" />
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td style="width: 10% !important">
+                        <input type="button" ng-hide="myCheck" ng-click="deleteSql(x)" value="(-)" class="btn btn-danger" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="row">
+        </div>
+
+        <!---->
+    </div>
+    <!-- <div class="col-lg-4">
+    </div>-->
+</div>
+<div class="clearfix"></div>
+<div class="row">
+    <div class="col-lg-12">
+        <button ng-click="getDatSet()" class="btn btn-primary">Search</button>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="row">
+    <div class="col-lg-5">
+        <div class="row">
+            {{dbProvider.text}} 
+        </div>
+        <div class="clearfix"></div>
+        <div class="row alert-danger">
+            {{status1}}
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <table class="table table-stripped">
+                <tr ng-repeat="x in data1">
+                    <td>{{ $index + 1 }}</td>
+                    <td>
+                        <table class="table table-stripped">
+                            <tbody>
+                                <tr ng-repeat="y in x">
+                                    <td ng-repeat="i in y">{{i}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-5">
+        <div class="row">
+            {{dbProvider2.text}} 
+        </div>
+        <div class="row alert-danger">
+            {{status2}}
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <table class="table table-stripped">
+                <tr ng-repeat="x in data2">
+                    <td>{{ $index + 1 }}</td>
+                    <td>
+                        <table class="table table-stripped">
+                            <tbody>
+                                <tr ng-repeat="y in x">
+                                    <td ng-repeat="i in y">{{i}}
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

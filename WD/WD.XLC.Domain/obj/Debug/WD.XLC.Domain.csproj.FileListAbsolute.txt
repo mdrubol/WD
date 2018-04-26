@@ -1,0 +1,11 @@
+D:\WDProjects\DALProject\DEV\WD\WD.XLC.Domain\bin\Debug\WD.XLC.Domain.dll
+D:\WDProjects\DALProject\DEV\WD\WD.XLC.Domain\bin\Debug\WD.XLC.Domain.pdb
+D:\WDProjects\DALProject\DEV\WD\WD.XLC.Domain\bin\Debug\Newtonsoft.Json.dll
+D:\WDProjects\DALProject\DEV\WD\WD.XLC.Domain\bin\Debug\WD.DataAccess.dll
+D:\WDProjects\DALProject\DEV\WD\WD.XLC.Domain\bin\Debug\log4net.dll
+D:\WDProjects\DALProject\DEV\WD\WD.XLC.Domain\bin\Debug\WD.DataAccess.pdb
+D:\WDProjects\DALProject\DEV\WD\WD.XLC.Domain\bin\Debug\WD.DataAccess.xml
+D:\WDProjects\DALProject\DEV\WD\WD.XLC.Domain\bin\Debug\log4net.xml
+D:\WDProjects\DALProject\DEV\WD\WD.XLC.Domain\obj\Debug\WD.XLC.Domain.csprojResolveAssemblyReference.cache
+D:\WDProjects\DALProject\DEV\WD\WD.XLC.Domain\obj\Debug\WD.XLC.Domain.dll
+D:\WDProjects\DALProject\DEV\WD\WD.XLC.Domain\obj\Debug\WD.XLC.Domain.pdb

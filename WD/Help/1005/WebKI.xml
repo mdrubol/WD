@@ -1,0 +1,1369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Access field" Url="html/F-WD.DataAccess.Enums.DBProvider.Access.htm" />
+  <HelpKINode Title="ActivateOptions method" Url="html/M-WD.DataAccess.Logger.LogAppender.ActivateOptions.htm" />
+  <HelpKINode Title="ActiveFlag property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.ActiveFlag.htm" />
+  <HelpKINode Title="Add method" Url="html/M-WD.DataAccess.Helpers.LogString.Add.htm" />
+  <HelpKINode Title="AppConfiguration class">
+    <HelpKINode Title="AppConfiguration Class" Url="html/T-WD.DataAccess.Configurations.AppConfiguration.htm" />
+    <HelpKINode Title="AppConfiguration Members" Url="html/AllMembers.T-WD.DataAccess.Configurations.AppConfiguration.htm" />
+    <HelpKINode Title="about AppConfiguration class" Url="html/T-WD.DataAccess.Configurations.AppConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Configurations.AppConfiguration.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Configurations.AppConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Appender class">
+    <HelpKINode Title="Appender Class" Url="html/T-WD.DataAccess.Logger.Appender.htm" />
+    <HelpKINode Title="Appender Members" Url="html/AllMembers.T-WD.DataAccess.Logger.Appender.htm" />
+    <HelpKINode Title="about Appender class" Url="html/T-WD.DataAccess.Logger.Appender.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Logger.Appender.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Logger.Appender.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Logger.Appender.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Appender.File property" Url="html/P-WD.DataAccess.Logger.Appender.File.htm" />
+  <HelpKINode Title="Appender.Name property" Url="html/P-WD.DataAccess.Logger.Appender.Name.htm" />
+  <HelpKINode Title="Appenders property" Url="html/P-WD.DataAccess.Logger.Log4net.Appenders.htm" />
+  <HelpKINode Title="ASC enumeration member" Url="html/T-WD.DataAccess.Enums.SortOption.htm" />
+  <HelpKINode Title="ASC field" Url="html/F-WD.DataAccess.Enums.SortOption.ASC.htm" />
+  <HelpKINode Title="AuthenticationToken property" Url="html/P-WD.DataAccess.Helpers.Wrapper.AuthenticationToken.htm" />
+  <HelpKINode Title="BeginTransaction method" Url="html/Overload-WD.DataAccess.Abstract.IDatabase.BeginTransaction.htm" />
+  <HelpKINode Title="Binary enumeration member" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer.htm" />
+  <HelpKINode Title="Binary field" Url="html/F-WD.DataAccess.Helpers.ObjectXMLSerializer.Binary.htm" />
+  <HelpKINode Title="Bit enumeration member" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="Bit field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Bit.htm" />
+  <HelpKINode Title="BR field" Url="html/F-WD.DataAccess.Enums.Databases.BR.htm" />
+  <HelpKINode Title="BulkDelete method">
+    <HelpKINode Title="BulkDelete Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.BulkDelete.htm" />
+    <HelpKINode Title="BulkDelete Method " Url="html/M-WD.DataAccess.Concrete.OracleDatabase.BulkDelete.htm" />
+    <HelpKINode Title="BulkDelete Method " Url="html/Overload-WD.DataAccess.Concrete.OracleDatabase.BulkDelete.htm" />
+    <HelpKINode Title="BulkDelete Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.BulkDelete.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BulkInsert method">
+    <HelpKINode Title="BulkInsert Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.BulkInsert.htm" />
+    <HelpKINode Title="BulkInsert Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.BulkInsert.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BulkUpdate method">
+    <HelpKINode Title="BulkUpdate Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.BulkUpdate.htm" />
+    <HelpKINode Title="BulkUpdate Method " Url="html/M-WD.DataAccess.Concrete.OracleDatabase.BulkUpdate.htm" />
+    <HelpKINode Title="BulkUpdate Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.BulkUpdate.htm" />
+    <HelpKINode Title="BulkUpdate Method " Url="html/Overload-WD.DataAccess.Concrete.OracleDatabase.BulkUpdate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Byte enumeration member" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="Byte field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Byte.htm" />
+  <HelpKINode Title="Clear method" Url="html/M-WD.DataAccess.Helpers.LogString.Clear.htm" />
+  <HelpKINode Title="ClearAll method" Url="html/M-WD.DataAccess.Helpers.LogString.ClearAll.htm" />
+  <HelpKINode Title="Close method" Url="html/M-WD.DataAccess.Logger.LogAppender.Close.htm" />
+  <HelpKINode Title="CloseConnection method">
+    <HelpKINode Title="CloseConnection Method " Url="html/M-WD.DataAccess.Abstract.ICommands.CloseConnection.htm" />
+    <HelpKINode Title="CloseConnection Method " Url="html/M-WD.DataAccess.Abstract.IDatabase.CloseConnection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ColumnDefinition property" Url="html/P-WD.DataAccess.Helpers.SchemeDef.ColumnDefinition.htm" />
+  <HelpKINode Title="ColumnNumber property" Url="html/P-WD.DataAccess.Helpers.ItemSpecification.ColumnNumber.htm" />
+  <HelpKINode Title="ColumnWidth property" Url="html/P-WD.DataAccess.Helpers.ItemSpecification.ColumnWidth.htm" />
+  <HelpKINode Title="CommandText property" Url="html/P-WD.DataAccess.Helpers.SqlStatement.CommandText.htm" />
+  <HelpKINode Title="CommandType property" Url="html/P-WD.DataAccess.Helpers.SqlStatement.CommandType.htm" />
+  <HelpKINode Title="CommitTransaction method" Url="html/M-WD.DataAccess.Abstract.IDatabase.CommitTransaction.htm" />
+  <HelpKINode Title="Compare method" Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.Compare.htm" />
+  <HelpKINode Title="Connect class">
+    <HelpKINode Title="Connect Class" Url="html/T-WD.DataAccess.Helpers.Connect.htm" />
+    <HelpKINode Title="Connect Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.Connect.htm" />
+    <HelpKINode Title="about Connect class" Url="html/T-WD.DataAccess.Helpers.Connect.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.Connect.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.Connect.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Helpers.Connect.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Connect property" Url="html/P-WD.DataAccess.Helpers.Wrapper.Connect.htm" />
+  <HelpKINode Title="Connect.ConnectionName property" Url="html/P-WD.DataAccess.Helpers.Connect.ConnectionName.htm" />
+  <HelpKINode Title="Connect.ConnectionString property" Url="html/P-WD.DataAccess.Helpers.Connect.ConnectionString.htm" />
+  <HelpKINode Title="Connect.DbProvider property" Url="html/P-WD.DataAccess.Helpers.Connect.DbProvider.htm" />
+  <HelpKINode Title="Connection property">
+    <HelpKINode Title="Connection Property " Url="html/P-WD.DataAccess.Abstract.ICommands.Connection.htm" />
+    <HelpKINode Title="Connection Property " Url="html/P-WD.DataAccess.Abstract.IDatabase.Connection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConnectionName property" Url="html/P-WD.DataAccess.Helpers.Connect.ConnectionName.htm" />
+  <HelpKINode Title="Connections class">
+    <HelpKINode Title="Connections Class" Url="html/T-WD.DataAccess.Mitecs.Connections.htm" />
+    <HelpKINode Title="Connections Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.Connections.htm" />
+    <HelpKINode Title="about Connections class" Url="html/T-WD.DataAccess.Mitecs.Connections.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.Connections.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Mitecs.Connections.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Mitecs.Connections.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Connections.Connections constructor" Url="html/Overload-WD.DataAccess.Mitecs.Connections.-ctor.htm" />
+  <HelpKINode Title="Connections.ConnectionString method" Url="html/M-WD.DataAccess.Mitecs.Connections.ConnectionString.htm" />
+  <HelpKINode Title="ConnectionString method" Url="html/M-WD.DataAccess.Mitecs.Connections.ConnectionString.htm" />
+  <HelpKINode Title="ConnectionString property" Url="html/P-WD.DataAccess.Helpers.Connect.ConnectionString.htm" />
+  <HelpKINode Title="ConnectType property" Url="html/P-WD.DataAccess.Mitecs.DB.ConnectType.htm" />
+  <HelpKINode Title="Constructor method" Url="html/M-WD.DataAccess.Context.DbContext.Constructor.htm" />
+  <HelpKINode Title="ConvertString method" Url="html/M-WD.DataAccess.Helpers.StringConverter.ConvertString.htm" />
+  <HelpKINode Title="CopyToTemporaryDirectory method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.CopyToTemporaryDirectory.htm" />
+  <HelpKINode Title="Count method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Count.htm" />
+  <HelpKINode Title="CreateAdapter method" Url="html/M-WD.DataAccess.Abstract.ICommands.CreateAdapter.htm" />
+  <HelpKINode Title="CreateCommand method" Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateCommand.htm" />
+  <HelpKINode Title="CreateConnection method">
+    <HelpKINode Title="CreateConnection Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.CreateConnection.htm" />
+    <HelpKINode Title="CreateConnection Method " Url="html/Overload-WD.DataAccess.Abstract.ICommands.CreateConnection.htm" />
+    <HelpKINode Title="CreateConnection Method " Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateConnection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateDataTable method" Url="html/M-WD.DataAccess.Helpers.CSVReader.CreateDataTable.htm" />
+  <HelpKINode Title="CreateOpenConnection method">
+    <HelpKINode Title="CreateOpenConnection Method " Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateOpenConnection.htm" />
+    <HelpKINode Title="CreateOpenConnection Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.CreateOpenConnection.htm" />
+    <HelpKINode Title="CreateOpenConnection Method " Url="html/Overload-WD.DataAccess.Abstract.ICommands.CreateOpenConnection.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateParameter method" Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateParameter.htm" />
+  <HelpKINode Title="CreateSchemaIni method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.CreateSchemaIni.htm" />
+  <HelpKINode Title="CsvDelimited enumeration member" Url="html/T-WD.DataAccess.Helpers.SchemeDef.DelimType.htm" />
+  <HelpKINode Title="CsvDelimited field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.DelimType.CsvDelimited.htm" />
+  <HelpKINode Title="CSVReader class">
+    <HelpKINode Title="CSVReader Class" Url="html/T-WD.DataAccess.Helpers.CSVReader.htm" />
+    <HelpKINode Title="CSVReader Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.CSVReader.htm" />
+    <HelpKINode Title="about CSVReader class" Url="html/T-WD.DataAccess.Helpers.CSVReader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.CSVReader.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Helpers.CSVReader.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-WD.DataAccess.Helpers.CSVReader.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.CSVReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CSVReader.CreateDataTable method" Url="html/M-WD.DataAccess.Helpers.CSVReader.CreateDataTable.htm" />
+  <HelpKINode Title="CSVReader.CSVReader constructor" Url="html/Overload-WD.DataAccess.Helpers.CSVReader.-ctor.htm" />
+  <HelpKINode Title="CSVReader.Dispose method" Url="html/M-WD.DataAccess.Helpers.CSVReader.Dispose.htm" />
+  <HelpKINode Title="CSVReader.NEWLINE field" Url="html/F-WD.DataAccess.Helpers.CSVReader.NEWLINE.htm" />
+  <HelpKINode Title="CSVReader.ReadCSVFile method" Url="html/Overload-WD.DataAccess.Helpers.CSVReader.ReadCSVFile.htm" />
+  <HelpKINode Title="CSVReader.ReadRow method" Url="html/M-WD.DataAccess.Helpers.CSVReader.ReadRow.htm" />
+  <HelpKINode Title="CSVReader.ScanRows field" Url="html/F-WD.DataAccess.Helpers.CSVReader.ScanRows.htm" />
+  <HelpKINode Title="Currency enumeration member" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="Currency field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Currency.htm" />
+  <HelpKINode Title="CustomAttribute class">
+    <HelpKINode Title="CustomAttribute Class" Url="html/T-WD.DataAccess.Attributes.CustomAttribute.htm" />
+    <HelpKINode Title="CustomAttribute Members" Url="html/AllMembers.T-WD.DataAccess.Attributes.CustomAttribute.htm" />
+    <HelpKINode Title="about CustomAttribute class" Url="html/T-WD.DataAccess.Attributes.CustomAttribute.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Attributes.CustomAttribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Attributes.CustomAttribute.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Attributes.CustomAttribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Attributes.CustomAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CustomAttribute.CustomAttribute constructor" Url="html/M-WD.DataAccess.Attributes.CustomAttribute.-ctor.htm" />
+  <HelpKINode Title="CustomAttribute.DataType property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.DataType.htm" />
+  <HelpKINode Title="CustomAttribute.IsPrimary property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.IsPrimary.htm" />
+  <HelpKINode Title="CustomAttribute.IsReadOnly property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.IsReadOnly.htm" />
+  <HelpKINode Title="CustomAttribute.Name property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.Name.htm" />
+  <HelpKINode Title="CustomAttribute.NotMapped property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.NotMapped.htm" />
+  <HelpKINode Title="CustomAttribute.Order property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.Order.htm" />
+  <HelpKINode Title="CustomAttribute.Size property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.Size.htm" />
+  <HelpKINode Title="CustomDelimited enumeration member" Url="html/T-WD.DataAccess.Helpers.SchemeDef.DelimType.htm" />
+  <HelpKINode Title="CustomDelimited field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.DelimType.CustomDelimited.htm" />
+  <HelpKINode Title="CustomDelimiter property" Url="html/P-WD.DataAccess.Helpers.SchemeDef.CustomDelimiter.htm" />
+  <HelpKINode Title="DatabaseName property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.DatabaseName.htm" />
+  <HelpKINode Title="Databases class">
+    <HelpKINode Title="Databases Class" Url="html/T-WD.DataAccess.Enums.Databases.htm" />
+    <HelpKINode Title="Databases Members" Url="html/AllMembers.T-WD.DataAccess.Enums.Databases.htm" />
+    <HelpKINode Title="about Databases class" Url="html/T-WD.DataAccess.Enums.Databases.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Enums.Databases.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Enums.Databases.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-WD.DataAccess.Enums.Databases.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Enums.Databases.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Databases.BR field" Url="html/F-WD.DataAccess.Enums.Databases.BR.htm" />
+  <HelpKINode Title="Databases.Databases constructor" Url="html/M-WD.DataAccess.Enums.Databases.-ctor.htm" />
+  <HelpKINode Title="Databases.TX field" Url="html/F-WD.DataAccess.Enums.Databases.TX.htm" />
+  <HelpKINode Title="DatabaseTransaction property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.DatabaseTransaction.htm" />
+  <HelpKINode Title="DataReaderMapper(Of T) class">
+    <HelpKINode Title="DataReaderMapper(T) Class" Url="html/T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+    <HelpKINode Title="DataReaderMapper(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+    <HelpKINode Title="about DataReaderMapper(Of T) class" Url="html/T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Helpers.DataReaderMapper-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataReaderMapper(Of T).DataReaderMapper constructor" Url="html/M-WD.DataAccess.Helpers.DataReaderMapper-1.-ctor.htm" />
+  <HelpKINode Title="DataReaderMapper(Of T).MapFrom method" Url="html/M-WD.DataAccess.Helpers.DataReaderMapper-1.MapFrom.htm" />
+  <HelpKINode Title="DataReaderMapper&lt;T&gt; class">
+    <HelpKINode Title="DataReaderMapper(T) Class" Url="html/T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+    <HelpKINode Title="DataReaderMapper(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+    <HelpKINode Title="about DataReaderMapper&lt;T&gt; class" Url="html/T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Helpers.DataReaderMapper-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataReaderMapper&lt;T&gt;.DataReaderMapper constructor" Url="html/M-WD.DataAccess.Helpers.DataReaderMapper-1.-ctor.htm" />
+  <HelpKINode Title="DataReaderMapper&lt;T&gt;.MapFrom method" Url="html/M-WD.DataAccess.Helpers.DataReaderMapper-1.MapFrom.htm" />
+  <HelpKINode Title="DataRowMapper class">
+    <HelpKINode Title="DataRowMapper Class" Url="html/T-WD.DataAccess.Helpers.DataRowMapper.htm" />
+    <HelpKINode Title="DataRowMapper Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataRowMapper.htm" />
+    <HelpKINode Title="about DataRowMapper class" Url="html/T-WD.DataAccess.Helpers.DataRowMapper.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataRowMapper.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Helpers.DataRowMapper.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.DataRowMapper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataRowMapper.DataRowMapper constructor" Url="html/M-WD.DataAccess.Helpers.DataRowMapper.-ctor.htm" />
+  <HelpKINode Title="DataRowMapper.MapFrom method" Url="html/M-WD.DataAccess.Helpers.DataRowMapper.MapFrom.htm" />
+  <HelpKINode Title="DataTableExtension class">
+    <HelpKINode Title="DataTableExtension Class" Url="html/T-WD.DataAccess.Helpers.DataTableExtension.htm" />
+    <HelpKINode Title="DataTableExtension Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataTableExtension.htm" />
+    <HelpKINode Title="about DataTableExtension class" Url="html/T-WD.DataAccess.Helpers.DataTableExtension.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataTableExtension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.DataTableExtension.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataTableExtension.WriteToCsvFile method" Url="html/M-WD.DataAccess.Helpers.DataTableExtension.WriteToCsvFile.htm" />
+  <HelpKINode Title="DataType property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.DataType.htm" />
+  <HelpKINode Title="DateTime enumeration member" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="DateTime field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.DateTime.htm" />
+  <HelpKINode Title="DB class">
+    <HelpKINode Title="DB Class" Url="html/T-WD.DataAccess.Mitecs.DB.htm" />
+    <HelpKINode Title="DB Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.DB.htm" />
+    <HelpKINode Title="about DB class" Url="html/T-WD.DataAccess.Mitecs.DB.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.DB.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Mitecs.DB.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Mitecs.DB.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DB.ConnectType property" Url="html/P-WD.DataAccess.Mitecs.DB.ConnectType.htm" />
+  <HelpKINode Title="DB.DBName property" Url="html/P-WD.DataAccess.Mitecs.DB.DBName.htm" />
+  <HelpKINode Title="DB.DBType property" Url="html/P-WD.DataAccess.Mitecs.DB.DBType.htm" />
+  <HelpKINode Title="DB.ID property" Url="html/P-WD.DataAccess.Mitecs.DB.ID.htm" />
+  <HelpKINode Title="DB.Server property" Url="html/P-WD.DataAccess.Mitecs.DB.Server.htm" />
+  <HelpKINode Title="Db2 field" Url="html/F-WD.DataAccess.Enums.DBProvider.Db2.htm" />
+  <HelpKINode Title="Db2Database class">
+    <HelpKINode Title="Db2Database Class" Url="html/T-WD.DataAccess.Concrete.Db2Database.htm" />
+    <HelpKINode Title="Db2Database Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.Db2Database.htm" />
+    <HelpKINode Title="about Db2Database class" Url="html/T-WD.DataAccess.Concrete.Db2Database.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Concrete.Db2Database.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Concrete.Db2Database.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Concrete.Db2Database.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Concrete.Db2Database.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Db2Database.Db2Database constructor" Url="html/Overload-WD.DataAccess.Concrete.Db2Database.-ctor.htm" />
+  <HelpKINode Title="DbContext class">
+    <HelpKINode Title="DbContext Class" Url="html/T-WD.DataAccess.Context.DbContext.htm" />
+    <HelpKINode Title="DbContext Members" Url="html/AllMembers.T-WD.DataAccess.Context.DbContext.htm" />
+    <HelpKINode Title="about DbContext class" Url="html/T-WD.DataAccess.Context.DbContext.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Context.DbContext.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Context.DbContext.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Context.DbContext.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Context.DbContext.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DbContext.Constructor method" Url="html/M-WD.DataAccess.Context.DbContext.Constructor.htm" />
+  <HelpKINode Title="DbContext.DbContext constructor" Url="html/Overload-WD.DataAccess.Context.DbContext.-ctor.htm" />
+  <HelpKINode Title="DbContext.ICommands property" Url="html/P-WD.DataAccess.Context.DbContext.ICommands.htm" />
+  <HelpKINode Title="DbContext.ImportDrive property" Url="html/P-WD.DataAccess.Context.DbContext.ImportDrive.htm" />
+  <HelpKINode Title="DbContext.InventoryFlag property" Url="html/P-WD.DataAccess.Context.DbContext.InventoryFlag.htm" />
+  <HelpKINode Title="DbContext.ReportingDbName property" Url="html/P-WD.DataAccess.Context.DbContext.ReportingDbName.htm" />
+  <HelpKINode Title="DbContext.SiteLocation property" Url="html/P-WD.DataAccess.Context.DbContext.SiteLocation.htm" />
+  <HelpKINode Title="DbContext.SiteName property" Url="html/P-WD.DataAccess.Context.DbContext.SiteName.htm" />
+  <HelpKINode Title="DbContext.TesterIdCheck property" Url="html/P-WD.DataAccess.Context.DbContext.TesterIdCheck.htm" />
+  <HelpKINode Title="DbContext.TimeLog property" Url="html/P-WD.DataAccess.Context.DbContext.TimeLog.htm" />
+  <HelpKINode Title="DbContext.UserServerConnectionType property" Url="html/P-WD.DataAccess.Context.DbContext.UserServerConnectionType.htm" />
+  <HelpKINode Title="DbContext.UserServerTxConfig property" Url="html/P-WD.DataAccess.Context.DbContext.UserServerTxConfig.htm" />
+  <HelpKINode Title="DbContext.xmlInstance property" Url="html/P-WD.DataAccess.Context.DbContext.xmlInstance.htm" />
+  <HelpKINode Title="DbDateTime method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.DbDateTime.htm" />
+  <HelpKINode Title="DBName property" Url="html/P-WD.DataAccess.Mitecs.DB.DBName.htm" />
+  <HelpKINode Title="DBParameter class">
+    <HelpKINode Title="DBParameter Class" Url="html/T-WD.DataAccess.Parameters.DBParameter.htm" />
+    <HelpKINode Title="DBParameter Members" Url="html/AllMembers.T-WD.DataAccess.Parameters.DBParameter.htm" />
+    <HelpKINode Title="about DBParameter class" Url="html/T-WD.DataAccess.Parameters.DBParameter.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Parameters.DBParameter.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Parameters.DBParameter.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Parameters.DBParameter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Parameters.DBParameter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DBParameter.DBParameter constructor" Url="html/Overload-WD.DataAccess.Parameters.DBParameter.-ctor.htm" />
+  <HelpKINode Title="DBParameter.ParamDirection property" Url="html/P-WD.DataAccess.Parameters.DBParameter.ParamDirection.htm" />
+  <HelpKINode Title="DBParameter.ParameterName property" Url="html/P-WD.DataAccess.Parameters.DBParameter.ParameterName.htm" />
+  <HelpKINode Title="DBParameter.ParameterValue property" Url="html/P-WD.DataAccess.Parameters.DBParameter.ParameterValue.htm" />
+  <HelpKINode Title="DBParameter.Type property" Url="html/P-WD.DataAccess.Parameters.DBParameter.Type.htm" />
+  <HelpKINode Title="DBProvider class">
+    <HelpKINode Title="DBProvider Class" Url="html/T-WD.DataAccess.Enums.DBProvider.htm" />
+    <HelpKINode Title="DBProvider Members" Url="html/AllMembers.T-WD.DataAccess.Enums.DBProvider.htm" />
+    <HelpKINode Title="about DBProvider class" Url="html/T-WD.DataAccess.Enums.DBProvider.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Enums.DBProvider.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Enums.DBProvider.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-WD.DataAccess.Enums.DBProvider.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Enums.DBProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DBProvider property">
+    <HelpKINode Title="DBProvider Property " Url="html/P-WD.DataAccess.Abstract.ICommands.DBProvider.htm" />
+    <HelpKINode Title="DBProvider Property " Url="html/P-WD.DataAccess.Abstract.IDatabase.DBProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="dbProvider property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.dbProvider.htm" />
+  <HelpKINode Title="DbProvider property" Url="html/P-WD.DataAccess.Helpers.Connect.DbProvider.htm" />
+  <HelpKINode Title="DBProvider.Access field" Url="html/F-WD.DataAccess.Enums.DBProvider.Access.htm" />
+  <HelpKINode Title="DBProvider.Db2 field" Url="html/F-WD.DataAccess.Enums.DBProvider.Db2.htm" />
+  <HelpKINode Title="DBProvider.DBProvider constructor" Url="html/M-WD.DataAccess.Enums.DBProvider.-ctor.htm" />
+  <HelpKINode Title="DBProvider.MySql field" Url="html/F-WD.DataAccess.Enums.DBProvider.MySql.htm" />
+  <HelpKINode Title="DBProvider.Oracle field" Url="html/F-WD.DataAccess.Enums.DBProvider.Oracle.htm" />
+  <HelpKINode Title="DBProvider.Oracle2 field" Url="html/F-WD.DataAccess.Enums.DBProvider.Oracle2.htm" />
+  <HelpKINode Title="DBProvider.PostgreSQL field" Url="html/F-WD.DataAccess.Enums.DBProvider.PostgreSQL.htm" />
+  <HelpKINode Title="DBProvider.Sql field" Url="html/F-WD.DataAccess.Enums.DBProvider.Sql.htm" />
+  <HelpKINode Title="DBProvider.TeraData field" Url="html/F-WD.DataAccess.Enums.DBProvider.TeraData.htm" />
+  <HelpKINode Title="Dbs property" Url="html/P-WD.DataAccess.Mitecs.Instance.Dbs.htm" />
+  <HelpKINode Title="DBType property" Url="html/P-WD.DataAccess.Mitecs.DB.DBType.htm" />
+  <HelpKINode Title="Debug method" Url="html/Overload-WD.DataAccess.Logger.ILogger.Debug.htm" />
+  <HelpKINode Title="Decrypt method" Url="html/M-WD.DataAccess.Helpers.WebSecurityUtility.Decrypt.htm" />
+  <HelpKINode Title="DefaultSite property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.DefaultSite.htm" />
+  <HelpKINode Title="Delete method">
+    <HelpKINode Title="Delete Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.Delete-.htm" />
+    <HelpKINode Title="Delete Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.Delete-.htm" />
+    <HelpKINode Title="Delete Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Delete.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DelimiterType property" Url="html/P-WD.DataAccess.Helpers.SchemeDef.DelimiterType.htm" />
+  <HelpKINode Title="DelimType.CsvDelimited field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.DelimType.CsvDelimited.htm" />
+  <HelpKINode Title="DelimType.CustomDelimited field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.DelimType.CustomDelimited.htm" />
+  <HelpKINode Title="DelimType.FixedWidth field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.DelimType.FixedWidth.htm" />
+  <HelpKINode Title="DelimType.TabDelimited field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.DelimType.TabDelimited.htm" />
+  <HelpKINode Title="DESC enumeration member" Url="html/T-WD.DataAccess.Enums.SortOption.htm" />
+  <HelpKINode Title="DESC field" Url="html/F-WD.DataAccess.Enums.SortOption.DESC.htm" />
+  <HelpKINode Title="Dispose method" Url="html/M-WD.DataAccess.Helpers.CSVReader.Dispose.htm" />
+  <HelpKINode Title="DisposeCommand method" Url="html/M-WD.DataAccess.Abstract.IDatabase.DisposeCommand.htm" />
+  <HelpKINode Title="DisposeTransaction method" Url="html/M-WD.DataAccess.Abstract.IDatabase.DisposeTransaction.htm" />
+  <HelpKINode Title="DistinctBy(Of TSource, TKey) method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.DistinctBy--2.htm" />
+  <HelpKINode Title="DistinctBy&lt;TSource, TKey&gt; method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.DistinctBy--2.htm" />
+  <HelpKINode Title="DoActiveOptions event" Url="html/E-WD.DataAccess.Logger.LogAppender.DoActiveOptions.htm" />
+  <HelpKINode Title="DoAppend method" Url="html/Overload-WD.DataAccess.Logger.LogAppender.DoAppend.htm" />
+  <HelpKINode Title="Document enumeration member" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer.htm" />
+  <HelpKINode Title="Document field" Url="html/F-WD.DataAccess.Helpers.ObjectXMLSerializer.Document.htm" />
+  <HelpKINode Title="DoLogging event" Url="html/E-WD.DataAccess.Logger.LogAppender.DoLogging.htm" />
+  <HelpKINode Title="DoLoggings event" Url="html/E-WD.DataAccess.Logger.LogAppender.DoLoggings.htm" />
+  <HelpKINode Title="Double enumeration member" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="Double field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Double.htm" />
+  <HelpKINode Title="Encrypt method" Url="html/M-WD.DataAccess.Helpers.WebSecurityUtility.Encrypt.htm" />
+  <HelpKINode Title="Error method" Url="html/Overload-WD.DataAccess.Logger.ILogger.Error.htm" />
+  <HelpKINode Title="ErrorMessages property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.ErrorMessages.htm" />
+  <HelpKINode Title="ExecuteDataReader method">
+    <HelpKINode Title="ExecuteDataReader Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteDataReader.htm" />
+    <HelpKINode Title="ExecuteDataReader Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteDataReader.ExecuteDataReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExecuteDataSet method">
+    <HelpKINode Title="ExecuteDataSet Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteDataSet.htm" />
+    <HelpKINode Title="ExecuteDataSet Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExecuteDataTable method">
+    <HelpKINode Title="ExecuteDataTable Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteDataTable.ExecuteDataTable.htm" />
+    <HelpKINode Title="ExecuteDataTable Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteDataTable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExecuteNonQuery method">
+    <HelpKINode Title="ExecuteNonQuery Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery.htm" />
+    <HelpKINode Title="ExecuteNonQuery Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExecuteRecordSet method">
+    <HelpKINode Title="ExecuteRecordSet Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteRecordSet.ExecuteRecordSet.htm" />
+    <HelpKINode Title="ExecuteRecordSet Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteRecordSet.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExecuteScalar method">
+    <HelpKINode Title="ExecuteScalar Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar.htm" />
+    <HelpKINode Title="ExecuteScalar Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteScalar.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Fatal method" Url="html/Overload-WD.DataAccess.Logger.ILogger.Fatal.htm" />
+  <HelpKINode Title="File property" Url="html/P-WD.DataAccess.Logger.Appender.File.htm" />
+  <HelpKINode Title="FilePath class">
+    <HelpKINode Title="FilePath Class" Url="html/T-WD.DataAccess.Logger.FilePath.htm" />
+    <HelpKINode Title="FilePath Members" Url="html/AllMembers.T-WD.DataAccess.Logger.FilePath.htm" />
+    <HelpKINode Title="about FilePath class" Url="html/T-WD.DataAccess.Logger.FilePath.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Logger.FilePath.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Logger.FilePath.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Logger.FilePath.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FilePath.FullPath property" Url="html/P-WD.DataAccess.Logger.FilePath.FullPath.htm" />
+  <HelpKINode Title="FindCommonType method" Url="html/M-WD.DataAccess.Helpers.StringConverter.FindCommonType.htm" />
+  <HelpKINode Title="FirstRowHeader.No field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.FirstRowHeader.No.htm" />
+  <HelpKINode Title="FirstRowHeader.Yes field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.FirstRowHeader.Yes.htm" />
+  <HelpKINode Title="FixedWidth enumeration member" Url="html/T-WD.DataAccess.Helpers.SchemeDef.DelimType.htm" />
+  <HelpKINode Title="FixedWidth field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.DelimType.FixedWidth.htm" />
+  <HelpKINode Title="FullPath property" Url="html/P-WD.DataAccess.Logger.FilePath.FullPath.htm" />
+  <HelpKINode Title="GetColumns(Of T) method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetColumns--1.htm" />
+  <HelpKINode Title="GetColumns&lt;T&gt; method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetColumns--1.htm" />
+  <HelpKINode Title="GetDate method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDate.htm" />
+  <HelpKINode Title="GetDateFormatted method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDateFormatted.htm" />
+  <HelpKINode Title="GetDbProvider method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDbProvider.htm" />
+  <HelpKINode Title="GetDbProviderName method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDbProviderName.htm" />
+  <HelpKINode Title="GetEntity method">
+    <HelpKINode Title="GetEntity Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.GetEntity-.htm" />
+    <HelpKINode Title="GetEntity Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.GetEntity-.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetList method">
+    <HelpKINode Title="GetList Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.GetList-.htm" />
+    <HelpKINode Title="GetList Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.GetList-.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetLogString method" Url="html/M-WD.DataAccess.Helpers.LogString.GetLogString.htm" />
+  <HelpKINode Title="GetParameterValue method" Url="html/Overload-WD.DataAccess.Abstract.IDatabase.GetParameterValue.htm" />
+  <HelpKINode Title="GetPrimaryColumn(Of T) method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetPrimaryColumn--1.htm" />
+  <HelpKINode Title="GetPrimaryColumn&lt;T&gt; method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetPrimaryColumn--1.htm" />
+  <HelpKINode Title="GetPropertyAttributeValue(Of T, TOut, TAttribute, TValue) method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetPropertyAttributeValue--4.htm" />
+  <HelpKINode Title="GetPropertyAttributeValue&lt;T, TOut, TAttribute, TValue&gt; method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetPropertyAttributeValue--4.htm" />
+  <HelpKINode Title="GetVersion method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetVersion.htm" />
+  <HelpKINode Title="GroupBy method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.GroupBy.htm" />
+  <HelpKINode Title="HelperUtility class">
+    <HelpKINode Title="HelperUtility Class" Url="html/T-WD.DataAccess.Helpers.HelperUtility.htm" />
+    <HelpKINode Title="HelperUtility Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.HelperUtility.htm" />
+    <HelpKINode Title="about HelperUtility class" Url="html/T-WD.DataAccess.Helpers.HelperUtility.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.HelperUtility.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.HelperUtility.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HelperUtility.CopyToTemporaryDirectory method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.CopyToTemporaryDirectory.htm" />
+  <HelpKINode Title="HelperUtility.CreateSchemaIni method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.CreateSchemaIni.htm" />
+  <HelpKINode Title="HelperUtility.DbDateTime method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.DbDateTime.htm" />
+  <HelpKINode Title="HelperUtility.DistinctBy(Of TSource, TKey) method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.DistinctBy--2.htm" />
+  <HelpKINode Title="HelperUtility.DistinctBy&lt;TSource, TKey&gt; method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.DistinctBy--2.htm" />
+  <HelpKINode Title="HelperUtility.GetColumns(Of T) method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetColumns--1.htm" />
+  <HelpKINode Title="HelperUtility.GetColumns&lt;T&gt; method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetColumns--1.htm" />
+  <HelpKINode Title="HelperUtility.GetDate method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDate.htm" />
+  <HelpKINode Title="HelperUtility.GetDateFormatted method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDateFormatted.htm" />
+  <HelpKINode Title="HelperUtility.GetDbProvider method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDbProvider.htm" />
+  <HelpKINode Title="HelperUtility.GetDbProviderName method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetDbProviderName.htm" />
+  <HelpKINode Title="HelperUtility.GetPrimaryColumn(Of T) method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetPrimaryColumn--1.htm" />
+  <HelpKINode Title="HelperUtility.GetPrimaryColumn&lt;T&gt; method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetPrimaryColumn--1.htm" />
+  <HelpKINode Title="HelperUtility.GetPropertyAttributeValue(Of T, TOut, TAttribute, TValue) method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetPropertyAttributeValue--4.htm" />
+  <HelpKINode Title="HelperUtility.GetPropertyAttributeValue&lt;T, TOut, TAttribute, TValue&gt; method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetPropertyAttributeValue--4.htm" />
+  <HelpKINode Title="HelperUtility.GetVersion method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.GetVersion.htm" />
+  <HelpKINode Title="HelperUtility.MoveToDirectory method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.MoveToDirectory.htm" />
+  <HelpKINode Title="HelperUtility.MoveToTemporaryDirectory method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.MoveToTemporaryDirectory.htm" />
+  <HelpKINode Title="HelperUtility.Prefix method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.Prefix.htm" />
+  <HelpKINode Title="HelperUtility.Truncate method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.Truncate.htm" />
+  <HelpKINode Title="HelperUtility.Validate method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.Validate.htm" />
+  <HelpKINode Title="ICommands class">
+    <HelpKINode Title="ICommands Class" Url="html/T-WD.DataAccess.Abstract.ICommands.htm" />
+    <HelpKINode Title="ICommands Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.ICommands.htm" />
+    <HelpKINode Title="about ICommands class" Url="html/T-WD.DataAccess.Abstract.ICommands.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Abstract.ICommands.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Abstract.ICommands.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Abstract.ICommands.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Abstract.ICommands.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICommands property" Url="html/P-WD.DataAccess.Context.DbContext.ICommands.htm" />
+  <HelpKINode Title="ICommands.CloseConnection method" Url="html/M-WD.DataAccess.Abstract.ICommands.CloseConnection.htm" />
+  <HelpKINode Title="ICommands.Connection property" Url="html/P-WD.DataAccess.Abstract.ICommands.Connection.htm" />
+  <HelpKINode Title="ICommands.CreateAdapter method" Url="html/M-WD.DataAccess.Abstract.ICommands.CreateAdapter.htm" />
+  <HelpKINode Title="ICommands.CreateConnection method" Url="html/Overload-WD.DataAccess.Abstract.ICommands.CreateConnection.htm" />
+  <HelpKINode Title="ICommands.CreateOpenConnection method" Url="html/Overload-WD.DataAccess.Abstract.ICommands.CreateOpenConnection.htm" />
+  <HelpKINode Title="ICommands.DBProvider property" Url="html/P-WD.DataAccess.Abstract.ICommands.DBProvider.htm" />
+  <HelpKINode Title="ICommands.ICommands constructor" Url="html/Overload-WD.DataAccess.Abstract.ICommands.-ctor.htm" />
+  <HelpKINode Title="ICommands.IsDispose property" Url="html/P-WD.DataAccess.Abstract.ICommands.IsDispose.htm" />
+  <HelpKINode Title="ID property" Url="html/P-WD.DataAccess.Mitecs.DB.ID.htm" />
+  <HelpKINode Title="IDatabase class">
+    <HelpKINode Title="IDatabase Class" Url="html/T-WD.DataAccess.Abstract.IDatabase.htm" />
+    <HelpKINode Title="IDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IDatabase.htm" />
+    <HelpKINode Title="about IDatabase class" Url="html/T-WD.DataAccess.Abstract.IDatabase.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IDatabase.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Abstract.IDatabase.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Abstract.IDatabase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Abstract.IDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDatabase.BeginTransaction method" Url="html/Overload-WD.DataAccess.Abstract.IDatabase.BeginTransaction.htm" />
+  <HelpKINode Title="IDatabase.CloseConnection method" Url="html/M-WD.DataAccess.Abstract.IDatabase.CloseConnection.htm" />
+  <HelpKINode Title="IDatabase.CommitTransaction method" Url="html/M-WD.DataAccess.Abstract.IDatabase.CommitTransaction.htm" />
+  <HelpKINode Title="IDatabase.Connection property" Url="html/P-WD.DataAccess.Abstract.IDatabase.Connection.htm" />
+  <HelpKINode Title="IDatabase.CreateCommand method" Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateCommand.htm" />
+  <HelpKINode Title="IDatabase.CreateConnection method" Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateConnection.htm" />
+  <HelpKINode Title="IDatabase.CreateOpenConnection method" Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateOpenConnection.htm" />
+  <HelpKINode Title="IDatabase.CreateParameter method" Url="html/Overload-WD.DataAccess.Abstract.IDatabase.CreateParameter.htm" />
+  <HelpKINode Title="IDatabase.DBProvider property" Url="html/P-WD.DataAccess.Abstract.IDatabase.DBProvider.htm" />
+  <HelpKINode Title="IDatabase.DisposeCommand method" Url="html/M-WD.DataAccess.Abstract.IDatabase.DisposeCommand.htm" />
+  <HelpKINode Title="IDatabase.DisposeTransaction method" Url="html/M-WD.DataAccess.Abstract.IDatabase.DisposeTransaction.htm" />
+  <HelpKINode Title="IDatabase.GetParameterValue method" Url="html/Overload-WD.DataAccess.Abstract.IDatabase.GetParameterValue.htm" />
+  <HelpKINode Title="IDatabase.IDatabase constructor" Url="html/M-WD.DataAccess.Abstract.IDatabase.-ctor.htm" />
+  <HelpKINode Title="IDatabase.RollbackTransaction method" Url="html/M-WD.DataAccess.Abstract.IDatabase.RollbackTransaction.htm" />
+  <HelpKINode Title="IExecuteDataReader class">
+    <HelpKINode Title="IExecuteDataReader Class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataReader.htm" />
+    <HelpKINode Title="IExecuteDataReader Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataReader.htm" />
+    <HelpKINode Title="about IExecuteDataReader class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataReader.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataReader.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteDataReader.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteDataReader.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteDataReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IExecuteDataReader.ExecuteDataReader method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteDataReader.ExecuteDataReader.htm" />
+  <HelpKINode Title="IExecuteDataReader.IExecuteDataReader constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteDataReader.-ctor.htm" />
+  <HelpKINode Title="IExecuteDataSet class">
+    <HelpKINode Title="IExecuteDataSet Class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataSet.htm" />
+    <HelpKINode Title="IExecuteDataSet Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataSet.htm" />
+    <HelpKINode Title="about IExecuteDataSet class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataSet.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataSet.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteDataSet.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteDataSet.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IExecuteDataSet.ExecuteDataSet method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteDataSet.ExecuteDataSet.htm" />
+  <HelpKINode Title="IExecuteDataSet.IExecuteDataSet constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteDataSet.-ctor.htm" />
+  <HelpKINode Title="IExecuteDataTable class">
+    <HelpKINode Title="IExecuteDataTable Class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataTable.htm" />
+    <HelpKINode Title="IExecuteDataTable Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataTable.htm" />
+    <HelpKINode Title="about IExecuteDataTable class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataTable.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataTable.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteDataTable.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteDataTable.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteDataTable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IExecuteDataTable.ExecuteDataTable method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteDataTable.ExecuteDataTable.htm" />
+  <HelpKINode Title="IExecuteDataTable.IExecuteDataTable constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteDataTable.-ctor.htm" />
+  <HelpKINode Title="IExecuteEntity class">
+    <HelpKINode Title="IExecuteEntity Class" Url="html/T-WD.DataAccess.Abstract.IExecuteEntity.htm" />
+    <HelpKINode Title="IExecuteEntity Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteEntity.htm" />
+    <HelpKINode Title="about IExecuteEntity class" Url="html/T-WD.DataAccess.Abstract.IExecuteEntity.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteEntity.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteEntity.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteEntity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IExecuteEntity.Delete method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.Delete-.htm" />
+  <HelpKINode Title="IExecuteEntity.GetEntity method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.GetEntity-.htm" />
+  <HelpKINode Title="IExecuteEntity.GetList method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.GetList-.htm" />
+  <HelpKINode Title="IExecuteEntity.IExecuteEntity constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteEntity.-ctor.htm" />
+  <HelpKINode Title="IExecuteEntity.Insert method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.Insert-.htm" />
+  <HelpKINode Title="IExecuteEntity.Update method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.Update-.htm" />
+  <HelpKINode Title="IExecuteNonQuery class">
+    <HelpKINode Title="IExecuteNonQuery Class" Url="html/T-WD.DataAccess.Abstract.IExecuteNonQuery.htm" />
+    <HelpKINode Title="IExecuteNonQuery Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteNonQuery.htm" />
+    <HelpKINode Title="about IExecuteNonQuery class" Url="html/T-WD.DataAccess.Abstract.IExecuteNonQuery.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteNonQuery.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteNonQuery.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteNonQuery.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IExecuteNonQuery.BulkDelete method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.BulkDelete.htm" />
+  <HelpKINode Title="IExecuteNonQuery.BulkInsert method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.BulkInsert.htm" />
+  <HelpKINode Title="IExecuteNonQuery.BulkUpdate method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.BulkUpdate.htm" />
+  <HelpKINode Title="IExecuteNonQuery.ExecuteNonQuery method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteNonQuery.ExecuteNonQuery.htm" />
+  <HelpKINode Title="IExecuteNonQuery.IExecuteNonQuery constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteNonQuery.-ctor.htm" />
+  <HelpKINode Title="IExecuteRecordSet class">
+    <HelpKINode Title="IExecuteRecordSet Class" Url="html/T-WD.DataAccess.Abstract.IExecuteRecordSet.htm" />
+    <HelpKINode Title="IExecuteRecordSet Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteRecordSet.htm" />
+    <HelpKINode Title="about IExecuteRecordSet class" Url="html/T-WD.DataAccess.Abstract.IExecuteRecordSet.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteRecordSet.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteRecordSet.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteRecordSet.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteRecordSet.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IExecuteRecordSet.ExecuteRecordSet method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteRecordSet.ExecuteRecordSet.htm" />
+  <HelpKINode Title="IExecuteRecordSet.IExecuteRecordSet constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteRecordSet.-ctor.htm" />
+  <HelpKINode Title="IExecuteScalar class">
+    <HelpKINode Title="IExecuteScalar Class" Url="html/T-WD.DataAccess.Abstract.IExecuteScalar.htm" />
+    <HelpKINode Title="IExecuteScalar Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteScalar.htm" />
+    <HelpKINode Title="about IExecuteScalar class" Url="html/T-WD.DataAccess.Abstract.IExecuteScalar.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteScalar.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Abstract.IExecuteScalar.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Abstract.IExecuteScalar.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IExecuteScalar.ExecuteScalar method" Url="html/Overload-WD.DataAccess.Abstract.IExecuteScalar.ExecuteScalar.htm" />
+  <HelpKINode Title="IExecuteScalar.IExecuteScalar constructor" Url="html/M-WD.DataAccess.Abstract.IExecuteScalar.-ctor.htm" />
+  <HelpKINode Title="ILogger class">
+    <HelpKINode Title="ILogger Class" Url="html/T-WD.DataAccess.Logger.ILogger.htm" />
+    <HelpKINode Title="ILogger Members" Url="html/AllMembers.T-WD.DataAccess.Logger.ILogger.htm" />
+    <HelpKINode Title="about ILogger class" Url="html/T-WD.DataAccess.Logger.ILogger.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Logger.ILogger.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Logger.ILogger.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Logger.ILogger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ILogger.Debug method" Url="html/Overload-WD.DataAccess.Logger.ILogger.Debug.htm" />
+  <HelpKINode Title="ILogger.Error method" Url="html/Overload-WD.DataAccess.Logger.ILogger.Error.htm" />
+  <HelpKINode Title="ILogger.Fatal method" Url="html/Overload-WD.DataAccess.Logger.ILogger.Fatal.htm" />
+  <HelpKINode Title="ILogger.ILogger constructor" Url="html/M-WD.DataAccess.Logger.ILogger.-ctor.htm" />
+  <HelpKINode Title="ILogger.Info method" Url="html/Overload-WD.DataAccess.Logger.ILogger.Info.htm" />
+  <HelpKINode Title="ILogger.Warn method" Url="html/Overload-WD.DataAccess.Logger.ILogger.Warn.htm" />
+  <HelpKINode Title="ImportDrive property">
+    <HelpKINode Title="ImportDrive Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.ImportDrive.htm" />
+    <HelpKINode Title="ImportDrive Property " Url="html/P-WD.DataAccess.Context.DbContext.ImportDrive.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMTech class">
+    <HelpKINode Title="IMTech Class" Url="html/T-WD.DataAccess.Abstract.IMTech.htm" />
+    <HelpKINode Title="IMTech Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IMTech.htm" />
+    <HelpKINode Title="about IMTech class" Url="html/T-WD.DataAccess.Abstract.IMTech.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IMTech.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Abstract.IMTech.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Abstract.IMTech.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Abstract.IMTech.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMTech.BulkDelete method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.BulkDelete.htm" />
+  <HelpKINode Title="IMTech.BulkInsert method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.BulkInsert.htm" />
+  <HelpKINode Title="IMTech.BulkUpdate method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.BulkUpdate.htm" />
+  <HelpKINode Title="IMTech.CreateConnection method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.CreateConnection.htm" />
+  <HelpKINode Title="IMTech.CreateOpenConnection method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.CreateOpenConnection.htm" />
+  <HelpKINode Title="IMTech.Delete method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.Delete-.htm" />
+  <HelpKINode Title="IMTech.ExecuteDataReader method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteDataReader.htm" />
+  <HelpKINode Title="IMTech.ExecuteDataSet method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteDataSet.htm" />
+  <HelpKINode Title="IMTech.ExecuteDataTable method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteDataTable.htm" />
+  <HelpKINode Title="IMTech.ExecuteNonQuery method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteNonQuery.htm" />
+  <HelpKINode Title="IMTech.ExecuteRecordSet method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteRecordSet.htm" />
+  <HelpKINode Title="IMTech.ExecuteScalar method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.ExecuteScalar.htm" />
+  <HelpKINode Title="IMTech.GetEntity method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.GetEntity-.htm" />
+  <HelpKINode Title="IMTech.GetList method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.GetList-.htm" />
+  <HelpKINode Title="IMTech.IMTech constructor" Url="html/M-WD.DataAccess.Abstract.IMTech.-ctor.htm" />
+  <HelpKINode Title="IMTech.Insert method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.Insert-.htm" />
+  <HelpKINode Title="IMTech.Update method" Url="html/Overload-WD.DataAccess.Abstract.IMTech.Update-.htm" />
+  <HelpKINode Title="Index property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.Index.htm" />
+  <HelpKINode Title="Info method" Url="html/Overload-WD.DataAccess.Logger.ILogger.Info.htm" />
+  <HelpKINode Title="Insert method">
+    <HelpKINode Title="Insert Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Insert.htm" />
+    <HelpKINode Title="Insert Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.Insert-.htm" />
+    <HelpKINode Title="Insert Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.Insert-.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Instance class">
+    <HelpKINode Title="Instance Class" Url="html/T-WD.DataAccess.Mitecs.Instance.htm" />
+    <HelpKINode Title="Instance Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.Instance.htm" />
+    <HelpKINode Title="about Instance class" Url="html/T-WD.DataAccess.Mitecs.Instance.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.Instance.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Mitecs.Instance.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Mitecs.Instance.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Instance.Dbs property" Url="html/P-WD.DataAccess.Mitecs.Instance.Dbs.htm" />
+  <HelpKINode Title="Instance.Name property" Url="html/P-WD.DataAccess.Mitecs.Instance.Name.htm" />
+  <HelpKINode Title="Instance.ReportingDbName property" Url="html/P-WD.DataAccess.Mitecs.Instance.ReportingDbName.htm" />
+  <HelpKINode Title="Instance.SiteLocation property" Url="html/P-WD.DataAccess.Mitecs.Instance.SiteLocation.htm" />
+  <HelpKINode Title="Instance.TimeLog property" Url="html/P-WD.DataAccess.Mitecs.Instance.TimeLog.htm" />
+  <HelpKINode Title="INSTANCES property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.INSTANCES.htm" />
+  <HelpKINode Title="InventoryFlag property">
+    <HelpKINode Title="InventoryFlag Property " Url="html/P-WD.DataAccess.Context.DbContext.InventoryFlag.htm" />
+    <HelpKINode Title="InventoryFlag Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.InventoryFlag.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsDispose property" Url="html/P-WD.DataAccess.Abstract.ICommands.IsDispose.htm" />
+  <HelpKINode Title="IsPrimary property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.IsPrimary.htm" />
+  <HelpKINode Title="IsReadOnly property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.IsReadOnly.htm" />
+  <HelpKINode Title="ItemSpecification class">
+    <HelpKINode Title="ItemSpecification Class" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.htm" />
+    <HelpKINode Title="ItemSpecification Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.ItemSpecification.htm" />
+    <HelpKINode Title="about ItemSpecification class" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.ItemSpecification.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.ItemSpecification.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Helpers.ItemSpecification.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ItemSpecification.ColumnNumber property" Url="html/P-WD.DataAccess.Helpers.ItemSpecification.ColumnNumber.htm" />
+  <HelpKINode Title="ItemSpecification.ColumnWidth property" Url="html/P-WD.DataAccess.Helpers.ItemSpecification.ColumnWidth.htm" />
+  <HelpKINode Title="ItemSpecification.JetDataType enumeration" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="ItemSpecification.Name property" Url="html/P-WD.DataAccess.Helpers.ItemSpecification.Name.htm" />
+  <HelpKINode Title="ItemSpecification.TypeData property" Url="html/P-WD.DataAccess.Helpers.ItemSpecification.TypeData.htm" />
+  <HelpKINode Title="JetDataType.Bit field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Bit.htm" />
+  <HelpKINode Title="JetDataType.Byte field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Byte.htm" />
+  <HelpKINode Title="JetDataType.Currency field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Currency.htm" />
+  <HelpKINode Title="JetDataType.DateTime field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.DateTime.htm" />
+  <HelpKINode Title="JetDataType.Double field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Double.htm" />
+  <HelpKINode Title="JetDataType.Long field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Long.htm" />
+  <HelpKINode Title="JetDataType.Memo field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Memo.htm" />
+  <HelpKINode Title="JetDataType.Short field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Short.htm" />
+  <HelpKINode Title="JetDataType.Single field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Single.htm" />
+  <HelpKINode Title="JetDataType.Text field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Text.htm" />
+  <HelpKINode Title="Limit method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Limit.htm" />
+  <HelpKINode Title="LineTerminate property" Url="html/P-WD.DataAccess.Helpers.LogString.LineTerminate.htm" />
+  <HelpKINode Title="Load method" Url="html/Overload-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Load.htm" />
+  <HelpKINode Title="Log property" Url="html/P-WD.DataAccess.Helpers.LogString.Log.htm" />
+  <HelpKINode Title="Log4net class">
+    <HelpKINode Title="Log4net Class" Url="html/T-WD.DataAccess.Logger.Log4net.htm" />
+    <HelpKINode Title="Log4net Members" Url="html/AllMembers.T-WD.DataAccess.Logger.Log4net.htm" />
+    <HelpKINode Title="about Log4net class" Url="html/T-WD.DataAccess.Logger.Log4net.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Logger.Log4net.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Logger.Log4net.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Logger.Log4net.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Log4net property" Url="html/P-WD.DataAccess.Logger.Log4netConfiguration.Log4net.htm" />
+  <HelpKINode Title="Log4net.Appenders property" Url="html/P-WD.DataAccess.Logger.Log4net.Appenders.htm" />
+  <HelpKINode Title="Log4netConfiguration class">
+    <HelpKINode Title="Log4netConfiguration Class" Url="html/T-WD.DataAccess.Logger.Log4netConfiguration.htm" />
+    <HelpKINode Title="Log4netConfiguration Members" Url="html/AllMembers.T-WD.DataAccess.Logger.Log4netConfiguration.htm" />
+    <HelpKINode Title="about Log4netConfiguration class" Url="html/T-WD.DataAccess.Logger.Log4netConfiguration.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Logger.Log4netConfiguration.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Logger.Log4netConfiguration.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Logger.Log4netConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Log4netConfiguration.Log4net property" Url="html/P-WD.DataAccess.Logger.Log4netConfiguration.Log4net.htm" />
+  <HelpKINode Title="LogAppender class">
+    <HelpKINode Title="LogAppender Class" Url="html/T-WD.DataAccess.Logger.LogAppender.htm" />
+    <HelpKINode Title="LogAppender Members" Url="html/AllMembers.T-WD.DataAccess.Logger.LogAppender.htm" />
+    <HelpKINode Title="about LogAppender class" Url="html/T-WD.DataAccess.Logger.LogAppender.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Logger.LogAppender.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-WD.DataAccess.Logger.LogAppender.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Logger.LogAppender.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Logger.LogAppender.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogAppender.ActivateOptions method" Url="html/M-WD.DataAccess.Logger.LogAppender.ActivateOptions.htm" />
+  <HelpKINode Title="LogAppender.ActiveOptions delegate" Url="html/T-WD.DataAccess.Logger.LogAppender.ActiveOptions.htm" />
+  <HelpKINode Title="LogAppender.Close method" Url="html/M-WD.DataAccess.Logger.LogAppender.Close.htm" />
+  <HelpKINode Title="LogAppender.DoActiveOptions event" Url="html/E-WD.DataAccess.Logger.LogAppender.DoActiveOptions.htm" />
+  <HelpKINode Title="LogAppender.DoAppend method" Url="html/Overload-WD.DataAccess.Logger.LogAppender.DoAppend.htm" />
+  <HelpKINode Title="LogAppender.DoLogging event" Url="html/E-WD.DataAccess.Logger.LogAppender.DoLogging.htm" />
+  <HelpKINode Title="LogAppender.DoLoggings event" Url="html/E-WD.DataAccess.Logger.LogAppender.DoLoggings.htm" />
+  <HelpKINode Title="LogAppender.Logging delegate" Url="html/T-WD.DataAccess.Logger.LogAppender.Logging.htm" />
+  <HelpKINode Title="LogAppender.Loggings delegate" Url="html/T-WD.DataAccess.Logger.LogAppender.Loggings.htm" />
+  <HelpKINode Title="LogAppender.Name property" Url="html/P-WD.DataAccess.Logger.LogAppender.Name.htm" />
+  <HelpKINode Title="LogAppender.RegexDeleteStatement property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexDeleteStatement.htm" />
+  <HelpKINode Title="LogAppender.RegexInsertStatement property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexInsertStatement.htm" />
+  <HelpKINode Title="LogAppender.RegexSelectStatement property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexSelectStatement.htm" />
+  <HelpKINode Title="LogAppender.RegexStatement property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexStatement.htm" />
+  <HelpKINode Title="LogAppender.RegexUpdateStatement property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexUpdateStatement.htm" />
+  <HelpKINode Title="LogAppender.RegexWhereClause property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexWhereClause.htm" />
+  <HelpKINode Title="LogString class">
+    <HelpKINode Title="LogString Class" Url="html/T-WD.DataAccess.Helpers.LogString.htm" />
+    <HelpKINode Title="LogString Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.LogString.htm" />
+    <HelpKINode Title="about LogString class" Url="html/T-WD.DataAccess.Helpers.LogString.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.LogString.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Helpers.LogString.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-WD.DataAccess.Helpers.LogString.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.LogString.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Helpers.LogString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogString.Add method" Url="html/M-WD.DataAccess.Helpers.LogString.Add.htm" />
+  <HelpKINode Title="LogString.Clear method" Url="html/M-WD.DataAccess.Helpers.LogString.Clear.htm" />
+  <HelpKINode Title="LogString.ClearAll method" Url="html/M-WD.DataAccess.Helpers.LogString.ClearAll.htm" />
+  <HelpKINode Title="LogString.GetLogString method" Url="html/M-WD.DataAccess.Helpers.LogString.GetLogString.htm" />
+  <HelpKINode Title="LogString.LineTerminate property" Url="html/P-WD.DataAccess.Helpers.LogString.LineTerminate.htm" />
+  <HelpKINode Title="LogString.Log property" Url="html/P-WD.DataAccess.Helpers.LogString.Log.htm" />
+  <HelpKINode Title="LogString.LogString constructor" Url="html/M-WD.DataAccess.Helpers.LogString.-ctor.htm" />
+  <HelpKINode Title="LogString.LogUpdateDelegate delegate" Url="html/T-WD.DataAccess.Helpers.LogString.LogUpdateDelegate.htm" />
+  <HelpKINode Title="LogString.MaxChars property" Url="html/P-WD.DataAccess.Helpers.LogString.MaxChars.htm" />
+  <HelpKINode Title="LogString.Name property" Url="html/P-WD.DataAccess.Helpers.LogString.Name.htm" />
+  <HelpKINode Title="LogString.OnLogUpdate event" Url="html/E-WD.DataAccess.Helpers.LogString.OnLogUpdate.htm" />
+  <HelpKINode Title="LogString.Persist method" Url="html/M-WD.DataAccess.Helpers.LogString.Persist.htm" />
+  <HelpKINode Title="LogString.PersistAll method" Url="html/M-WD.DataAccess.Helpers.LogString.PersistAll.htm" />
+  <HelpKINode Title="LogString.RemoveLogString method" Url="html/M-WD.DataAccess.Helpers.LogString.RemoveLogString.htm" />
+  <HelpKINode Title="LogString.ReverseOrder property" Url="html/P-WD.DataAccess.Helpers.LogString.ReverseOrder.htm" />
+  <HelpKINode Title="LogString.Timestamp property" Url="html/P-WD.DataAccess.Helpers.LogString.Timestamp.htm" />
+  <HelpKINode Title="Long enumeration member" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="Long field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Long.htm" />
+  <HelpKINode Title="MapFrom method">
+    <HelpKINode Title="MapFrom Method " Url="html/M-WD.DataAccess.Helpers.DataReaderMapper-1.MapFrom.htm" />
+    <HelpKINode Title="MapFrom Method " Url="html/M-WD.DataAccess.Helpers.DataRowMapper.MapFrom.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MaxChars property" Url="html/P-WD.DataAccess.Helpers.LogString.MaxChars.htm" />
+  <HelpKINode Title="Memo enumeration member" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="Memo field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Memo.htm" />
+  <HelpKINode Title="MoveToDirectory method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.MoveToDirectory.htm" />
+  <HelpKINode Title="MoveToTemporaryDirectory method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.MoveToTemporaryDirectory.htm" />
+  <HelpKINode Title="MySql field" Url="html/F-WD.DataAccess.Enums.DBProvider.MySql.htm" />
+  <HelpKINode Title="MySqlDatabase class">
+    <HelpKINode Title="MySqlDatabase Class" Url="html/T-WD.DataAccess.Concrete.MySqlDatabase.htm" />
+    <HelpKINode Title="MySqlDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.MySqlDatabase.htm" />
+    <HelpKINode Title="about MySqlDatabase class" Url="html/T-WD.DataAccess.Concrete.MySqlDatabase.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Concrete.MySqlDatabase.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Concrete.MySqlDatabase.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Concrete.MySqlDatabase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Concrete.MySqlDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MySqlDatabase.MySqlDatabase constructor" Url="html/Overload-WD.DataAccess.Concrete.MySqlDatabase.-ctor.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="Name Property " Url="html/P-WD.DataAccess.Attributes.CustomAttribute.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-WD.DataAccess.Helpers.ItemSpecification.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-WD.DataAccess.Logger.Appender.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-WD.DataAccess.Logger.LogAppender.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-WD.DataAccess.Mitecs.Instance.Name.htm" />
+    <HelpKINode Title="Name Property " Url="html/P-WD.DataAccess.Helpers.LogString.Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NEWLINE field" Url="html/F-WD.DataAccess.Helpers.CSVReader.NEWLINE.htm" />
+  <HelpKINode Title="No enumeration member" Url="html/T-WD.DataAccess.Helpers.SchemeDef.FirstRowHeader.htm" />
+  <HelpKINode Title="No field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.FirstRowHeader.No.htm" />
+  <HelpKINode Title="None field" Url="html/F-WD.DataAccess.Enums.Transaction.None.htm" />
+  <HelpKINode Title="NotMapped property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.NotMapped.htm" />
+  <HelpKINode Title="ObjectXMLSerializer enumeration" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer.htm" />
+  <HelpKINode Title="ObjectXMLSerializer(Of T) class">
+    <HelpKINode Title="ObjectXMLSerializer(T) Class" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+    <HelpKINode Title="ObjectXMLSerializer(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+    <HelpKINode Title="about ObjectXMLSerializer(Of T) class" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObjectXMLSerializer(Of T).Load method" Url="html/Overload-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Load.htm" />
+  <HelpKINode Title="ObjectXMLSerializer(Of T).Save method" Url="html/Overload-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Save.htm" />
+  <HelpKINode Title="ObjectXMLSerializer.Binary field" Url="html/F-WD.DataAccess.Helpers.ObjectXMLSerializer.Binary.htm" />
+  <HelpKINode Title="ObjectXMLSerializer.Document field" Url="html/F-WD.DataAccess.Helpers.ObjectXMLSerializer.Document.htm" />
+  <HelpKINode Title="ObjectXMLSerializer&lt;T&gt; class">
+    <HelpKINode Title="ObjectXMLSerializer(T) Class" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+    <HelpKINode Title="ObjectXMLSerializer(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+    <HelpKINode Title="about ObjectXMLSerializer&lt;T&gt; class" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObjectXMLSerializer&lt;T&gt;.Load method" Url="html/Overload-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Load.htm" />
+  <HelpKINode Title="ObjectXMLSerializer&lt;T&gt;.Save method" Url="html/Overload-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Save.htm" />
+  <HelpKINode Title="Offset method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Offset.htm" />
+  <HelpKINode Title="OnLogUpdate event" Url="html/E-WD.DataAccess.Helpers.LogString.OnLogUpdate.htm" />
+  <HelpKINode Title="Oracle field" Url="html/F-WD.DataAccess.Enums.DBProvider.Oracle.htm" />
+  <HelpKINode Title="Oracle2 field" Url="html/F-WD.DataAccess.Enums.DBProvider.Oracle2.htm" />
+  <HelpKINode Title="OracleDatabase class">
+    <HelpKINode Title="OracleDatabase Class" Url="html/T-WD.DataAccess.Concrete.OracleDatabase.htm" />
+    <HelpKINode Title="OracleDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.OracleDatabase.htm" />
+    <HelpKINode Title="about OracleDatabase class" Url="html/T-WD.DataAccess.Concrete.OracleDatabase.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Concrete.OracleDatabase.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Concrete.OracleDatabase.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Concrete.OracleDatabase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Concrete.OracleDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OracleDatabase.BulkDelete method">
+    <HelpKINode Title="BulkDelete Method " Url="html/M-WD.DataAccess.Concrete.OracleDatabase.BulkDelete.htm" />
+    <HelpKINode Title="BulkDelete Method " Url="html/Overload-WD.DataAccess.Concrete.OracleDatabase.BulkDelete.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OracleDatabase.BulkUpdate method">
+    <HelpKINode Title="BulkUpdate Method " Url="html/M-WD.DataAccess.Concrete.OracleDatabase.BulkUpdate.htm" />
+    <HelpKINode Title="BulkUpdate Method " Url="html/Overload-WD.DataAccess.Concrete.OracleDatabase.BulkUpdate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OracleDatabase.OracleDatabase constructor" Url="html/Overload-WD.DataAccess.Concrete.OracleDatabase.-ctor.htm" />
+  <HelpKINode Title="Order property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.Order.htm" />
+  <HelpKINode Title="OrderBy method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.OrderBy.htm" />
+  <HelpKINode Title="ParamDirection property" Url="html/P-WD.DataAccess.Parameters.DBParameter.ParamDirection.htm" />
+  <HelpKINode Title="ParameterName property" Url="html/P-WD.DataAccess.Parameters.DBParameter.ParameterName.htm" />
+  <HelpKINode Title="ParameterValue property" Url="html/P-WD.DataAccess.Parameters.DBParameter.ParameterValue.htm" />
+  <HelpKINode Title="Params property" Url="html/P-WD.DataAccess.Helpers.SqlStatement.Params.htm" />
+  <HelpKINode Title="Password property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.Password.htm" />
+  <HelpKINode Title="PeriodicTaskFactory class">
+    <HelpKINode Title="PeriodicTaskFactory Class" Url="html/T-WD.DataAccess.Helpers.PeriodicTaskFactory.htm" />
+    <HelpKINode Title="PeriodicTaskFactory Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.PeriodicTaskFactory.htm" />
+    <HelpKINode Title="about PeriodicTaskFactory class" Url="html/T-WD.DataAccess.Helpers.PeriodicTaskFactory.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.PeriodicTaskFactory.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.PeriodicTaskFactory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PeriodicTaskFactory.Start method" Url="html/M-WD.DataAccess.Helpers.PeriodicTaskFactory.Start.htm" />
+  <HelpKINode Title="Persist method" Url="html/M-WD.DataAccess.Helpers.LogString.Persist.htm" />
+  <HelpKINode Title="PersistAll method" Url="html/M-WD.DataAccess.Helpers.LogString.PersistAll.htm" />
+  <HelpKINode Title="PostgreSQL field" Url="html/F-WD.DataAccess.Enums.DBProvider.PostgreSQL.htm" />
+  <HelpKINode Title="PostgreSQLDatabase class">
+    <HelpKINode Title="PostgreSQLDatabase Class" Url="html/T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm" />
+    <HelpKINode Title="PostgreSQLDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm" />
+    <HelpKINode Title="about PostgreSQLDatabase class" Url="html/T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Concrete.PostgreSQLDatabase.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PostgreSQLDatabase.PostgreSQLDatabase constructor" Url="html/Overload-WD.DataAccess.Concrete.PostgreSQLDatabase.-ctor.htm" />
+  <HelpKINode Title="Prefix method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.Prefix.htm" />
+  <HelpKINode Title="Projection method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Projection.htm" />
+  <HelpKINode Title="Projections method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Projections.htm" />
+  <HelpKINode Title="PropertyComparer(Of T) class">
+    <HelpKINode Title="PropertyComparer(T) Class" Url="html/T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+    <HelpKINode Title="PropertyComparer(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+    <HelpKINode Title="about PropertyComparer(Of T) class" Url="html/T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PropertyComparer(Of T).Compare method" Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.Compare.htm" />
+  <HelpKINode Title="PropertyComparer(Of T).PropertyComparer constructor" Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.-ctor.htm" />
+  <HelpKINode Title="PropertyComparer(Of T).SetPropertyAndDirection method" Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.SetPropertyAndDirection.htm" />
+  <HelpKINode Title="PropertyComparer&lt;T&gt; class">
+    <HelpKINode Title="PropertyComparer(T) Class" Url="html/T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+    <HelpKINode Title="PropertyComparer(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+    <HelpKINode Title="about PropertyComparer&lt;T&gt; class" Url="html/T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PropertyComparer&lt;T&gt;.Compare method" Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.Compare.htm" />
+  <HelpKINode Title="PropertyComparer&lt;T&gt;.PropertyComparer constructor" Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.-ctor.htm" />
+  <HelpKINode Title="PropertyComparer&lt;T&gt;.SetPropertyAndDirection method" Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.SetPropertyAndDirection.htm" />
+  <HelpKINode Title="QueryBuilder(Of T) class">
+    <HelpKINode Title="QueryBuilder(T) Class" Url="html/T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+    <HelpKINode Title="QueryBuilder(T) Members" Url="html/AllMembers.T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+    <HelpKINode Title="about QueryBuilder(Of T) class" Url="html/T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueryBuilder(Of T).Count method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Count.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).Delete method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Delete.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).GroupBy method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.GroupBy.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).Insert method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Insert.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).Limit method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Limit.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).Offset method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Offset.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).OrderBy method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.OrderBy.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).Projection method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Projection.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).Projections method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Projections.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).QueryBuilder constructor" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.-ctor.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).Select method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Select.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).Sum method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Sum.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).Update method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Update.htm" />
+  <HelpKINode Title="QueryBuilder(Of T).Where method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Where.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt; class">
+    <HelpKINode Title="QueryBuilder(T) Class" Url="html/T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+    <HelpKINode Title="QueryBuilder(T) Members" Url="html/AllMembers.T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+    <HelpKINode Title="about QueryBuilder&lt;T&gt; class" Url="html/T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.Count method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Count.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.Delete method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Delete.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.GroupBy method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.GroupBy.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.Insert method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Insert.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.Limit method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Limit.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.Offset method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Offset.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.OrderBy method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.OrderBy.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.Projection method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Projection.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.Projections method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Projections.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.QueryBuilder constructor" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.-ctor.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.Select method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Select.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.Sum method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Sum.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.Update method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Update.htm" />
+  <HelpKINode Title="QueryBuilder&lt;T&gt;.Where method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Where.htm" />
+  <HelpKINode Title="ReadCSVFile method" Url="html/Overload-WD.DataAccess.Helpers.CSVReader.ReadCSVFile.htm" />
+  <HelpKINode Title="ReadRow method" Url="html/M-WD.DataAccess.Helpers.CSVReader.ReadRow.htm" />
+  <HelpKINode Title="RecoveryFlag property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.RecoveryFlag.htm" />
+  <HelpKINode Title="RegexDeleteStatement property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexDeleteStatement.htm" />
+  <HelpKINode Title="RegexInsertStatement property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexInsertStatement.htm" />
+  <HelpKINode Title="RegexSelectStatement property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexSelectStatement.htm" />
+  <HelpKINode Title="RegexStatement property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexStatement.htm" />
+  <HelpKINode Title="RegexUpdateStatement property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexUpdateStatement.htm" />
+  <HelpKINode Title="RegexWhereClause property" Url="html/P-WD.DataAccess.Logger.LogAppender.RegexWhereClause.htm" />
+  <HelpKINode Title="RemoveLogString method" Url="html/M-WD.DataAccess.Helpers.LogString.RemoveLogString.htm" />
+  <HelpKINode Title="ReportingDbName property">
+    <HelpKINode Title="ReportingDbName Property " Url="html/P-WD.DataAccess.Context.DbContext.ReportingDbName.htm" />
+    <HelpKINode Title="ReportingDbName Property " Url="html/P-WD.DataAccess.Mitecs.Instance.ReportingDbName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReverseOrder property" Url="html/P-WD.DataAccess.Helpers.LogString.ReverseOrder.htm" />
+  <HelpKINode Title="RollbackTransaction method" Url="html/M-WD.DataAccess.Abstract.IDatabase.RollbackTransaction.htm" />
+  <HelpKINode Title="Save method" Url="html/Overload-WD.DataAccess.Helpers.ObjectXMLSerializer-1.Save.htm" />
+  <HelpKINode Title="ScanRows field" Url="html/F-WD.DataAccess.Helpers.CSVReader.ScanRows.htm" />
+  <HelpKINode Title="SchemeDef class">
+    <HelpKINode Title="SchemeDef Class" Url="html/T-WD.DataAccess.Helpers.SchemeDef.htm" />
+    <HelpKINode Title="SchemeDef Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SchemeDef.htm" />
+    <HelpKINode Title="about SchemeDef class" Url="html/T-WD.DataAccess.Helpers.SchemeDef.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SchemeDef.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Helpers.SchemeDef.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.SchemeDef.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Helpers.SchemeDef.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SchemeDef.ColumnDefinition property" Url="html/P-WD.DataAccess.Helpers.SchemeDef.ColumnDefinition.htm" />
+  <HelpKINode Title="SchemeDef.CustomDelimiter property" Url="html/P-WD.DataAccess.Helpers.SchemeDef.CustomDelimiter.htm" />
+  <HelpKINode Title="SchemeDef.DelimiterType property" Url="html/P-WD.DataAccess.Helpers.SchemeDef.DelimiterType.htm" />
+  <HelpKINode Title="SchemeDef.DelimType enumeration" Url="html/T-WD.DataAccess.Helpers.SchemeDef.DelimType.htm" />
+  <HelpKINode Title="SchemeDef.FirstRowHeader enumeration" Url="html/T-WD.DataAccess.Helpers.SchemeDef.FirstRowHeader.htm" />
+  <HelpKINode Title="SchemeDef.SchemeDef constructor" Url="html/M-WD.DataAccess.Helpers.SchemeDef.-ctor.htm" />
+  <HelpKINode Title="SchemeDef.UsesHeader property" Url="html/P-WD.DataAccess.Helpers.SchemeDef.UsesHeader.htm" />
+  <HelpKINode Title="Select method" Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Select.htm" />
+  <HelpKINode Title="Server property" Url="html/P-WD.DataAccess.Mitecs.DB.Server.htm" />
+  <HelpKINode Title="ServerName property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.ServerName.htm" />
+  <HelpKINode Title="SetPropertyAndDirection method" Url="html/M-WD.DataAccess.Helpers.PropertyComparer-1.SetPropertyAndDirection.htm" />
+  <HelpKINode Title="Short enumeration member" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="Short field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Short.htm" />
+  <HelpKINode Title="Single enumeration member" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="Single field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Single.htm" />
+  <HelpKINode Title="SiteLocation property">
+    <HelpKINode Title="SiteLocation Property " Url="html/P-WD.DataAccess.Mitecs.Instance.SiteLocation.htm" />
+    <HelpKINode Title="SiteLocation Property " Url="html/P-WD.DataAccess.Context.DbContext.SiteLocation.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SiteName property" Url="html/P-WD.DataAccess.Context.DbContext.SiteName.htm" />
+  <HelpKINode Title="Size property" Url="html/P-WD.DataAccess.Attributes.CustomAttribute.Size.htm" />
+  <HelpKINode Title="SortableBindingList(Of T) class">
+    <HelpKINode Title="SortableBindingList(T) Class" Url="html/T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="SortableBindingList(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="about SortableBindingList(Of T) class" Url="html/T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Helpers.SortableBindingList-1.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SortableBindingList(Of T).SortableBindingList constructor" Url="html/Overload-WD.DataAccess.Helpers.SortableBindingList-1.-ctor.htm" />
+  <HelpKINode Title="SortableBindingList&lt;T&gt; class">
+    <HelpKINode Title="SortableBindingList(T) Class" Url="html/T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="SortableBindingList(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="about SortableBindingList&lt;T&gt; class" Url="html/T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Helpers.SortableBindingList-1.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SortableBindingList&lt;T&gt;.SortableBindingList constructor" Url="html/Overload-WD.DataAccess.Helpers.SortableBindingList-1.-ctor.htm" />
+  <HelpKINode Title="SortOption enumeration" Url="html/T-WD.DataAccess.Enums.SortOption.htm" />
+  <HelpKINode Title="SortOption.ASC field" Url="html/F-WD.DataAccess.Enums.SortOption.ASC.htm" />
+  <HelpKINode Title="SortOption.DESC field" Url="html/F-WD.DataAccess.Enums.SortOption.DESC.htm" />
+  <HelpKINode Title="Sql field" Url="html/F-WD.DataAccess.Enums.DBProvider.Sql.htm" />
+  <HelpKINode Title="SqlDatabase class">
+    <HelpKINode Title="SqlDatabase Class" Url="html/T-WD.DataAccess.Concrete.SqlDatabase.htm" />
+    <HelpKINode Title="SqlDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.SqlDatabase.htm" />
+    <HelpKINode Title="about SqlDatabase class" Url="html/T-WD.DataAccess.Concrete.SqlDatabase.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Concrete.SqlDatabase.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Concrete.SqlDatabase.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Concrete.SqlDatabase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Concrete.SqlDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SqlDatabase.SqlDatabase constructor" Url="html/Overload-WD.DataAccess.Concrete.SqlDatabase.-ctor.htm" />
+  <HelpKINode Title="SqlStatement class">
+    <HelpKINode Title="SqlStatement Class" Url="html/T-WD.DataAccess.Helpers.SqlStatement.htm" />
+    <HelpKINode Title="SqlStatement Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SqlStatement.htm" />
+    <HelpKINode Title="about SqlStatement class" Url="html/T-WD.DataAccess.Helpers.SqlStatement.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SqlStatement.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.SqlStatement.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Helpers.SqlStatement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SqlStatement.CommandText property" Url="html/P-WD.DataAccess.Helpers.SqlStatement.CommandText.htm" />
+  <HelpKINode Title="SqlStatement.CommandType property" Url="html/P-WD.DataAccess.Helpers.SqlStatement.CommandType.htm" />
+  <HelpKINode Title="SqlStatement.Params property" Url="html/P-WD.DataAccess.Helpers.SqlStatement.Params.htm" />
+  <HelpKINode Title="SqlThrowErrorList property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.SqlThrowErrorList.htm" />
+  <HelpKINode Title="Start method" Url="html/M-WD.DataAccess.Helpers.PeriodicTaskFactory.Start.htm" />
+  <HelpKINode Title="StringConverter class">
+    <HelpKINode Title="StringConverter Class" Url="html/T-WD.DataAccess.Helpers.StringConverter.htm" />
+    <HelpKINode Title="StringConverter Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.StringConverter.htm" />
+    <HelpKINode Title="about StringConverter class" Url="html/T-WD.DataAccess.Helpers.StringConverter.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.StringConverter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.StringConverter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringConverter.ConvertString method" Url="html/M-WD.DataAccess.Helpers.StringConverter.ConvertString.htm" />
+  <HelpKINode Title="StringConverter.FindCommonType method" Url="html/M-WD.DataAccess.Helpers.StringConverter.FindCommonType.htm" />
+  <HelpKINode Title="Sum method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Sum.htm" />
+  <HelpKINode Title="TabDelimited enumeration member" Url="html/T-WD.DataAccess.Helpers.SchemeDef.DelimType.htm" />
+  <HelpKINode Title="TabDelimited field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.DelimType.TabDelimited.htm" />
+  <HelpKINode Title="TeraData field" Url="html/F-WD.DataAccess.Enums.DBProvider.TeraData.htm" />
+  <HelpKINode Title="TeraDatabase class">
+    <HelpKINode Title="TeraDatabase Class" Url="html/T-WD.DataAccess.Concrete.TeraDatabase.htm" />
+    <HelpKINode Title="TeraDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.TeraDatabase.htm" />
+    <HelpKINode Title="about TeraDatabase class" Url="html/T-WD.DataAccess.Concrete.TeraDatabase.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Concrete.TeraDatabase.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload-WD.DataAccess.Concrete.TeraDatabase.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Concrete.TeraDatabase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Concrete.TeraDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TeraDatabase.TeraDatabase constructor" Url="html/Overload-WD.DataAccess.Concrete.TeraDatabase.-ctor.htm" />
+  <HelpKINode Title="TesterdIdCheck property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.TesterdIdCheck.htm" />
+  <HelpKINode Title="TesterIdCheck property" Url="html/P-WD.DataAccess.Context.DbContext.TesterIdCheck.htm" />
+  <HelpKINode Title="Text enumeration member" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="Text field" Url="html/F-WD.DataAccess.Helpers.ItemSpecification.JetDataType.Text.htm" />
+  <HelpKINode Title="TheSql property" Url="html/P-WD.DataAccess.Helpers.Wrapper.TheSql.htm" />
+  <HelpKINode Title="TimeLog property">
+    <HelpKINode Title="TimeLog Property " Url="html/P-WD.DataAccess.Context.DbContext.TimeLog.htm" />
+    <HelpKINode Title="TimeLog Property " Url="html/P-WD.DataAccess.Mitecs.Instance.TimeLog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Timestamp property" Url="html/P-WD.DataAccess.Helpers.LogString.Timestamp.htm" />
+  <HelpKINode Title="Transaction class">
+    <HelpKINode Title="Transaction Class" Url="html/T-WD.DataAccess.Enums.Transaction.htm" />
+    <HelpKINode Title="Transaction Members" Url="html/AllMembers.T-WD.DataAccess.Enums.Transaction.htm" />
+    <HelpKINode Title="about Transaction class" Url="html/T-WD.DataAccess.Enums.Transaction.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Enums.Transaction.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Enums.Transaction.-ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-WD.DataAccess.Enums.Transaction.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Enums.Transaction.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Transaction.None field" Url="html/F-WD.DataAccess.Enums.Transaction.None.htm" />
+  <HelpKINode Title="Transaction.Transaction constructor" Url="html/M-WD.DataAccess.Enums.Transaction.-ctor.htm" />
+  <HelpKINode Title="Transaction.TS field" Url="html/F-WD.DataAccess.Enums.Transaction.TS.htm" />
+  <HelpKINode Title="Transaction.TSNT field" Url="html/F-WD.DataAccess.Enums.Transaction.TSNT.htm" />
+  <HelpKINode Title="Transaction.Yes field" Url="html/F-WD.DataAccess.Enums.Transaction.Yes.htm" />
+  <HelpKINode Title="Truncate method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.Truncate.htm" />
+  <HelpKINode Title="TS field" Url="html/F-WD.DataAccess.Enums.Transaction.TS.htm" />
+  <HelpKINode Title="TSNT field" Url="html/F-WD.DataAccess.Enums.Transaction.TSNT.htm" />
+  <HelpKINode Title="TX field" Url="html/F-WD.DataAccess.Enums.Databases.TX.htm" />
+  <HelpKINode Title="Type property" Url="html/P-WD.DataAccess.Parameters.DBParameter.Type.htm" />
+  <HelpKINode Title="TypeData property" Url="html/P-WD.DataAccess.Helpers.ItemSpecification.TypeData.htm" />
+  <HelpKINode Title="Update method">
+    <HelpKINode Title="Update Method " Url="html/Overload-WD.DataAccess.Abstract.IMTech.Update-.htm" />
+    <HelpKINode Title="Update Method " Url="html/M-WD.DataAccess.QueryProviders.QueryBuilder-1.Update.htm" />
+    <HelpKINode Title="Update Method " Url="html/Overload-WD.DataAccess.Abstract.IExecuteEntity.Update-.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Userid property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.Userid.htm" />
+  <HelpKINode Title="UserServerConnectionType property">
+    <HelpKINode Title="UserServerConnectionType Property " Url="html/P-WD.DataAccess.Context.DbContext.UserServerConnectionType.htm" />
+    <HelpKINode Title="UserServerConnectionType Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.UserServerConnectionType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserServerTxConfig property">
+    <HelpKINode Title="UserServerTxConfig Property " Url="html/P-WD.DataAccess.Mitecs.WDConfig.UserServerTxConfig.htm" />
+    <HelpKINode Title="UserServerTxConfig Property " Url="html/P-WD.DataAccess.Context.DbContext.UserServerTxConfig.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UsesHeader property" Url="html/P-WD.DataAccess.Helpers.SchemeDef.UsesHeader.htm" />
+  <HelpKINode Title="Validate method" Url="html/M-WD.DataAccess.Helpers.HelperUtility.Validate.htm" />
+  <HelpKINode Title="Warn method" Url="html/Overload-WD.DataAccess.Logger.ILogger.Warn.htm" />
+  <HelpKINode Title="WD.DataAccess.Abstract namespace" Url="html/N-WD.DataAccess.Abstract.htm" />
+  <HelpKINode Title="WD.DataAccess.Abstract.ICommands class">
+    <HelpKINode Title="ICommands Class" Url="html/T-WD.DataAccess.Abstract.ICommands.htm" />
+    <HelpKINode Title="ICommands Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.ICommands.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Abstract.IDatabase class">
+    <HelpKINode Title="IDatabase Class" Url="html/T-WD.DataAccess.Abstract.IDatabase.htm" />
+    <HelpKINode Title="IDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Abstract.IExecuteDataReader class">
+    <HelpKINode Title="IExecuteDataReader Class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataReader.htm" />
+    <HelpKINode Title="IExecuteDataReader Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Abstract.IExecuteDataSet class">
+    <HelpKINode Title="IExecuteDataSet Class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataSet.htm" />
+    <HelpKINode Title="IExecuteDataSet Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataSet.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Abstract.IExecuteDataTable class">
+    <HelpKINode Title="IExecuteDataTable Class" Url="html/T-WD.DataAccess.Abstract.IExecuteDataTable.htm" />
+    <HelpKINode Title="IExecuteDataTable Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteDataTable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Abstract.IExecuteEntity class">
+    <HelpKINode Title="IExecuteEntity Class" Url="html/T-WD.DataAccess.Abstract.IExecuteEntity.htm" />
+    <HelpKINode Title="IExecuteEntity Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteEntity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Abstract.IExecuteNonQuery class">
+    <HelpKINode Title="IExecuteNonQuery Class" Url="html/T-WD.DataAccess.Abstract.IExecuteNonQuery.htm" />
+    <HelpKINode Title="IExecuteNonQuery Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteNonQuery.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Abstract.IExecuteRecordSet class">
+    <HelpKINode Title="IExecuteRecordSet Class" Url="html/T-WD.DataAccess.Abstract.IExecuteRecordSet.htm" />
+    <HelpKINode Title="IExecuteRecordSet Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteRecordSet.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Abstract.IExecuteScalar class">
+    <HelpKINode Title="IExecuteScalar Class" Url="html/T-WD.DataAccess.Abstract.IExecuteScalar.htm" />
+    <HelpKINode Title="IExecuteScalar Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IExecuteScalar.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Abstract.IMTech class">
+    <HelpKINode Title="IMTech Class" Url="html/T-WD.DataAccess.Abstract.IMTech.htm" />
+    <HelpKINode Title="IMTech Members" Url="html/AllMembers.T-WD.DataAccess.Abstract.IMTech.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Attributes namespace" Url="html/N-WD.DataAccess.Attributes.htm" />
+  <HelpKINode Title="WD.DataAccess.Attributes.CustomAttribute class">
+    <HelpKINode Title="CustomAttribute Class" Url="html/T-WD.DataAccess.Attributes.CustomAttribute.htm" />
+    <HelpKINode Title="CustomAttribute Members" Url="html/AllMembers.T-WD.DataAccess.Attributes.CustomAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Concrete namespace" Url="html/N-WD.DataAccess.Concrete.htm" />
+  <HelpKINode Title="WD.DataAccess.Concrete.Db2Database class">
+    <HelpKINode Title="Db2Database Class" Url="html/T-WD.DataAccess.Concrete.Db2Database.htm" />
+    <HelpKINode Title="Db2Database Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.Db2Database.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Concrete.MySqlDatabase class">
+    <HelpKINode Title="MySqlDatabase Class" Url="html/T-WD.DataAccess.Concrete.MySqlDatabase.htm" />
+    <HelpKINode Title="MySqlDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.MySqlDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Concrete.OracleDatabase class">
+    <HelpKINode Title="OracleDatabase Class" Url="html/T-WD.DataAccess.Concrete.OracleDatabase.htm" />
+    <HelpKINode Title="OracleDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.OracleDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Concrete.PostgreSQLDatabase class">
+    <HelpKINode Title="PostgreSQLDatabase Class" Url="html/T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm" />
+    <HelpKINode Title="PostgreSQLDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.PostgreSQLDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Concrete.SqlDatabase class">
+    <HelpKINode Title="SqlDatabase Class" Url="html/T-WD.DataAccess.Concrete.SqlDatabase.htm" />
+    <HelpKINode Title="SqlDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.SqlDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Concrete.TeraDatabase class">
+    <HelpKINode Title="TeraDatabase Class" Url="html/T-WD.DataAccess.Concrete.TeraDatabase.htm" />
+    <HelpKINode Title="TeraDatabase Members" Url="html/AllMembers.T-WD.DataAccess.Concrete.TeraDatabase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Configurations namespace" Url="html/N-WD.DataAccess.Configurations.htm" />
+  <HelpKINode Title="WD.DataAccess.Configurations.AppConfiguration class">
+    <HelpKINode Title="AppConfiguration Class" Url="html/T-WD.DataAccess.Configurations.AppConfiguration.htm" />
+    <HelpKINode Title="AppConfiguration Members" Url="html/AllMembers.T-WD.DataAccess.Configurations.AppConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Context namespace" Url="html/N-WD.DataAccess.Context.htm" />
+  <HelpKINode Title="WD.DataAccess.Context.DbContext class">
+    <HelpKINode Title="DbContext Class" Url="html/T-WD.DataAccess.Context.DbContext.htm" />
+    <HelpKINode Title="DbContext Members" Url="html/AllMembers.T-WD.DataAccess.Context.DbContext.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Enums namespace" Url="html/N-WD.DataAccess.Enums.htm" />
+  <HelpKINode Title="WD.DataAccess.Enums.Databases class">
+    <HelpKINode Title="Databases Class" Url="html/T-WD.DataAccess.Enums.Databases.htm" />
+    <HelpKINode Title="Databases Members" Url="html/AllMembers.T-WD.DataAccess.Enums.Databases.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Enums.DBProvider class">
+    <HelpKINode Title="DBProvider Class" Url="html/T-WD.DataAccess.Enums.DBProvider.htm" />
+    <HelpKINode Title="DBProvider Members" Url="html/AllMembers.T-WD.DataAccess.Enums.DBProvider.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Enums.SortOption enumeration" Url="html/T-WD.DataAccess.Enums.SortOption.htm" />
+  <HelpKINode Title="WD.DataAccess.Enums.Transaction class">
+    <HelpKINode Title="Transaction Class" Url="html/T-WD.DataAccess.Enums.Transaction.htm" />
+    <HelpKINode Title="Transaction Members" Url="html/AllMembers.T-WD.DataAccess.Enums.Transaction.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers namespace" Url="html/N-WD.DataAccess.Helpers.htm" />
+  <HelpKINode Title="WD.DataAccess.Helpers.Connect class">
+    <HelpKINode Title="Connect Class" Url="html/T-WD.DataAccess.Helpers.Connect.htm" />
+    <HelpKINode Title="Connect Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.Connect.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.CSVReader class">
+    <HelpKINode Title="CSVReader Class" Url="html/T-WD.DataAccess.Helpers.CSVReader.htm" />
+    <HelpKINode Title="CSVReader Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.CSVReader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.DataReaderMapper(Of T) class">
+    <HelpKINode Title="DataReaderMapper(T) Class" Url="html/T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+    <HelpKINode Title="DataReaderMapper(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.DataReaderMapper&lt;T&gt; class">
+    <HelpKINode Title="DataReaderMapper(T) Class" Url="html/T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+    <HelpKINode Title="DataReaderMapper(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataReaderMapper-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.DataRowMapper class">
+    <HelpKINode Title="DataRowMapper Class" Url="html/T-WD.DataAccess.Helpers.DataRowMapper.htm" />
+    <HelpKINode Title="DataRowMapper Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataRowMapper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.DataTableExtension class">
+    <HelpKINode Title="DataTableExtension Class" Url="html/T-WD.DataAccess.Helpers.DataTableExtension.htm" />
+    <HelpKINode Title="DataTableExtension Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.DataTableExtension.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.HelperUtility class">
+    <HelpKINode Title="HelperUtility Class" Url="html/T-WD.DataAccess.Helpers.HelperUtility.htm" />
+    <HelpKINode Title="HelperUtility Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.HelperUtility.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.ItemSpecification class">
+    <HelpKINode Title="ItemSpecification Class" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.htm" />
+    <HelpKINode Title="ItemSpecification Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.ItemSpecification.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.ItemSpecification.JetDataType enumeration" Url="html/T-WD.DataAccess.Helpers.ItemSpecification.JetDataType.htm" />
+  <HelpKINode Title="WD.DataAccess.Helpers.LogString class">
+    <HelpKINode Title="LogString Class" Url="html/T-WD.DataAccess.Helpers.LogString.htm" />
+    <HelpKINode Title="LogString Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.LogString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.LogString.LogUpdateDelegate delegate" Url="html/T-WD.DataAccess.Helpers.LogString.LogUpdateDelegate.htm" />
+  <HelpKINode Title="WD.DataAccess.Helpers.ObjectXMLSerializer enumeration" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer.htm" />
+  <HelpKINode Title="WD.DataAccess.Helpers.ObjectXMLSerializer(Of T) class">
+    <HelpKINode Title="ObjectXMLSerializer(T) Class" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+    <HelpKINode Title="ObjectXMLSerializer(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.ObjectXMLSerializer&lt;T&gt; class">
+    <HelpKINode Title="ObjectXMLSerializer(T) Class" Url="html/T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+    <HelpKINode Title="ObjectXMLSerializer(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.ObjectXMLSerializer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.PeriodicTaskFactory class">
+    <HelpKINode Title="PeriodicTaskFactory Class" Url="html/T-WD.DataAccess.Helpers.PeriodicTaskFactory.htm" />
+    <HelpKINode Title="PeriodicTaskFactory Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.PeriodicTaskFactory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.PropertyComparer(Of T) class">
+    <HelpKINode Title="PropertyComparer(T) Class" Url="html/T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+    <HelpKINode Title="PropertyComparer(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.PropertyComparer&lt;T&gt; class">
+    <HelpKINode Title="PropertyComparer(T) Class" Url="html/T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+    <HelpKINode Title="PropertyComparer(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.PropertyComparer-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.SchemeDef class">
+    <HelpKINode Title="SchemeDef Class" Url="html/T-WD.DataAccess.Helpers.SchemeDef.htm" />
+    <HelpKINode Title="SchemeDef Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SchemeDef.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.SchemeDef.DelimType enumeration" Url="html/T-WD.DataAccess.Helpers.SchemeDef.DelimType.htm" />
+  <HelpKINode Title="WD.DataAccess.Helpers.SchemeDef.FirstRowHeader enumeration" Url="html/T-WD.DataAccess.Helpers.SchemeDef.FirstRowHeader.htm" />
+  <HelpKINode Title="WD.DataAccess.Helpers.SortableBindingList(Of T) class">
+    <HelpKINode Title="SortableBindingList(T) Class" Url="html/T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="SortableBindingList(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.SortableBindingList&lt;T&gt; class">
+    <HelpKINode Title="SortableBindingList(T) Class" Url="html/T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+    <HelpKINode Title="SortableBindingList(T) Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SortableBindingList-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.SqlStatement class">
+    <HelpKINode Title="SqlStatement Class" Url="html/T-WD.DataAccess.Helpers.SqlStatement.htm" />
+    <HelpKINode Title="SqlStatement Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.SqlStatement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.StringConverter class">
+    <HelpKINode Title="StringConverter Class" Url="html/T-WD.DataAccess.Helpers.StringConverter.htm" />
+    <HelpKINode Title="StringConverter Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.StringConverter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.WebSecurityUtility class">
+    <HelpKINode Title="WebSecurityUtility Class" Url="html/T-WD.DataAccess.Helpers.WebSecurityUtility.htm" />
+    <HelpKINode Title="WebSecurityUtility Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.WebSecurityUtility.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Helpers.Wrapper class">
+    <HelpKINode Title="Wrapper Class" Url="html/T-WD.DataAccess.Helpers.Wrapper.htm" />
+    <HelpKINode Title="Wrapper Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.Wrapper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Logger namespace" Url="html/N-WD.DataAccess.Logger.htm" />
+  <HelpKINode Title="WD.DataAccess.Logger.Appender class">
+    <HelpKINode Title="Appender Class" Url="html/T-WD.DataAccess.Logger.Appender.htm" />
+    <HelpKINode Title="Appender Members" Url="html/AllMembers.T-WD.DataAccess.Logger.Appender.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Logger.FilePath class">
+    <HelpKINode Title="FilePath Class" Url="html/T-WD.DataAccess.Logger.FilePath.htm" />
+    <HelpKINode Title="FilePath Members" Url="html/AllMembers.T-WD.DataAccess.Logger.FilePath.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Logger.ILogger class">
+    <HelpKINode Title="ILogger Class" Url="html/T-WD.DataAccess.Logger.ILogger.htm" />
+    <HelpKINode Title="ILogger Members" Url="html/AllMembers.T-WD.DataAccess.Logger.ILogger.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Logger.Log4net class">
+    <HelpKINode Title="Log4net Class" Url="html/T-WD.DataAccess.Logger.Log4net.htm" />
+    <HelpKINode Title="Log4net Members" Url="html/AllMembers.T-WD.DataAccess.Logger.Log4net.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Logger.Log4netConfiguration class">
+    <HelpKINode Title="Log4netConfiguration Class" Url="html/T-WD.DataAccess.Logger.Log4netConfiguration.htm" />
+    <HelpKINode Title="Log4netConfiguration Members" Url="html/AllMembers.T-WD.DataAccess.Logger.Log4netConfiguration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Logger.LogAppender class">
+    <HelpKINode Title="LogAppender Class" Url="html/T-WD.DataAccess.Logger.LogAppender.htm" />
+    <HelpKINode Title="LogAppender Members" Url="html/AllMembers.T-WD.DataAccess.Logger.LogAppender.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Logger.LogAppender.ActiveOptions delegate" Url="html/T-WD.DataAccess.Logger.LogAppender.ActiveOptions.htm" />
+  <HelpKINode Title="WD.DataAccess.Logger.LogAppender.Logging delegate" Url="html/T-WD.DataAccess.Logger.LogAppender.Logging.htm" />
+  <HelpKINode Title="WD.DataAccess.Logger.LogAppender.Loggings delegate" Url="html/T-WD.DataAccess.Logger.LogAppender.Loggings.htm" />
+  <HelpKINode Title="WD.DataAccess.Mitecs namespace" Url="html/N-WD.DataAccess.Mitecs.htm" />
+  <HelpKINode Title="WD.DataAccess.Mitecs.Connections class">
+    <HelpKINode Title="Connections Class" Url="html/T-WD.DataAccess.Mitecs.Connections.htm" />
+    <HelpKINode Title="Connections Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.Connections.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Mitecs.DB class">
+    <HelpKINode Title="DB Class" Url="html/T-WD.DataAccess.Mitecs.DB.htm" />
+    <HelpKINode Title="DB Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.DB.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Mitecs.Instance class">
+    <HelpKINode Title="Instance Class" Url="html/T-WD.DataAccess.Mitecs.Instance.htm" />
+    <HelpKINode Title="Instance Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.Instance.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Mitecs.WDConfig class">
+    <HelpKINode Title="WDConfig Class" Url="html/T-WD.DataAccess.Mitecs.WDConfig.htm" />
+    <HelpKINode Title="WDConfig Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.WDConfig.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Mitecs.WDDBConfig class">
+    <HelpKINode Title="WDDBConfig Class" Url="html/T-WD.DataAccess.Mitecs.WDDBConfig.htm" />
+    <HelpKINode Title="WDDBConfig Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.WDDBConfig.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.Parameters namespace" Url="html/N-WD.DataAccess.Parameters.htm" />
+  <HelpKINode Title="WD.DataAccess.Parameters.DBParameter class">
+    <HelpKINode Title="DBParameter Class" Url="html/T-WD.DataAccess.Parameters.DBParameter.htm" />
+    <HelpKINode Title="DBParameter Members" Url="html/AllMembers.T-WD.DataAccess.Parameters.DBParameter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.QueryProviders namespace" Url="html/N-WD.DataAccess.QueryProviders.htm" />
+  <HelpKINode Title="WD.DataAccess.QueryProviders.QueryBuilder(Of T) class">
+    <HelpKINode Title="QueryBuilder(T) Class" Url="html/T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+    <HelpKINode Title="QueryBuilder(T) Members" Url="html/AllMembers.T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WD.DataAccess.QueryProviders.QueryBuilder&lt;T&gt; class">
+    <HelpKINode Title="QueryBuilder(T) Class" Url="html/T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+    <HelpKINode Title="QueryBuilder(T) Members" Url="html/AllMembers.T-WD.DataAccess.QueryProviders.QueryBuilder-1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WDConfig class">
+    <HelpKINode Title="WDConfig Class" Url="html/T-WD.DataAccess.Mitecs.WDConfig.htm" />
+    <HelpKINode Title="WDConfig Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.WDConfig.htm" />
+    <HelpKINode Title="about WDConfig class" Url="html/T-WD.DataAccess.Mitecs.WDConfig.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.WDConfig.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Mitecs.WDConfig.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Mitecs.WDConfig.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WDConfig.DefaultSite property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.DefaultSite.htm" />
+  <HelpKINode Title="WDConfig.ImportDrive property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.ImportDrive.htm" />
+  <HelpKINode Title="WDConfig.INSTANCES property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.INSTANCES.htm" />
+  <HelpKINode Title="WDConfig.InventoryFlag property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.InventoryFlag.htm" />
+  <HelpKINode Title="WDConfig.SqlThrowErrorList property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.SqlThrowErrorList.htm" />
+  <HelpKINode Title="WDConfig.TesterdIdCheck property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.TesterdIdCheck.htm" />
+  <HelpKINode Title="WDConfig.UserServerConnectionType property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.UserServerConnectionType.htm" />
+  <HelpKINode Title="WDConfig.UserServerTxConfig property" Url="html/P-WD.DataAccess.Mitecs.WDConfig.UserServerTxConfig.htm" />
+  <HelpKINode Title="WDDBConfig class">
+    <HelpKINode Title="WDDBConfig Class" Url="html/T-WD.DataAccess.Mitecs.WDDBConfig.htm" />
+    <HelpKINode Title="WDDBConfig Members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.WDDBConfig.htm" />
+    <HelpKINode Title="about WDDBConfig class" Url="html/T-WD.DataAccess.Mitecs.WDDBConfig.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Mitecs.WDDBConfig.htm" />
+    <HelpKINode Title="constructor" Url="html/M-WD.DataAccess.Mitecs.WDDBConfig.-ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Mitecs.WDDBConfig.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Mitecs.WDDBConfig.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WDDBConfig.ActiveFlag property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.ActiveFlag.htm" />
+  <HelpKINode Title="WDDBConfig.DatabaseName property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.DatabaseName.htm" />
+  <HelpKINode Title="WDDBConfig.DatabaseTransaction property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.DatabaseTransaction.htm" />
+  <HelpKINode Title="WDDBConfig.dbProvider property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.dbProvider.htm" />
+  <HelpKINode Title="WDDBConfig.ErrorMessages property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.ErrorMessages.htm" />
+  <HelpKINode Title="WDDBConfig.Index property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.Index.htm" />
+  <HelpKINode Title="WDDBConfig.Password property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.Password.htm" />
+  <HelpKINode Title="WDDBConfig.RecoveryFlag property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.RecoveryFlag.htm" />
+  <HelpKINode Title="WDDBConfig.ServerName property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.ServerName.htm" />
+  <HelpKINode Title="WDDBConfig.Userid property" Url="html/P-WD.DataAccess.Mitecs.WDDBConfig.Userid.htm" />
+  <HelpKINode Title="WDDBConfig.WDDBConfig constructor" Url="html/M-WD.DataAccess.Mitecs.WDDBConfig.-ctor.htm" />
+  <HelpKINode Title="WebSecurityUtility class">
+    <HelpKINode Title="WebSecurityUtility Class" Url="html/T-WD.DataAccess.Helpers.WebSecurityUtility.htm" />
+    <HelpKINode Title="WebSecurityUtility Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.WebSecurityUtility.htm" />
+    <HelpKINode Title="about WebSecurityUtility class" Url="html/T-WD.DataAccess.Helpers.WebSecurityUtility.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.WebSecurityUtility.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.WebSecurityUtility.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebSecurityUtility.Decrypt method" Url="html/M-WD.DataAccess.Helpers.WebSecurityUtility.Decrypt.htm" />
+  <HelpKINode Title="WebSecurityUtility.Encrypt method" Url="html/M-WD.DataAccess.Helpers.WebSecurityUtility.Encrypt.htm" />
+  <HelpKINode Title="Where method" Url="html/Overload-WD.DataAccess.QueryProviders.QueryBuilder-1.Where.htm" />
+  <HelpKINode Title="Wrapper class">
+    <HelpKINode Title="Wrapper Class" Url="html/T-WD.DataAccess.Helpers.Wrapper.htm" />
+    <HelpKINode Title="Wrapper Members" Url="html/AllMembers.T-WD.DataAccess.Helpers.Wrapper.htm" />
+    <HelpKINode Title="about Wrapper class" Url="html/T-WD.DataAccess.Helpers.Wrapper.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-WD.DataAccess.Helpers.Wrapper.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-WD.DataAccess.Helpers.Wrapper.htm" />
+    <HelpKINode Title="properties" Url="html/Properties.T-WD.DataAccess.Helpers.Wrapper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Wrapper.AuthenticationToken property" Url="html/P-WD.DataAccess.Helpers.Wrapper.AuthenticationToken.htm" />
+  <HelpKINode Title="Wrapper.Connect property" Url="html/P-WD.DataAccess.Helpers.Wrapper.Connect.htm" />
+  <HelpKINode Title="Wrapper.TheSql property" Url="html/P-WD.DataAccess.Helpers.Wrapper.TheSql.htm" />
+  <HelpKINode Title="WriteToCsvFile method" Url="html/M-WD.DataAccess.Helpers.DataTableExtension.WriteToCsvFile.htm" />
+  <HelpKINode Title="xmlInstance property" Url="html/P-WD.DataAccess.Context.DbContext.xmlInstance.htm" />
+  <HelpKINode Title="Yes enumeration member" Url="html/T-WD.DataAccess.Helpers.SchemeDef.FirstRowHeader.htm" />
+  <HelpKINode Title="Yes field">
+    <HelpKINode Title="Yes Field" Url="html/F-WD.DataAccess.Enums.Transaction.Yes.htm" />
+    <HelpKINode Title="Yes Field" Url="html/F-WD.DataAccess.Helpers.SchemeDef.FirstRowHeader.Yes.htm" />
+  </HelpKINode>
+</HelpKI>

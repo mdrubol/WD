@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WD.WCF.DataSetService" CodeBehind="DataSetService.svc.cs" %>

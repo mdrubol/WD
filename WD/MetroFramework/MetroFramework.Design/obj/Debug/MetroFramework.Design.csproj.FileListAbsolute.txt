@@ -1,0 +1,7 @@
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Design\bin\Debug\MetroFramework.Design.dll
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Design\bin\Debug\MetroFramework.Design.pdb
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Design\bin\Debug\MetroFramework.dll
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Design\bin\Debug\MetroFramework.pdb
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Design\obj\Debug\MetroFramework.Design.csprojResolveAssemblyReference.cache
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Design\obj\Debug\MetroFramework.Design.dll
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Design\obj\Debug\MetroFramework.Design.pdb

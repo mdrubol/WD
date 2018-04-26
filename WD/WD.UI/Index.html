@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/" />
+    <title>{{title}}</title>
+   <link href="App/css/bootstrap.min.css" rel="stylesheet" />
+    <style type="text/css">
+        .active {
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand active" ui-sref="/">WD</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="{{dataset}}"><a ui-sref="DataSet">DataSet</a></li>
+                <li class="{{datatable}}"><a ui-sref="DataTable">DataTable</a></li>
+                <li class="{{executeNonQuery}}"><a ui-sref="executeNonQuery">ExecuteNonQuery</a></li>
+                 <li class="{{executeScalar}}"><a ui-sref="executeScalar">ExecuteScalar</a></li>
+                   <li class="{{executeFilter}}"><a ui-sref="executeFilter">Filter</a></li>
+                  <li class="{{executeEncrypt}}"><a ui-sref="executeEncrypt">Encrypt</a></li>
+                 <li class="{{executeFaq}}"><a ui-sref="executeFaq">Faq</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div ui-view> 
+            <h4>WELCOME TO LEARNERS ZONE</h4>
+        </div>
+    </div>
+</body>
+
+<!--angular js for routing-->
+<script src="Scripts/angular.min.js" type="text/javascript"></script>
+<!--<script src="Scripts/angular-route.min.js" type="text/javascript"></script>-->
+<script src="Scripts/angular-ui-router.min.js" type="text/javascript"></script>
+<script src="Scripts/angular-resource.min.js" type="text/javascript"></script>
+<script src="App/js/app.js"></script>
+<!-- angular JS Ends-->
+<!--dataSet-->
+<script src="App/dataSet/controllers.js" type="text/javascript"></script>
+<script src="App/dataSet/dataFactory.js" type="text/javascript"></script>
+<!--dataTable-->
+<script src="App/dataTable/controllers.js" type="text/javascript"></script>
+<script src="App/dataTable/tableFactory.js" type="text/javascript"></script>
+<!--executeNonQuery-->
+<script src="App/executeNonQuery/controllers.js" type="text/javascript"></script>
+<script src="App/executeNonQuery/executeNonQueryFactory.js" type="text/javascript"></script>
+<!--executeScalar-->
+ <script src="App/executeScalar/controllers.js" type="text/javascript"></script>
+<script src="App/executeScalar/executeScalarFactory.js" type="text/javascript"></script>
+
+    <!--executeFilter-->
+<script src="App/executeFilter/controllers.js" type="text/javascript"></script>
+<script src="App/executeFilter/executeFilterFactory.js" type="text/javascript"></script>
+
+        <!--executeEncrypt-->
+<script src="App/executeEncrypt/controllers.js" type="text/javascript"></script>
+<script src="App/executeEncrypt/executeEncryptFactory.js" type="text/javascript"></script>
+<!--faq-->
+<script src="App/faq/controllers.js" type="text/javascript"></script>
+<script src="App/faq/faqFactory.js" type="text/javascript"></script>
+</html>
+

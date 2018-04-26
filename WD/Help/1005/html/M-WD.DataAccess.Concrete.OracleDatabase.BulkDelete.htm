@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="save" content="history" />
+    <title>BulkDelete Method </title>
+    <link rel="stylesheet" type="text/css" href="../styles/lightweight.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <link rel="stylesheet" type="text/css" href="../styles/lw-code.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <script type="text/javascript" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" src="../scripts/languageSelector.js"> </script>
+    <meta name="container" content="WD.DataAccess.Concrete" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="file" content="M-WD.DataAccess.Concrete.OracleDatabase.BulkDelete" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="guid" content="M-WD.DataAccess.Concrete.OracleDatabase.BulkDelete" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <xml xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <MSHelp:Attr Name="AssetID" Value="M:WD.DataAccess.Concrete.OracleDatabase.BulkDelete(DataTable,System.String,System.Int32,System.Int32,IDictionary{System.String, System.String},IDbConnection,IDbTransaction)" />
+      <MSHelp:TOCTitle Title="BulkDelete Method " />
+      <MSHelp:RLTitle Title="OracleDatabase.BulkDelete Method  (WD.DataAccess.Concrete)" />
+      <MSHelp:Keyword Index="A" Term="M:WD.DataAccess.Concrete.OracleDatabase.BulkDelete(DataTable,System.String,System.Int32,System.Int32,IDictionary{System.String, System.String},IDbConnection,IDbTransaction)" />
+      <MSHelp:Keyword Index="A" Term="frlrfWDDataAccessConcreteOracleDatabaseClassBulkDeleteTopic" />
+      <MSHelp:Keyword Index="K" Term="BulkDelete method" />
+      <MSHelp:Keyword Index="K" Term="OracleDatabase.BulkDelete method" />
+      <MSHelp:Keyword Index="F" Term="WD.DataAccess.Concrete.OracleDatabase.BulkDelete" />
+      <MSHelp:Attr Name="APIType" Value="Managed" />
+      <MSHelp:Attr Name="APILocation" Value="WD.DataAccess.dll" />
+      <MSHelp:Attr Name="APIName" Value="WD.DataAccess.Concrete.OracleDatabase.BulkDelete" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="DevLang" Value="VB" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="TopicType" Value="apiref" />
+      <MSHelp:Attr Name="Abstract" Value="Bulk Delete." />
+      <MSHelp:Attr Name="AssemblyVersion" Value="" />
+    </xml>
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+  </head>
+  <body>
+    <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="content">
+        <div class="topicContainer">
+          <div class="topic">
+            <p class="majorTitle" />
+            <h1 class="title">OracleDatabase<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>BulkDelete Method </h1>
+            <div id="mainSection">
+              <div id="mainBody">
+                <div class="summary">   Bulk Delete. </div>
+                <p />
+    <b>Namespace:</b> 
+   <a href="N-WD.DataAccess.Concrete.htm">WD.DataAccess.Concrete</a><br />
+    <b>Assembly:</b>
+   <span sdata="assembly">WD.DataAccess</span> (in WD.DataAccess.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTab VisualBasicTab" id="VisualBasicTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','VisualBasicCode','VisualBasicTabId');" title="Visual Basic">VB</a></div><div class="CodeSnippetContainerTab ManagedCPlusPlusTab" id="ManagedCPlusPlusTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','ManagedCPlusPlusCode','ManagedCPlusPlusTabId');" title="Visual C++">C++</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span> <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a> <span class="identifier">BulkDelete</span>(
+	<a href="http://msdn.microsoft.com/en-us/library/system.data.datatable.aspx" target="_blank">DataTable</a> <span class="parameter">dt</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">string</a> <span class="parameter">tableName</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a> <span class="parameter">batchSize</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a> <span class="parameter">timeOut</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/s4ys34ea.aspx" target="_blank">IDictionary</a>&lt;<a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">string</a>, <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">string</a>&gt; <span class="parameter">primaryColumns</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/system.data.idbconnection.aspx" target="_blank">IDbConnection</a> <span class="parameter">connection</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/system.data.idbtransaction.aspx" target="_blank">IDbTransaction</a> <span class="parameter">transaction</span>
+)</pre></div><div class="CodeSnippetContainerCode VisualBasicCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">BulkDelete</span> ( _
+	<span class="parameter">dt</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.data.datatable.aspx" target="_blank">DataTable</a>, _
+	<span class="parameter">tableName</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">String</a>, _
+	<span class="parameter">batchSize</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Integer</a>, _
+	<span class="parameter">timeOut</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Integer</a>, _
+	<span class="parameter">primaryColumns</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/s4ys34ea.aspx" target="_blank">IDictionary</a>(<span class="keyword">Of</span> <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">String</a>, <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">String</a>), _
+	<span class="parameter">connection</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.data.idbconnection.aspx" target="_blank">IDbConnection</a>, _
+	<span class="parameter">transaction</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.data.idbtransaction.aspx" target="_blank">IDbTransaction</a> _
+) <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Integer</a></pre></div><div class="CodeSnippetContainerCode ManagedCPlusPlusCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span>:
+<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a>^ <span class="identifier">BulkDelete</span>(
+	<a href="http://msdn.microsoft.com/en-us/library/system.data.datatable.aspx" target="_blank">DataTable</a>^ <span class="parameter">dt</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">String</a>^ <span class="parameter">tableName</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a>^ <span class="parameter">batchSize</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">int</a>^ <span class="parameter">timeOut</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/s4ys34ea.aspx" target="_blank">IDictionary</a>&lt;<a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">String</a>^, <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">String</a>^&gt;^ <span class="parameter">primaryColumns</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/system.data.idbconnection.aspx" target="_blank">IDbConnection</a>^ <span class="parameter">connection</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/system.data.idbtransaction.aspx" target="_blank">IDbTransaction</a>^ <span class="parameter">transaction</span>
+)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="dt"><dt><span class="parameterItalic">dt</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.data.datatable.aspx" target="_blank">DataTable</a><br /> Data Table which contains data. </dd></dl><dl paramName="tableName"><dt><span class="parameterItalic">tableName</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">String</a><br /> Name of the Table of database. </dd></dl><dl paramName="batchSize"><dt><span class="parameterItalic">batchSize</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Int32</a><br /> Size of batch to be processed. </dd></dl><dl paramName="timeOut"><dt><span class="parameterItalic">timeOut</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.int32.aspx" target="_blank">Int32</a><br />  Time out value in seconds for command execution. </dd></dl><dl paramName="primaryColumns"><dt><span class="parameterItalic">primaryColumns</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/s4ys34ea.aspx" target="_blank">IDictionary</a><span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">String</a>, <a href="http://msdn.microsoft.com/en-us/library/system.string.aspx" target="_blank">String</a><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span><br /> Represents the Where clause filters. </dd></dl><dl paramName="connection"><dt><span class="parameterItalic">connection</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.data.idbconnection.aspx" target="_blank">IDbConnection</a><br /> Active Connection Object . </dd></dl><dl paramName="transaction"><dt><span class="parameterItalic">transaction</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.data.idbtransaction.aspx" target="_blank">IDbTransaction</a><br />  Active Transaction Object. </dd></dl></div><h4 class="subHeading">Return Value</h4>   No Of Rows Affected. </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Examples</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exampleSection"><!----></a><span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">class</span> TestClass
+{
+<span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> Main()
+{
+  WD.DataAccess.Context.DbContext dbContext=<span class="highlight-keyword">new</span> WD.DataAccess.Context.DbContext();
+  <span class="highlight-keyword">using</span>(IDbConnection connection=dbContext.ICommands.CreateConnection())
+  {
+  <span class="highlight-keyword">using</span>(IDbTransaction transaction=con.BeginTransaction())
+  {
+  Try
+  {
+  DataTable dt =dbContext.ICommands.ExecuteDataTable(<span class="highlight-literal">"select Id from employee"</span>,connection);
+  Dictionary&lt;<span class="highlight-keyword">string</span>, <span class="highlight-keyword">string</span>&gt; primaryColumns = <span class="highlight-keyword">new</span> Dictionary&lt;<span class="highlight-keyword">string</span>, <span class="highlight-keyword">string</span>&gt;();
+  primaryColumns.Add(<span class="highlight-literal">"Id"</span>, <span class="highlight-literal">"Id"</span>);
+  <span class="highlight-keyword">int</span> rowsEffected =dbContext.ICommands.BulkDelete(dt,<span class="highlight-literal">"Employee"</span>,<span class="highlight-number">100</span>,<span class="highlight-number">30</span>,primaryColumns,connection,transaction);<span class="highlight-comment">// </span>
+  transaction.Commit();
+  }
+ <span class="highlight-keyword">catch</span>
+ {
+    trans.Rollback();
+ }
+}
+}
+}
+}</pre></div></span></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-WD.DataAccess.Concrete.OracleDatabase.htm">OracleDatabase Class</a></div><div class="seeAlsoStyle"><a href="N-WD.DataAccess.Concrete.htm">WD.DataAccess.Concrete Namespace</a></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="footer" class="footerContainer">
+          <div class="footerLogoContainer">
+            <div style="margin-top:5px">
+              <span class="customCopyrightFooter" />
+            </div>
+            <div style="margin-top:5px" class="copyrightFooter">
+              <a href="http://submain.com/fwlink/gd-help/generated/">Created with evaluation copy of GhostDoc Enterprise. Click here to purchase and remove this link.</a>
+            </div>
+            <div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.dll
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Fonts\bin\Debug\MetroFramework.Fonts.pdb
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Fonts\bin\Debug\MetroFramework.dll
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Fonts\bin\Debug\MetroFramework.pdb
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.csprojResolveAssemblyReference.cache
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.dll
+D:\WDProjects\DALProject\DEV\WD\MetroFramework\MetroFramework.Fonts\obj\Debug\MetroFramework.Fonts.pdb

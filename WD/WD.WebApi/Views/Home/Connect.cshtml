@@ -1,0 +1,92 @@
+﻿@model WD.WebApi.Models.GeneralModel<WD.Domain.Entity.Employee>
+@{
+    ViewBag.Title = "WD " + Model.DbType.ToString(); 
+ }
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>WD DataAccess</h1>
+                <h2>We'll demonstrate the power of DataAccess Layer</h2>
+            </hgroup>
+            <p>
+                DataAccess Layer allows you to perform all CRUD operations on different databases directly or over HTTP.
+            </p>
+            <p>
+                To learn more about WD DataAccess visit the
+                <a href="http://go.microsoft.com/fwlink/?LinkID=238195" title="WD DataAccess Website">WD DataAccess Help Library</a>.
+                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from WD DataAccess.
+                If you have any questions about WD DataAccess, visit
+                <a href="http://go.microsoft.com/fwlink/?LinkID=238196" title="WD DataAccess Forum">our forums</a>.
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix" >
+       
+ <h3>
+     List Of Employee &nbsp;@Html.ActionLink("Add New", "Insert", new { area = "", controller = "Home", dbType = Model.DbType }, null)
+ </h3>
+@if(Model.IList.Count>0)
+{
+      <table class="table table-bordered table-stripped">
+          <thead>
+              <tr>
+                  <th>
+                      First Name
+                  </th>
+                  <th>
+                      Middle Name
+                  </th>
+                  <th>
+                      Last Name
+                  </th>
+                  <th>
+                      Date Of Joining
+                  </th>
+                  <th>
+                      Provider 
+                  </th>
+                  <th>
+                     
+                  </th>
+
+              </tr>
+          </thead>
+          <tbody>
+              @foreach (WD.Domain.Entity.Employee info in Model.IList)
+              {
+                  <tr>
+                      <td>
+                          @info.FirstName
+                      </td>
+                       <td>
+                          @info.MiddleName
+                      </td>
+                       <td>
+                          @info.LastName
+                      </td>
+                       <td>
+                          @info.DateOfJoining
+                      </td>
+                       <td>
+                          @info.Provider
+                      </td>
+                      <td>
+                           @Html.ActionLink("Edit", "Update", new { id = info.EmployeeId, dbType = Model.DbType }, null)
+                           @Html.ActionLink("Delete", "Delete", new { id = info.EmployeeId, dbType = Model.DbType }, null)
+                      </td>
+                  </tr>
+              }
+          </tbody>
+      </table>
+}
+else{
+    <ol class="round">
+            <li class="one">
+                <h5>No Records Added</h5>
+            </li>
+        </ol>
+
+}
+            </section>
+</div>

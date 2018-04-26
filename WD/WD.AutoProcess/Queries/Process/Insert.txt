@@ -1,0 +1,30 @@
+﻿INSERT INTO V_SESSION_LOG(process_code,sid,serial#,spid,process_start_time,process_end_time,delay,threshold,status,unixscript,sql_text,create_date,allow_auto,dependency)
+SELECT process_code,sid,serial#,spid,process_start_time,process_end_time,delay,threshold,status,unixscript,sql_text,sysdate as create_date,allow_auto,dependency
+FROM
+(
+SELECT  a.*,b.process_start_time,b.process_end_time,b.threshold,b.process_term_ind as status,b.unixscript,ROUND((SYSDATE - b.process_end_time)*24*60,2) delay ,b.allow_auto,b.dependency
+FROM 
+(
+SELECT UPPER(action) as process_code,sid,PROCESS.spid,serial#,SQLAREA.sql_text
+FROM  V_SESSION 
+LEFT JOIN (SELECT DISK_READS,ELAPSED_TIME,sql_text,HASH_VALUE,ADDRESS FROM V_SQLAREA)SQLAREA
+ON SQLAREA.HASH_VALUE  = SQL_HASH_VALUE AND  SQLAREA.ADDRESS=SQL_ADDRESS
+LEFT OUTER JOIN(
+      SELECT * FROM v_process WHERE spid is not null
+    )PROCESS ON PROCESS.addr=paddr 
+WHERE (action  LIKE 'TRAN%'  OR action LIKE 'TEMP%')
+ORDER BY DISK_READS DESC,ELAPSED_TIME DESC
+) a
+INNER JOIN 
+(
+SELECT l.process_code,process_term_ind,process_start_time,process_end_time,ROUND((SYSDATE - process_end_time)*24*60,2),NVL(threshold,9999)threshold,feq,p.unixscript
+,'Y' as ALLOW_AUTO,
+case when process_end_time > start_time then 1 else 0 end as dependency  
+FROM lu_process_control l
+INNER JOIN lu_process_sp p ON p.process_code=l.process_code and p.UnixScript is not null
+LEFT OUTER JOIN (SELECT MIN (starttime) as start_time,procedurename FROM lu_replication_control group by starttime,procedurename) lpc on lpc.procedurename IN (p.dependency_process)
+) b
+ON a.process_code=b.process_code
+)
+WHERE process_end_time is not null 
+AND  delay > threshold

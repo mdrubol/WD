@@ -1,0 +1,48 @@
+﻿<h1>DataTable</h1>
+<h3>In this screen we show how to consume dataset </h3>
+Authentication Key:&nbsp;
+<input type="text" ng-model="authenticationKey" /><br/>
+DbProvider:&nbsp;
+<select  ng-model="dbProvider"  ng-options="x.text for x  in dbProviders track by x.value" ng-change="getProvider()"></select>
+<br />
+<div ng-hide="hider">
+ConnectionString
+<select  ng-model="conString"  ng-options="x.ConnectionName for x  in conStrings  track by x.ConnectionName" ></select>
+</div>
+<br/>
+Command Text:&nbsp;
+<select  ng-model="commandType"  ng-options="x.text for x  in commandTypes track by x.text"></select>
+<br/>
+SQL 
+<br/>
+<textarea ng-model="commandText" cols="100" rows="10"></textarea>
+<br />
+<input type="button"  ng-click="addParam()"  value="(+)Param" class="btn btn-success"/>
+<br />
+<table cellpadding="0" cellspacing="0" class="table">
+<tr ng-repeat="p in Params">
+<td>
+<input  type="text" ng-model="p.ParameterName" /> 
+</td>
+<td>
+<input  type="text" ng-model="p.ParameterValue" /> 
+</td>
+<td>
+<input type="button" ng-click="deleteParam(p)" value="(-)Param"  class="btn btn-danger"/>
+</td>
+</tr>
+</table>
+<br/>
+<button ng-click="getDataTable()" class="btn btn-primary">Search</button> &nbsp;
+<div class="alert alert-danger">
+    {{status}}
+</div>
+<br/>
+  <table class="table table-stripped">
+    <tr ng-repeat="x in data">
+       <td>{{ $index + 1 }}</td>
+        <td ng-repeat="i in x">
+        {{i}}
+        </td>
+    </tr>
+</table>

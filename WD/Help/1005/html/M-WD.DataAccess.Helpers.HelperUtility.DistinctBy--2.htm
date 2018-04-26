@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="save" content="history" />
+    <title>DistinctBy(TSource, TKey) Method </title>
+    <link rel="stylesheet" type="text/css" href="../styles/lightweight.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <link rel="stylesheet" type="text/css" href="../styles/lw-code.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <script type="text/javascript" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" src="../scripts/languageSelector.js"> </script>
+    <meta name="container" content="WD.DataAccess.Helpers" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="file" content="M-WD.DataAccess.Helpers.HelperUtility.DistinctBy--2" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="guid" content="M-WD.DataAccess.Helpers.HelperUtility.DistinctBy--2" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <xml xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <MSHelp:Attr Name="AssetID" Value="M:WD.DataAccess.Helpers.HelperUtility.DistinctBy``2(IEnumerable{``0},Func{``0, ``1})" />
+      <MSHelp:TOCTitle Title="DistinctBy(TSource, TKey) Method " />
+      <MSHelp:RLTitle Title="HelperUtility.DistinctBy(TSource, TKey) Method  (WD.DataAccess.Helpers)" />
+      <MSHelp:Keyword Index="A" Term="M:WD.DataAccess.Helpers.HelperUtility.DistinctBy``2(IEnumerable{``0},Func{``0, ``1})" />
+      <MSHelp:Keyword Index="A" Term="frlrfWDDataAccessHelpersHelperUtilityClassDistinctByTopic" />
+      <MSHelp:Keyword Index="K" Term="DistinctBy%3CTSource%2C TKey%3E method" />
+      <MSHelp:Keyword Index="K" Term="DistinctBy(Of TSource%2C TKey) method" />
+      <MSHelp:Keyword Index="K" Term="HelperUtility.DistinctBy%3CTSource%2C TKey%3E method" />
+      <MSHelp:Keyword Index="K" Term="HelperUtility.DistinctBy(Of TSource%2C TKey) method" />
+      <MSHelp:Keyword Index="F" Term="WD.DataAccess.Helpers.HelperUtility.DistinctBy" />
+      <MSHelp:Attr Name="APIType" Value="Managed" />
+      <MSHelp:Attr Name="APILocation" Value="WD.DataAccess.dll" />
+      <MSHelp:Attr Name="APIName" Value="WD.DataAccess.Helpers.HelperUtility.DistinctBy" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="DevLang" Value="VB" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="TopicType" Value="apiref" />
+      <MSHelp:Attr Name="Abstract" Value="Enumerates distinct by in this collection." />
+      <MSHelp:Attr Name="AssemblyVersion" Value="" />
+    </xml>
+  </head>
+  <body>
+    <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="content">
+        <div class="topicContainer">
+          <div class="topic">
+            <p class="majorTitle" />
+            <h1 class="title">HelperUtility<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>DistinctBy<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><span class="typeparameter">TSource</span>, <span class="typeparameter">TKey</span><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span> Method </h1>
+            <div id="mainSection">
+              <div id="mainBody">
+                <div class="summary">   Enumerates distinct by in this collection. </div>
+                <p />
+    <b>Namespace:</b> 
+   <a href="N-WD.DataAccess.Helpers.htm">WD.DataAccess.Helpers</a><br />
+    <b>Assembly:</b>
+   <span sdata="assembly">WD.DataAccess</span> (in WD.DataAccess.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTab VisualBasicTab" id="VisualBasicTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','VisualBasicCode','VisualBasicTabId');" title="Visual Basic">VB</a></div><div class="CodeSnippetContainerTab ManagedCPlusPlusTab" id="ManagedCPlusPlusTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','ManagedCPlusPlusCode','ManagedCPlusPlusTabId');" title="Visual C++">C++</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span> <span class="keyword">static</span> <a href="http://msdn.microsoft.com/en-us/library/9eekhta0.aspx" target="_blank">IEnumerable</a>&lt;TSource&gt; <span class="identifier">DistinctBy</span>&lt;TSource, TKey&gt;(
+	<span class="keyword">this</span> <a href="http://msdn.microsoft.com/en-us/library/9eekhta0.aspx" target="_blank">IEnumerable</a>&lt;TSource&gt; <span class="parameter">source</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a>&lt;TSource, TKey&gt; <span class="parameter">keySelector</span>
+)
+</pre></div><div class="CodeSnippetContainerCode VisualBasicCode"><pre xml:space="preserve" class="libCScode">&lt;<a href="http://msdn.microsoft.com/en-us/library/system.runtime.compilerservices.extensionattribute.aspx" target="_blank">ExtensionAttribute</a>&gt; _
+<span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">DistinctBy</span>(<span class="keyword">Of</span> TSource, TKey) ( _
+	<span class="parameter">source</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/9eekhta0.aspx" target="_blank">IEnumerable</a>(<span class="keyword">Of</span> TSource), _
+	<span class="parameter">keySelector</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a>(<span class="keyword">Of</span> TSource, TKey) _
+) <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/9eekhta0.aspx" target="_blank">IEnumerable</a>(<span class="keyword">Of</span> TSource)</pre></div><div class="CodeSnippetContainerCode ManagedCPlusPlusCode"><pre xml:space="preserve" class="libCScode">[<a href="http://msdn.microsoft.com/en-us/library/system.runtime.compilerservices.extensionattribute.aspx" target="_blank">ExtensionAttribute</a>]
+<span class="keyword">public</span>:
+<span class="keyword">generic</span>&lt;<span class="keyword">typename</span> TSource, <span class="keyword">typename</span> TKey&gt;
+<span class="keyword">static</span> <a href="http://msdn.microsoft.com/en-us/library/9eekhta0.aspx" target="_blank">IEnumerable</a>&lt;TSource&gt;^ <span class="identifier">DistinctBy</span>(
+	<a href="http://msdn.microsoft.com/en-us/library/9eekhta0.aspx" target="_blank">IEnumerable</a>&lt;TSource&gt;^ <span class="parameter">source</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a>&lt;TSource, TKey&gt;^ <span class="parameter">keySelector</span>
+)</pre></div></div></div><h4 class="subHeading">Type Parameters</h4><dl><dt><span class="parameterItalic">TSource</span></dt><dd>  . </dd><dt><span class="parameterItalic">TKey</span></dt><dd>     . </dd></dl><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="source"><dt><span class="parameterItalic">source</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/9eekhta0.aspx" target="_blank">IEnumerable</a><span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><span class="selflink"><span class="typeparam">TSource</span></span><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span><br />       . </dd></dl><dl paramName="keySelector"><dt><span class="parameterItalic">keySelector</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a><span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><span class="selflink"><span class="typeparam">TSource</span></span>, <span class="selflink"><span class="typeparam">TKey</span></span><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span><br />  . </dd></dl></div><h4 class="subHeading">Return Value</h4>
+   An enumerator that allows foreach to be used to process distinct by in this collection.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>   Shahid Kochak, 7/20/2017. </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-WD.DataAccess.Helpers.HelperUtility.htm">HelperUtility Class</a></div><div class="seeAlsoStyle"><a href="N-WD.DataAccess.Helpers.htm">WD.DataAccess.Helpers Namespace</a></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="footer" class="footerContainer">
+          <div class="footerLogoContainer">
+            <div style="margin-top:5px">
+              <span class="customCopyrightFooter" />
+            </div>
+            <div style="margin-top:5px" class="copyrightFooter">
+              <a href="http://submain.com/fwlink/gd-help/generated/">Created with evaluation copy of GhostDoc Enterprise. Click here to purchase and remove this link.</a>
+            </div>
+            <div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

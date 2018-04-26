@@ -1,0 +1,52 @@
+﻿@model WD.WebApi.Models.GeneralModel<WD.Domain.Entity.Employee>
+
+@Html.HiddenFor(model => model.DbType)
+  <fieldset>
+        <legend>Employee</legend>
+        @Html.HiddenFor(model => model.Entity.EmployeeId)
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Entity.FirstName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Entity.FirstName)
+            @Html.ValidationMessageFor(model => model.Entity.FirstName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Entity.MiddleName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Entity.MiddleName)
+            @Html.ValidationMessageFor(model => model.Entity.MiddleName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Entity.LastName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Entity.LastName)
+            @Html.ValidationMessageFor(model => model.Entity.LastName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Entity.DateOfJoining)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Entity.DateOfJoining)
+            @Html.ValidationMessageFor(model => model.Entity.DateOfJoining)
+        </div>
+
+   
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Entity.Provider)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Entity.Provider)
+            @Html.ValidationMessageFor(model => model.Entity.Provider)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>

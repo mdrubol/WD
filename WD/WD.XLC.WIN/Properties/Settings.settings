@@ -1,0 +1,84 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WD.XLC.WIN.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\Deploy\DALProject\DEV\WD\WD.XLC.WIN\App_Data\AL.mdb</Value>
+    </Setting>
+    <Setting Name="DbProvider" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="DatabaseName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\Deploy\DALProject\DEV\WD\WD.XLC.WIN\App_Data\AL.mdb</Value>
+    </Setting>
+    <Setting Name="InitialCatalog" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ServerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ServerPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CurrentSchema" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CurrentProtocol" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IntegratedSecurity" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CopyFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)">echo off
+SETLOCAL EnableDelayedExpansion
+set movedFiles=0
+set maxFiles=#maxFiles#
+set baseDir=#baseDir#
+set destDir=#destDir#
+set fileExtension=#fileExtension#
+for /R %baseDir% %%G in (%fileExtension%) do (
+    echo moving... "%%G"
+    move /Y "%%G" %destDir%
+    set /a movedFiles+=1
+    if !movedFiles! EQU %maxFiles% exit
+  )
+  :endOfCopy
+  echo Done, %movedFiles% files Where copied successfully
+  
+ENDLOCAL</Value>
+    </Setting>
+    <Setting Name="ProviderString" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DeleteFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@ECHO OFF
+SETLOCAL EnableDelayedExpansion
+SET baseDir=#baseDir#
+SET logDir=#logDir#
+SET days=#days#
+FORFILES /p "%baseDir%" /S /M *.* /D -%days% /C "cmd /c del /q  @path &amp;&amp; echo @path&gt;&gt;%logDir% || echo @path&gt;&gt;%logDir%"
+exit
+
+
+</Value>
+    </Setting>
+    <Setting Name="DeleteFilesWithoutLog" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@ECHO OFF
+SETLOCAL EnableDelayedExpansion
+SET baseDir=#baseDir#
+SET logDir=#logDir#
+SET days=#days#
+FORFILES /p "%baseDir%" /S /M *.* /D -%days% /C "cmd /c del /q  @path"
+exit
+
+</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

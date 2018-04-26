@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36867B01-81C4-47FD-99D9-A5F7A0EE8083}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WD.DataAccess</RootNamespace>
+    <AssemblyName>WD.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\WD.DataAccess.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>WD.DataAccess.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net20-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\ICommands.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Abstract\IDatabase.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Abstract\IExecuteDataReader.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Abstract\IExecuteDataSet.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Abstract\IExecuteDataTable.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Abstract\IExecuteNonQuery.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Abstract\IExecuteRecordSet.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Abstract\IExecuteScalar.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Abstract\IMTech.cs" />
+    <Compile Include="Concrete\Db2Database.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Concrete\MySqlDatabase.cs" />
+    <Compile Include="Concrete\OracleDatabase.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Concrete\PostgreSQLDatabase.cs" />
+    <Compile Include="Concrete\SqlDatabase.cs" />
+    <Compile Include="Concrete\TeraDatabase.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Configurations\AppConfiguration.cs" />
+    <Compile Include="Context\DbContext.cs" />
+    <Compile Include="Enums\Transaction.cs" />
+    <Compile Include="Factory\MySqlFactory.cs" />
+    <Compile Include="Factory\PostgreSQLFactory.cs" />
+    <Compile Include="Factory\TeraFactory.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Helpers\DataTableExtension.cs" />
+    <Compile Include="Configurations\LogString.cs" />
+    <Compile Include="Helpers\ObjectXMLSerializer.cs" />
+    <Compile Include="Helpers\PagingInfo.cs" />
+    <Compile Include="Helpers\SchemeDef.cs" />
+    <Compile Include="Logger\Log4netConfiguration.cs" />
+    <Compile Include="Mitecs\WDConfig.cs" />
+    <Compile Include="Mitecs\Connections.cs" />
+    <Compile Include="Enums\Database.cs" />
+    <Compile Include="Mitecs\WDDBConfig.cs" />
+    <Compile Include="Properties\DataAccess.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>DataAccess.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Enums\DBProvider.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Factory\Db2Factory.cs" />
+    <Compile Include="Factory\FactoryBase.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Factory\OracleFactory.cs" />
+    <Compile Include="Factory\SqlFactory.cs" />
+    <Compile Include="Helpers\Connect.cs" />
+    <Compile Include="Helpers\HelperUtility.cs" />
+    <Compile Include="Helpers\SqlStatement.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Helpers\WebSecurityUtility.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Helpers\Wrapper.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Logger\ILogger.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Logger\LogAppender.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Parameters\DBParameter.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataAccess.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>DataAccess.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="WD.DataAccess.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

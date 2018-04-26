@@ -1,0 +1,34 @@
+﻿@model WD.WebApi.Models.GeneralModel<WD.Domain.Entity.Employee>
+@{
+    ViewBag.Title = Model.DbType.ToString() + "Update";
+}
+
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>WD DataAccess</h1>
+                <h2>We'll demonstrate the power of DataAccess Layer</h2>
+            </hgroup>
+            <p>
+                DataAccess Layer allows you to perform all CRUD operations on different databases directly or over HTTP.
+            </p>
+            <p>
+                To learn more about WD DataAccess visit the
+                <a href="http://go.microsoft.com/fwlink/?LinkID=238195" title="WD DataAccess Website">WD DataAccess Help Library</a>.
+                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from WD DataAccess.
+                If you have any questions about WD DataAccess, visit
+                <a href="http://go.microsoft.com/fwlink/?LinkID=238196" title="WD DataAccess Forum">our forums</a>.
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix" >
+@using (Html.BeginForm("Update","Home",FormMethod.Post,null)) {
+    @Html.ValidationSummary(true)
+    @Html.Partial("_CreateOrEdit", Model)
+}
+<div>
+    @Html.ActionLink("Back to List", "Connect", new { dbType=Model.DbType})
+</div>
+    </section>
+</div>

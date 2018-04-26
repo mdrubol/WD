@@ -1,0 +1,11 @@
+D:\WDProjects\DALProject\DEV\WD\TestApp\bin\Debug\TestApp.exe.config
+D:\WDProjects\DALProject\DEV\WD\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+D:\WDProjects\DALProject\DEV\WD\TestApp\bin\Debug\TestApp.exe
+D:\WDProjects\DALProject\DEV\WD\TestApp\bin\Debug\TestApp.pdb
+D:\WDProjects\DALProject\DEV\WD\TestApp\bin\Debug\WD.DataAccess.dll
+D:\WDProjects\DALProject\DEV\WD\TestApp\bin\Debug\log4net.dll
+D:\WDProjects\DALProject\DEV\WD\TestApp\bin\Debug\WD.DataAccess.pdb
+D:\WDProjects\DALProject\DEV\WD\TestApp\bin\Debug\WD.DataAccess.xml
+D:\WDProjects\DALProject\DEV\WD\TestApp\bin\Debug\log4net.xml
+D:\WDProjects\DALProject\DEV\WD\TestApp\obj\Debug\TestApp.exe
+D:\WDProjects\DALProject\DEV\WD\TestApp\obj\Debug\TestApp.pdb

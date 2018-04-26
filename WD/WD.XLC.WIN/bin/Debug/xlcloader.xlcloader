@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyApplication>
+  <MyInstance>
+    <Index>1</Index>
+    <IsActive>false</IsActive>
+    <Folders />
+    <Templates />
+  </MyInstance>
+</MyApplication>

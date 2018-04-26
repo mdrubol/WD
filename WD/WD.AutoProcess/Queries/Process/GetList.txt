@@ -1,0 +1,6 @@
+﻿SELECT DISTINCT(PROCESS_CODE),SID, to_char(CREATE_DATE,'MM/dd/yyyy') as Create_Date,SPID,UNIXSCRIPT,dependency,SQL_Text
+FROM v_session_log
+WHERE allow_auto='Y'
+and to_char(Create_date,'MM/dd/yyyy HH24:mi') >= :CreateDate
+GROUP BY PROCESS_CODE,SID,Create_Date,SPID,UNIXSCRIPT,dependency,SQL_Text
+ORDER BY PROCESS_CODE,Create_Date DESC

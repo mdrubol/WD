@@ -1,0 +1,48 @@
+﻿<h1>ExecuteScalar</h1>
+<h3>In this screen we show how to consume executeScalar </h3>
+Authentication Key:&nbsp;
+<input type="text" ng-model="authenticationKey" /><br/>
+DbProvider:&nbsp;
+<select  ng-model="dbProvider"  ng-options="x.text for x  in dbProviders track by x.value" ng-change="getProvider()"></select>
+<br />
+<div ng-hide="hider">
+ConnectionString
+<select  ng-model="conString"  ng-options="x.ConnectionName for x  in conStrings  track by x.ConnectionName" ></select>
+</div>
+ <input type="button" ng-click="addSql()"  value="(+) SQL" class="btn btn-success"/>
+<br/>
+    <table cellpadding="0" cellspacing="0" class="table table-stripped">
+        <tr ng-repeat="x in theSqls">
+            <td>
+                <textarea ng-model="x.commandText" cols="100" rows="10"></textarea> 
+            </td>
+            
+            <td>
+                 <input type="button"  ng-click="addParam(x)"  value="(+)Param"  class="btn btn-success"/>
+                 <table cellpadding="0" cellspacing="0" class="table">
+                      <tr ng-repeat="p in x.Params">
+                          <td>
+                               <input  type="text" ng-model="p.ParameterName" /> 
+                          </td>
+                          <td>
+                               <input  type="text" ng-model="p.ParameterValue" /> 
+                          </td>
+                          <td>
+                              <input type="button" ng-click="deleteParam(x,p)" value="(-)Param"  class="btn btn-danger"/>
+                          </td>
+                       </tr>
+                </table>
+            </td>
+            <td>
+                 <select  ng-model="x.commandType"  ng-options="x.text for x  in commandTypes track by x.text" ></select>
+            </td>
+            <td>
+                  <input type="button" ng-hide="myCheck"  ng-click="deleteSql(x)"  value="(-)" class="btn btn-danger"/>
+            </td>
+        </tr>
+       
+    </table>
+<br/>
+<button ng-click="executeScalar()" class="btn btn-primary">Submit</button> &nbsp;{{status}}
+<br/>
+   {{data}}

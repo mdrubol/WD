@@ -1,0 +1,8 @@
+D:\WDProjects\DALProject\DEV\WD\WD.DataAccess.2.0\bin\Debug\WD.DataAccess.XML
+D:\WDProjects\DALProject\DEV\WD\WD.DataAccess.2.0\bin\Debug\WD.DataAccess.dll
+D:\WDProjects\DALProject\DEV\WD\WD.DataAccess.2.0\bin\Debug\WD.DataAccess.pdb
+D:\WDProjects\DALProject\DEV\WD\WD.DataAccess.2.0\bin\Debug\log4net.dll
+D:\WDProjects\DALProject\DEV\WD\WD.DataAccess.2.0\bin\Debug\log4net.xml
+D:\WDProjects\DALProject\DEV\WD\WD.DataAccess.2.0\obj\Debug\WD.DataAccess.dll
+D:\WDProjects\DALProject\DEV\WD\WD.DataAccess.2.0\obj\Debug\WD.DataAccess.pdb
+D:\WDProjects\DALProject\DEV\WD\WD.DataAccess.2.0\obj\Debug\WD.DataAccess.2.0.csprojResolveAssemblyReference.cache

@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="save" content="history" />
+    <title>GetList(T) Method (Expression(Func(T, Boolean)), IDbTransaction)</title>
+    <link rel="stylesheet" type="text/css" href="../styles/lightweight.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <link rel="stylesheet" type="text/css" href="../styles/lw-code.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <script type="text/javascript" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" src="../scripts/languageSelector.js"> </script>
+    <meta name="container" content="WD.DataAccess.Abstract" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="file" content="M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="guid" content="M-WD.DataAccess.Abstract.IExecuteEntity.GetList--1_5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <xml xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <MSHelp:Attr Name="AssetID" Value="M:WD.DataAccess.Abstract.IExecuteEntity.GetList``1(Expression{Func{``0, System.Boolean}},IDbTransaction)" />
+      <MSHelp:TOCTitle Title="GetList(T) Method (Expression(Func(T, Boolean)), IDbTransaction)" />
+      <MSHelp:RLTitle Title="IExecuteEntity.GetList(T) Method (Expression(Func(T, Boolean)), IDbTransaction) (WD.DataAccess.Abstract)" />
+      <MSHelp:Keyword Index="A" Term="M:WD.DataAccess.Abstract.IExecuteEntity.GetList``1(Expression{Func{``0, System.Boolean}},IDbTransaction)" />
+      <MSHelp:Attr Name="APIType" Value="Managed" />
+      <MSHelp:Attr Name="APILocation" Value="WD.DataAccess.dll" />
+      <MSHelp:Attr Name="APIName" Value="WD.DataAccess.Abstract.IExecuteEntity.GetList" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="DevLang" Value="VB" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="TopicType" Value="apiref" />
+      <MSHelp:Attr Name="Abstract" Value="Gets List of Entity object as per the where clause and active Transaction." />
+      <MSHelp:Attr Name="AssemblyVersion" Value="" />
+    </xml>
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+  </head>
+  <body>
+    <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="content">
+        <div class="topicContainer">
+          <div class="topic">
+            <p class="majorTitle" />
+            <h1 class="title">IExecuteEntity<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>GetList<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><span class="typeparameter">T</span><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span> Method (Expression<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span>Func<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><span class="typeparameter">T</span>, Boolean<span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span>, IDbTransaction)</h1>
+            <div id="mainSection">
+              <div id="mainBody">
+                <div class="summary">   Gets List of Entity object as per the where clause and active Transaction. </div>
+                <p />
+    <b>Namespace:</b> 
+   <a href="N-WD.DataAccess.Abstract.htm">WD.DataAccess.Abstract</a><br />
+    <b>Assembly:</b>
+   <span sdata="assembly">WD.DataAccess</span> (in WD.DataAccess.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTab VisualBasicTab" id="VisualBasicTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','VisualBasicCode','VisualBasicTabId');" title="Visual Basic">VB</a></div><div class="CodeSnippetContainerTab ManagedCPlusPlusTab" id="ManagedCPlusPlusTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','ManagedCPlusPlusCode','ManagedCPlusPlusTabId');" title="Visual C++">C++</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span> <span class="keyword">virtual</span> <a href="http://msdn.microsoft.com/en-us/library/6sh2ey19.aspx" target="_blank">List</a>&lt;T&gt; <span class="identifier">GetList</span>&lt;T&gt;(
+	<a href="http://msdn.microsoft.com/en-us/library/bb335710.aspx" target="_blank">Expression</a>&lt;<a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a>&lt;T, <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a>&gt;&gt; <span class="parameter">predicate</span>,
+	<a href="http://msdn.microsoft.com/en-us/library/system.data.idbtransaction.aspx" target="_blank">IDbTransaction</a> <span class="parameter">transaction</span>
+)
+</pre></div><div class="CodeSnippetContainerCode VisualBasicCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">Public</span> <span class="keyword">Overridable</span> <span class="keyword">Function</span> <span class="identifier">GetList</span>(<span class="keyword">Of</span> T) ( _
+	<span class="parameter">predicate</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/bb335710.aspx" target="_blank">Expression</a>(<span class="keyword">Of</span> <a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a>(<span class="keyword">Of</span> T, <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a>)), _
+	<span class="parameter">transaction</span> <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/system.data.idbtransaction.aspx" target="_blank">IDbTransaction</a> _
+) <span class="keyword">As</span> <a href="http://msdn.microsoft.com/en-us/library/6sh2ey19.aspx" target="_blank">List</a>(<span class="keyword">Of</span> T)</pre></div><div class="CodeSnippetContainerCode ManagedCPlusPlusCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span>:
+<span class="keyword">generic</span>&lt;<span class="keyword">typename</span> T&gt;
+<span class="keyword">virtual</span> <a href="http://msdn.microsoft.com/en-us/library/6sh2ey19.aspx" target="_blank">List</a>&lt;T&gt;^ <span class="identifier">GetList</span>(
+	<a href="http://msdn.microsoft.com/en-us/library/bb335710.aspx" target="_blank">Expression</a>&lt;<a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a>&lt;T, <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">bool</a>^&gt;^&gt;^ <span class="parameter">predicate</span>, 
+	<a href="http://msdn.microsoft.com/en-us/library/system.data.idbtransaction.aspx" target="_blank">IDbTransaction</a>^ <span class="parameter">transaction</span>
+)</pre></div></div></div><h4 class="subHeading">Type Parameters</h4><dl><dt><span class="parameterItalic">T</span></dt><dd>    Entity. </dd></dl><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="predicate"><dt><span class="parameterItalic">predicate</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/bb335710.aspx" target="_blank">Expression</a><span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><a href="http://msdn.microsoft.com/en-us/library/bb549151.aspx" target="_blank">Func</a><span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><span class="selflink"><span class="typeparam">T</span></span>, <a href="http://msdn.microsoft.com/en-us/library/system.boolean.aspx" target="_blank">Boolean</a><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span><br />    where clause. </dd></dl><dl paramName="transaction"><dt><span class="parameterItalic">transaction</span></dt><dd>Type: <a href="http://msdn.microsoft.com/en-us/library/system.data.idbtransaction.aspx" target="_blank">IDbTransaction</a><br />  Active Transaction Object. </dd></dl></div><h4 class="subHeading">Return Value</h4>   List of Entity. </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>   Shahid Kochak, 7/20/2017. </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Examples</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exampleSection"><!----></a><span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>C#</div><div class="code"><pre xml:space="preserve">      [CustomAttribute(Name=<span class="highlight-literal">"TempEmployee"</span>)]
+       <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Employee
+       {
+
+           [CustomAttribute(IsPrimary = <span class="highlight-keyword">true</span>)]
+           [Display(Name = <span class="highlight-literal">"Employee Id"</span>)]
+           [Required]
+           <span class="highlight-keyword">public</span> <span class="highlight-keyword">int</span>? EmployeeId { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+           [Display(Name = <span class="highlight-literal">"First Name"</span>)]
+           [Required]
+           [CustomAttribute(Name = <span class="highlight-literal">"FIRSTNAME"</span>)]
+           <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> FirstName { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+           [Display(Name = <span class="highlight-literal">"Middle Name"</span>)]
+           [Required]
+           [CustomAttribute(Name = <span class="highlight-literal">"MIDDLENAME"</span>)]
+           <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> MiddleName { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+           [Display(Name = <span class="highlight-literal">"Last Name"</span>)]
+           [Required]
+           [CustomAttribute(Name = <span class="highlight-literal">"LASTNAME"</span>)]
+           <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> LastName { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+           [Display(Name = <span class="highlight-literal">"Date Of Joining"</span>)]
+           [CustomAttribute(Name = <span class="highlight-literal">"DATEOFJOINING"</span>)]
+           <span class="highlight-keyword">public</span> DateTime DateOfJoining { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+           [Required]
+           <span class="highlight-keyword">public</span> <span class="highlight-keyword">string</span> Provider { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+           <span class="highlight-keyword">public</span> <span class="highlight-keyword">virtual</span> Customer12 Customer { <span class="highlight-keyword">get</span>; <span class="highlight-keyword">set</span>; }
+
+       }
+<span class="highlight-keyword">class</span> TestClass{
+<span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> Main(){
+WD.DataAccess.Context.DbContext dbContext=<span class="highlight-keyword">new</span> WD.DataAccess.Context.DbContext();
+<span class="highlight-keyword">using</span>(IDbConnection dbConnection=dbContext.ICommands.CreateConnection())
+{
+ <span class="highlight-keyword">using</span>(IDbTransaction trans=dbConnection.BeginTransaction())
+ {
+ <span class="highlight-keyword">try</span>{
+  List&lt;Employee&gt; empList=dbContext.GetList&lt;Employee&gt;(x=&gt;x.FirstName=<span class="highlight-literal">"XYZ"</span>,trans);
+trans.Commit();
+}
+<span class="highlight-keyword">catch</span>{
+trans.Rollback();
+}
+}
+}
+}
+}</pre></div></span></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-WD.DataAccess.Abstract.IExecuteEntity.htm">IExecuteEntity Class</a></div><div class="seeAlsoStyle"><a href="Overload-WD.DataAccess.Abstract.IExecuteEntity.GetList-.htm">GetList Overload</a></div><div class="seeAlsoStyle"><a href="N-WD.DataAccess.Abstract.htm">WD.DataAccess.Abstract Namespace</a></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="footer" class="footerContainer">
+          <div class="footerLogoContainer">
+            <div style="margin-top:5px">
+              <span class="customCopyrightFooter" />
+            </div>
+            <div style="margin-top:5px" class="copyrightFooter">
+              <a href="http://submain.com/fwlink/gd-help/generated/">Created with evaluation copy of GhostDoc Enterprise. Click here to purchase and remove this link.</a>
+            </div>
+            <div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

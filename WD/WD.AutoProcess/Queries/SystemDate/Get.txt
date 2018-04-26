@@ -1,0 +1,1 @@
+﻿select to_char(sysdate,'MM/dd/yyyy HH24:mi') from dual
