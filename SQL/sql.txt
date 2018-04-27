@@ -16,9 +16,5 @@ Select * from Openquery([WDMR2G.WORLD],'SELECT  *  FROM  emtfadm.a')
 	  print @TSQL
       EXEC (@TSQL)
 
- DECLARE   @TSQL varchar(8000), @server varchar(1000),  @viewName varchar(1000),  @ownerName varchar(1000)
-      set  @server = '[WDMR2G.WORLD]';SET @viewName ='''VQIS_ET2''';SET @ownerName ='''QIS_CONTROLLER''' 
- SELECT @TSQL ='SELECT * FROM OPENQUERY('+ @server +',' + '''select repadmin.GetJson(' + @viewName + ',' + @ownerName + ')''' 
- 	  print @TSQL
-	  EXEC (@TSQL)
+
 
