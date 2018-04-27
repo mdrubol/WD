@@ -1,0 +1,28 @@
+declare @bcp_cmd varchar(2000),  @stmt_c VARCHAR(8000),  @dbname VarChar(100),   @bcp_passwd VarChar(100),  @bcp_user VarChar(100),  @tablename VarChar(100),  @data_start_dt Datetime , 
+  @data_end_dt Datetime  ,  @packet_size int,  @SERVERNAME VarChar(100),  @output_dir VarChar(100),  @filename VarChar(100),  @LinkedServerName VarChar(100),@sql varchar(2000);
+
+set @dbname= 'SqlExpressTestDB';
+set @tablename = 'tblTest';
+set  @bcp_user ='sa';
+set @bcp_passwd ='sa';
+set @data_start_dt  = '2011-10-01';
+set @data_end_dt   = '2018-12-30';
+set  @SERVERNAME   = 'MYIT00359\SQLEXPRESS';
+set  @output_dir   = 'D:\TextDB\';
+set  @filename   = 'json_schema.json';
+set  @packet_size=1024;
+set @LinkedServerName = '[WDMR2G.WORLD]';
+
+ 
+
+--set @sql = 'select * from openquery([WDMR2G.WORLD],' + '''select repadmin.GetJson(''''VQIS_ET2'''',''''QIS_CONTROLLER'''')  from dual''' + ')'
+set @sql = 'select * from openquery('+ @LinkedServerName +',' + '''select repadmin.GetJson(''''VQIS_ET2'''',''''QIS_CONTROLLER'''')  from dual''' + ')'
+ print @sql
+  
+SET @bcp_cmd = 'bcp.exe "' + @sql 
+SET @bcp_cmd= @bcp_cmd +  '" QUERYOUT "' + @output_dir +  @filename +'" ' 
+SET @bcp_cmd = @bcp_cmd +  ' -k -S ' + @SERVERNAME  
+SET @bcp_cmd = @bcp_cmd + ' -U "'+@bcp_user+'" -P "'+@bcp_passwd +'"'+' -c'
+
+print @bcp_cmd
+EXEC master..xp_cmdshell @bcp_cmd;
