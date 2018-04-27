@@ -1,3 +1,13 @@
+
+--------------------------------------------------------------------------------------------------
+DECLARE   @TSQL varchar(8000), @server varchar(1000),  @viewName varchar(1000),  @ownerName varchar(1000)
+      set  @server = '[WDMR2G.WORLD]';SET @viewName ='''VQIS_ET2''';SET @ownerName ='''QIS_CONTROLLER''' 
+ SELECT @TSQL ='SELECT * FROM OPENQUERY('+ @server +',' + '''select repadmin.GetJson(''' + @viewName + ''',''' + @ownerName + ''')' + 'from dual''' + ')'
+ 	  print @TSQL
+	  EXEC (@TSQL)
+
+-------------------------------------------------------------------------------------------------
+
 declare @bcp_cmd varchar(2000),  @stmt_c VARCHAR(8000),  @dbname VarChar(100),   @bcp_passwd VarChar(100),  @bcp_user VarChar(100),  @tablename VarChar(100),  @data_start_dt Datetime , 
   @data_end_dt Datetime  ,  @packet_size int,  @SERVERNAME VarChar(100),  @output_dir VarChar(100),  @filename VarChar(100),  @LinkedServerName VarChar(100),@sql varchar(2000);
 
@@ -26,3 +36,38 @@ SET @bcp_cmd = @bcp_cmd + ' -U "'+@bcp_user+'" -P "'+@bcp_passwd +'"'+' -c'
 
 print @bcp_cmd
 EXEC master..xp_cmdshell @bcp_cmd;
+
+-------------------------------------------------------------------------------------------------------
+select * from openquery([WDMR2G.WORLD],'select repadmin.GetJson(''VQIS_ET2'',''QIS_CONTROLLER'')  from dual')
+
+------------------------------------------------------------------------------------------------------
+
+select * from openquery([WDMR2G.WORLD],'
+select ''{"fields":['' ||
+(
+select stragg2(''{''
+       ||''"COLUMN_NAME":"''||column_name||''"''
+       ||'',"DATA_TYPE":"''||data_type||''"''
+       ||'',"MAX_LENGTH":''||data_length||''''
+       ||'',"PRECISION":''|| case when data_precision is not null then '''' || data_precision || '''' else ''null'' end||''''
+       ||'',"SCALE":''||case when data_scale is not null then '''' || data_scale  || '''' else ''null'' end||''''
+       ||'',"IS_NULLABLE":"''||NULLABLE||''"''
+       ||''}'' ) 
+from 
+(
+select
+    column_name,
+    data_type,
+    data_length, 
+    data_precision, 
+    data_scale, 
+    nullable   
+from all_tab_columns
+where table_name=''VQIS_ET2''
+and owner=''QIS_CONTROLLER''
+order by column_id
+)  
+)
+|| '']}'' from dual
+')
+
