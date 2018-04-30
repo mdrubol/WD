@@ -1,0 +1,19 @@
+SET NOCOUNT ON;
+
+DECLARE @cmd VARCHAR(8000), @dbName VARCHAR(200)='WDMRP7', @path VARCHAR(200)='D:\TextDB\', @tableName VARCHAR(200)='tblTest',
+ @data_start_dt DateTime = '2011-10-01 10:15:00.000', @data_end_dt DateTime = '2018-12-30 00:00:00.000', @Name VARCHAR(200)='CK',
+ @pathAndFileName NVARCHAR(MAX); 
+
+SET @pathAndFileName = @dbName + '.dbo.'+ @tableName
+
+SET @cmd=
+    'BCP '+
+	  '"select ''Total Count : '' + CONVERT(varchar(10), COUNT(1)) from ' + @pathAndFileName + ' where data_start_dt >= ''' + Convert(varchar ,@data_start_dt ) + ''' and data_end_dt <=''' + Convert(varchar ,@data_end_dt )  + '''" '   
+	 
+	   +  'QUERYOUT ' + @path + @dbName+ '.'+  @tableName +'.' +convert(varchar(500),GetDate(),112) + '.log '
+
+	 +  '-c -t, -T -S ' + @@SERVERNAME
+
+	print @cmd
+
+EXEC master..xp_cmdshell @cmd;  
